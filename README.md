@@ -1,2 +1,2 @@
-# package-dev
-Sublime Text 3 package development
+# Preside Sublime Text 3
+Preside Sublime Text 3 package
