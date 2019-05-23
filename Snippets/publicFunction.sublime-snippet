@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public ${1:any} function ${2:functionName}( ${3:variables} ) {
+	${4:return;}
+}
+]]></content>
+	<tabTrigger>publicfunction</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>

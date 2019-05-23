@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @${1:doc}
+ *
+ */
+]]></content>
+	<tabTrigger>javadoc</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfscript>
+	${1:sript}
+</cfscript>
+]]></content>
+	<tabTrigger>cfscript</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>

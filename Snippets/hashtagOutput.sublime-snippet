@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+#${1:variable}#
+]]></content>
+	<tabTrigger>#</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfloop ${1:statement}>
+	${2:loopBody}
+</cfloop>
+]]></content>
+	<tabTrigger>cfloop</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>
