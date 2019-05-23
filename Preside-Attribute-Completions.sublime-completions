@@ -1,0 +1,23 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Attribute"
+	, "completions":
+	[
+		// Select data attributes
+		  { "trigger": "selectFields"               , "contents": "selectFields = [\n\t$1\n]" }
+		, { "trigger": "filter"                     , "contents": "filter = { $1 }" }
+		, { "trigger": "filterParams"               , "contents": "filterParams = { $1 }" }
+		, { "trigger": "extraFilters"               , "contents": "extraFilters = [ $1 ]" }
+		, { "trigger": "orderBy"                    , "contents": "orderBy = \"$1\"" }
+		, { "trigger": "groupBy"                    , "contents": "groupBy = \"$1\"" }
+		, { "trigger": "maxRows"                    , "contents": "maxRows = ${1:0}" }
+		, { "trigger": "startRow"                   , "contents": "startRow = ${1:1}" }
+		// Arguments in function
+		, { "trigger": "event"                      , "contents": "event, rc, prc, args={}" }
+		// Inject services
+		, { "trigger": "injectPresideObjectService" , "contents": "property name=\"presideObjectService\" inject=\"PresideObjectService\";" }
+		// Preside object
+		, { "trigger": "dataManagerGroup"           , "contents": "@dataManagerGroup ${1:group}" }
+		, { "trigger": "dataManagerGridFields"      , "contents": "@dataManagerGridFields ${1:fields}" }
+	]
+}

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<cfif ${1:statement}>${2:output}</cfif>
+]]></content>
+	<tabTrigger>cfif</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>

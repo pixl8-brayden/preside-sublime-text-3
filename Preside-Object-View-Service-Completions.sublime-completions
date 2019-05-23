@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Object View Service"
+	, "completions":
+	[
+		{ "trigger": "renderView", "contents": "renderView (\n\tpresideObject = \"$1\"\n\t, view = \"$2\" \n)" }
+	]
+}

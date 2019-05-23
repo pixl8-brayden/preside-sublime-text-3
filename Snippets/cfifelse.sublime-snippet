@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<cfif ${1:statement}>
+	${2:output1}
+<cfelse>
+	${3:output2}
+</cfif>
+]]></content>
+	<tabTrigger>cfifelse</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>
