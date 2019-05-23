@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="${1:i18n}:">
+
+	<tab id="${2:id}">
+		<fieldset id="${3:id}">
+			<field binding="${4:field}" />
+		</fieldset>
+	</tab>
+
+</form>
+]]></content>
+	<tabTrigger>form</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

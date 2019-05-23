@@ -1,0 +1,10 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside General"
+	, "completions":
+	[
+		  { "trigger": "if"           , "contents": "if ( ${1:statement} ) {\n\t${2:body}\n}" }
+		, { "trigger": "filter"       , "contents": "filter = { $1 }" }
+		, { "trigger": "filterParams" , "contents": "filterParams = { $1 }" }
+	]
+}

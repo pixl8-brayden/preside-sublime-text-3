@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @dataManagerGroup      ${1:group}
+ * @dataManagerGridFields ${2:fields}
+ *
+ */
+
+component {
+	property name="${3:name}";
+}
+]]></content>
+	<tabTrigger>dataObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>
