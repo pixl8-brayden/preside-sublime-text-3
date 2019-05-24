@@ -1,7 +1,7 @@
 # Sublime Text Preside Package
 Sublime Text Preside Package is a collection of Preside snippets and autocompletions for Sublime Text 3
 
-Preside full documentation refer link below
+Preside full documentation refer link
 [Preside Documentation](https://docs.preside.org)
 
 ## Features
@@ -17,9 +17,10 @@ Preside version: 10.10.67
 | `cfpresideparam` | Generate cf_presideparam tag |
 | `form`           | Generate initial Preside Form XML |
 | `dataObject`     | Generate initial Preside Object Component |
+| `superclass`     | Generate initial Preside Object Component with super class applied |
 
 ## Functions
-[ Included : :heavy_check_mark: ]
+[ Included : :white_check_mark: ]
 
 ##### System service APIs
 - [ ] Ad-hoc Task Manager Service
@@ -70,14 +71,14 @@ Preside version: 10.10.67
 - [ ] Native Image Manipulation Service
 - [ ] Notification Service
 - [ ] PresideObjectCloningService
-- [x] Preside Object Service :heavy_check_mark:
-- [x] Preside Object View Service :heavy_check_mark:
+- [x] Preside Object Service :white_check_mark:
+- [x] Preside Object View Service :white_check_mark:
 - [ ] PresideRestConfigurationWrapper
 - [ ] Preside REST Request
 - [ ] Preside REST Resource Reader
 - [ ] Preside REST Response
 - [ ] PresideRestService
-- [ ] Preside Super Class
+- [x] Preside Super Class :white_check_mark:
 - [ ] QrCodeGenerator
 - [ ] RulesEngineAutoPresideObjectExpressionGenerator
 - [ ] RulesEngine Condition Service
@@ -112,4 +113,4 @@ Preside version: 10.10.67
 
 ##### System form layouts
 
-##### System form controls :heavy_check_mark:
+##### System form controls :white_check_mark:
