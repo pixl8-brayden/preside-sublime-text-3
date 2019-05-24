@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @presideService
+ */
+component {
+
+	function init() {
+		return this;
+	}
+
+	//TODO Your functions here
+	${1:function}
+}
+]]></content>
+	<tabTrigger>superclass</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>
