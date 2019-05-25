@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Viewlets Service"
+	, "completions":
+	[
+		  { "trigger": "listPossibleViewlets" , "contents": "listPossibleViewlets( filter = \"${1:filter}\" );" }
+	]
+}
