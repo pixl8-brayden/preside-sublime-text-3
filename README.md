@@ -12,12 +12,14 @@ Preside version: 10.10.67
 ## Notes
 
 ## Snippets
-| Snippets         | Description                  |
-|------------------|------------------------------|
-| `cfpresideparam` | Generate cf_presideparam tag |
-| `form`           | Generate initial Preside Form XML |
-| `dataObject`     | Generate initial Preside Object Component |
-| `superclass`     | Generate initial Preside Object Component with super class applied |
+| Snippets          | Description                  |
+|-------------------|------------------------------|
+| `cfpresideparam`  | Generate cf_presideparam tag |
+| `form`            | Generate base for Preside Form XML |
+| `dataObject`      | Generate base for Preside Object Component |
+| `superclass`      | Generate base for Preside Object Component with super class applied |
+| `publicfunction`  | Generate base for public function |
+| `privatefunction` | Generate base for private function |
 
 ## Functions
 [ Included : :white_check_mark: ]
@@ -62,7 +64,7 @@ Preside version: 10.10.67
 - [ ] FormBuilderService
 - [ ] FormBuilderValidationService
 - [ ] FormDefinition
-- [ ] Forms service
+- [x] Forms service :white_check_mark:
 - [ ] HealthcheckService
 - [ ] ImageMagick
 - [ ] Image Manipulation Service
@@ -101,16 +103,12 @@ Preside version: 10.10.67
 - [ ] ThreadUtil
 - [ ] Validation Engine
 - [ ] Validation result
-- [ ] ViewletsService
-- [ ] Website login service
-- [ ] Website permissions service
+- [x] ViewletsService :white_check_mark:
+- [x] Website login service :white_check_mark:
+- [x] Website permissions service :white_check_mark:
 - [ ] Website user action service
 - [ ] Website user impersonation service
 - [ ] Website visitor service
 - [ ] XmpMetaReader
-
-##### System Preside Objects
-
-##### System form layouts
 
 ##### System form controls :white_check_mark:
