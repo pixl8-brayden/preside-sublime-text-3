@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<cfswitch>
+
+	<cfcase>
+		${1:case1}
+	</cfcase>
+
+	<cfdefaultcase>
+		${2:defaultCase}
+	</cfdefaultcase>
+
+</cfswitch>
+]]></content>
+	<tabTrigger>cfswitch</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>
