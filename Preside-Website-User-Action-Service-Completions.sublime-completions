@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Website User Action Service"
+	, "completions":
+	[
+		  { "trigger": "getActionCount"                    , "contents": "getActionCount( \n\t  type = \"${1:type}\"\n\t, action = \"${1:action}\"\n);" }
+		, { "trigger": "getLastPerformedDate"              , "contents": "getLastPerformedDate( \n\t  type = \"${1:type}\"\n\t, action = \"${1:action}\"\n);" }
+		, { "trigger": "hasPerformedAction"                , "contents": "hasPerformedAction( \n\t  type = \"${1:type}\"\n\t, action = \"${1:action}\"\n);" }
+		, { "trigger": "promoteVisitorActionsToUserActions", "contents": "promoteVisitorActionsToUserActions( userId = \"${1:userId}\" )'" }
+		, { "trigger": "recordAction"                      , "contents": "recordAction( \n\t  action = \"${1:action}\"\n\t, type = \"${1:type}\"\n);" }
+	]
+}
