@@ -1,0 +1,11 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside FormBuilder Validation Service"
+	, "completions":
+	[
+		  { "trigger": "getItemTypeSpecificRulesForFormField", "contents": "getItemTypeSpecificRulesForFormField( \n\t  itemType = \"${1:itemType}\"\n\t, configuration = { ${2:configuration} }\n);" }
+		, { "trigger": "getRulesetForFormItems"              , "contents": "getRulesetForFormItems( items = [ ${1:items} ] );" }
+		, { "trigger": "getStandardRulesForFormField"        , "contents": "getStandardRulesForFormField( name = \"${1:name}\" );" }
+		, { "trigger": "validateFormSubmission"              , "contents": "validateFormSubmission( \n\t  formItems = [ ${1:formItems} ]\n\t, submissionData = { ${2:submissionData} }\n);" }
+	]
+}
