@@ -32,9 +32,9 @@ Up to Preside version: `10.10.67`
 - [ ] AdminObjectLinkBuilderService
 - [ ] Admin permissions service
 - [ ] ApplicationsService
-- [ ] AssetManager Service
-- [ ] Asset Renderer Service
-- [ ] Asset transformer
+- [x] AssetManager Service :white_check_mark:
+- [x] Asset Renderer Service :white_check_mark:
+- [x] Asset transformer :white_check_mark:
 - [ ] Audit Service
 - [ ] Database Migration Service
 - [ ] DataExporterReader
@@ -44,26 +44,26 @@ Up to Preside version: `10.10.67`
 - [ ] DelayedStickerRendererService
 - [ ] DelayedViewletRendererService
 - [ ] Document metadata service
-- [ ] EmailLayoutService
-- [ ] EmailLoggingService
-- [ ] EmailMassSendingService
-- [ ] Email Recipient Type Service
-- [ ] EmailSendingContextService
-- [ ] Email service
-- [ ] EmailServiceProviderService
-- [ ] EmailStyleInliner
-- [ ] EmailTemplateService
+- [x] EmailLayoutService :white_check_mark:
+- [x] EmailLoggingService :white_check_mark:
+- [x] EmailMassSendingService :white_check_mark:
+- [x] Email Recipient Type Service :white_check_mark:
+- [x] EmailSendingContextService :white_check_mark:
+- [x] Email service :white_check_mark:
+- [x] EmailServiceProviderService :white_check_mark:
+- [x] EmailStyleInliner :white_check_mark:
+- [x] EmailTemplateService :white_check_mark:
 - [ ] EnumService
 - [ ] Environment Variables Reader
 - [ ] Error Log Service
 - [ ] Feature service
 - [ ] File System Storage Provider
-- [ ] FormBuilderActionsService
-- [ ] FormBuilderItemTypesService
-- [ ] FormBuilderRenderingService
-- [ ] FormBuilderService
-- [ ] FormBuilderValidationService
-- [ ] FormDefinition
+- [x] FormBuilderActionsService :white_check_mark:
+- [x] FormBuilderItemTypesService :white_check_mark:
+- [x] FormBuilderRenderingService :white_check_mark:
+- [x] FormBuilderService :white_check_mark:
+- [x] FormBuilderValidationService :white_check_mark:
+- [x] FormDefinition :white_check_mark:
 - [x] Forms service :white_check_mark:
 - [ ] HealthcheckService
 - [ ] ImageMagick
