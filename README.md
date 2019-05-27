@@ -71,7 +71,7 @@ Preside version: 10.10.67
 - [ ] InjectedConfigurationManager
 - [ ] Multilingual Preside Object Service
 - [ ] Native Image Manipulation Service
-- [ ] Notification Service
+- [x] Notification Service :white_check_mark:
 - [ ] PresideObjectCloningService
 - [x] Preside Object Service :white_check_mark:
 - [x] Preside Object View Service :white_check_mark:
@@ -106,9 +106,9 @@ Preside version: 10.10.67
 - [x] ViewletsService :white_check_mark:
 - [x] Website login service :white_check_mark:
 - [x] Website permissions service :white_check_mark:
-- [ ] Website user action service
-- [ ] Website user impersonation service
-- [ ] Website visitor service
+- [x] Website user action service :white_check_mark:
+- [x] Website user impersonation service :white_check_mark:
+- [x] Website visitor service :white_check_mark:
 - [ ] XmpMetaReader
 
 ##### System form controls :white_check_mark:
