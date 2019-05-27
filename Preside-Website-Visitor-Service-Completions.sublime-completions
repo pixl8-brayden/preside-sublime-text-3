@@ -1,0 +1,9 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Website Visitor Service"
+	, "completions":
+	[
+		  { "trigger": "createVisitor", "contents": "createVisitor();" }
+		, { "trigger": "getVisitorId" , "contents": "getVisitorId();" }
+	]
+}
