@@ -7,7 +7,7 @@ Preside full documentation refer link
 ## Features
 Autocomplete for:
 
-Preside version: 10.10.67
+Up to Preside version: `10.10.67`
 
 ## Notes
 
