@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Asset Renderer Service"
+	, "completions":
+	[
+		{ "trigger": "renderAsset", "contents": "renderAsset( assetId = \"${1:assetId}\" );" }
+	]
+}

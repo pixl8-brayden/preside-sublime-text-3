@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Asset Manager Service"
+	, "completions":
+	[
+		{ "trigger": "addAsset", "contents": "addAsset( \n\t  fileBinary = \"${1:fileBinary}\"\n\t, fileName = \"${2:fileName}\"\n\t, folder = \"${3:folder}\"\n);" }
+	]
+}
