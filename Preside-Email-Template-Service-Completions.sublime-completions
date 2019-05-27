@@ -1,0 +1,42 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Email Template Service"
+	, "completions":
+	[
+		  { "trigger": "clearQueue", "contents": "clearQueue()" }
+		, { "trigger": "getAttachments", "contents": "getAttachments( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getClickCount", "contents": "getClickCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getDeliveredCount", "contents": "getDeliveredCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getFailedCount", "contents": "getFailedCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getFirstStatDate", "contents": "getFirstStatDate( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getLastStatDate", "contents": "getLastStatDate( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getLinkClickStats", "contents": "getLinkClickStats( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getOpenedCount", "contents": "getOpenedCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getPreviewParameters", "contents": "getPreviewParameters( \n\t  template = \"${1:template}\"\n\t, recipientType = \"${1:recipientType}\"\n);" }
+		, { "trigger": "getQueueCount", "contents": "getQueueCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getQueueStats", "contents": "getQueueStats()" }
+		, { "trigger": "getQueuedCount", "contents": "getQueuedCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getSavedContentExpiry", "contents": "getSavedContentExpiry( template = \"${1:template}\" );" }
+		, { "trigger": "getSentCount", "contents": "getSentCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getStats", "contents": "getStats( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getTemplate", "contents": "getTemplate( id = \"${1:id}\" );" }
+		, { "trigger": "getTemplates", "contents": "getTemplates( custom = ${1:true} );" }
+		, { "trigger": "getUniqueOpenedCount", "contents": "getUniqueOpenedCount( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getViewOnlineContent", "contents": "getViewOnlineContent( id = \"${1:id}\" );" }
+		, { "trigger": "getViewOnlineContentId", "contents": "getViewOnlineContentId( content = \"${1:content}\" );" }
+		, { "trigger": "getViewOnlineLink", "contents": "getViewOnlineLink( content = \"${1:content}\" );" }
+		, { "trigger": "isTrackingEnabled", "contents": "isTrackingEnabled( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "listDueOneTimeScheduleTemplates", "contents": "listDueOneTimeScheduleTemplates();" }
+		, { "trigger": "listDueRepeatedScheduleTemplates", "contents": "listDueRepeatedScheduleTemplates();" }
+		, { "trigger": "listMissingParams", "contents": "listMissingParams( \n\t  template = \"${1:template}\"\n\t, content = \"${1:content}\"\n);" }
+		, { "trigger": "prepareMessage", "contents": "prepareMessage( \n\t  template = \"${1:template}\"\n\t, args = { ${2:args} }\n);" }
+		, { "trigger": "prepareParameters", "contents": "prepareParameters( \n\t  template = \"${1:template}\"\n\t, recipientType = \"${2:recipientType}\"\n\t, recipientId = \"${3:recipientId}\"\n\t, args = { ${4:args} }\n);" }
+		, { "trigger": "previewTemplate", "contents": "previewTemplate( template = \"${1:template}\" );" }
+		, { "trigger": "rebuildArgsForResend", "contents": "rebuildArgsForResend( \n\t  template = \"${1:template}\"\n\t, logId = \"${2:logId}\"\n\t, originalArgs = { ${3:originalArgs} }\n);" }
+		, { "trigger": "replaceParameterTokens", "contents": "replaceParameterTokens( \n\t  text = \"${1:text}\"\n\t, params = { ${2:params} }\n\t, type = \"${3:type}\"\n);" }
+		, { "trigger": "saveTemplate", "contents": "saveTemplate( template = { ${1:template} } );" }
+		, { "trigger": "shouldSaveContentForTemplate", "contents": "shouldSaveContentForTemplate( template = \"${1:template}\" );" }
+		, { "trigger": "templateExists", "contents": "templateExists( id = \"${1:id}\" );" }
+		, { "trigger": "updateScheduledSendFields", "contents": "updateScheduledSendFields( templateId = \"${1:templateId}\" );" }
+	]
+}

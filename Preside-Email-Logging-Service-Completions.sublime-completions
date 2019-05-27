@@ -1,0 +1,21 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Email Logging Service"
+	, "completions":
+	[
+		  { "trigger": "createEmailLog", "contents": "createEmailLog( \n\t  template = \"${1:template}\"\n\t, recipientType = \"${2:recipientType}\"\n\t, recipientId = \"${3:recipientId}\"\n\t, recipient = \"${4:recipient}\"\n\t, sender = \"${5:sender}\"\n\t, subject = \"${6:subject}\"\n);" }
+		, { "trigger": "getActivity", "contents": "getActivity( id = \"${1:id}\" );" }
+		, { "trigger": "getLog", "contents": "getLog( id = \"${1:id}\" );" }
+		, { "trigger": "insertClickTrackingLinks", "contents": "insertClickTrackingLinks( \n\t  messageId = \"${1:messageId}\"\n\t, messageHtml = \"${2:messageHtml}\"\n);" }
+		, { "trigger": "insertTrackingPixel", "contents": "insertTrackingPixel( \n\t  messageId = \"${1:messageId}\"\n\t, messageHtml = \"${2:messageHtml}\"\n);" }
+		, { "trigger": "logEmailContent", "contents": "logEmailContent( \n\t  template = \"${1:template}\"\n\t, id = \"${2:id}\"\n\t, htmlBody = \"${3:htmlBody}\"\n\t, textBody = \"${4:textBody}\"\n);" }
+		, { "trigger": "markAsDelivered", "contents": "markAsDelivered( id = \"${1:id}\" );" }
+		, { "trigger": "markAsFailed", "contents": "markAsFailed( \n\t  id = \"${1:id}\"\n\t, reason = \"${2:reason}\"\n);" }
+		, { "trigger": "markAsHardBounced", "contents": "markAsHardBouncedrecordActivity" }
+		, { "trigger": "markAsMarkedAsSpam", "contents": "markAsMarkedAsSpam( id = \"${1:id}\" );" }
+		, { "trigger": "markAsOpened", "contents": "markAsOpened( id = \"${1:id}\" );" }
+		, { "trigger": "markAsSent", "contents": "markAsSent( id = \"${1:id}\" );" }
+		, { "trigger": "markAsUnsubscribed", "contents": "markAsUnsubscribed( id = \"${1:id}\" );" }
+		, { "trigger": "recordActivity", "contents": "recordActivity( \n\t  messageId = \"${1:messageId}\"\n\t, activity = \"${2:activity}\"\n);" }
+	]
+}

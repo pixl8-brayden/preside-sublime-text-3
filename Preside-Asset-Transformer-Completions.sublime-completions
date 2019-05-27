@@ -1,0 +1,10 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Asset Transformer"
+	, "completions":
+	[
+		  { "trigger": "pdfPreview", "contents": "pdfPreview()" }
+		, { "trigger": "resize", "contents": "resize()" }
+		, { "trigger": "shrinkToFit", "contents": "shrinkToFit()" }
+	]
+}
