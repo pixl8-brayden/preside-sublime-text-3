@@ -1,0 +1,10 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Email Service"
+	, "completions":
+	[
+		  { "trigger": "listTemplates"             , "contents": "listTemplates();" }
+		, { "trigger": "send"                      , "contents": "send( \n\t  template = \"${1:template}\"\n\t, recipientId = \"${2:recipientId}\"\n);" }
+		, { "trigger": "validateConnectionSettings", "contents": "validateConnectionSettings( \n\t  host = \"${1:host}\"\n\t, port = ${2:port}\n);" }
+	]
+}
