@@ -1,0 +1,11 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Email Sending Context Service"
+	, "completions":
+	[
+		  { "trigger": "clearContext"     , "contents": "clearContext()" }
+		, { "trigger": "getContext"       , "contents": "getContext()" }
+		, { "trigger": "getContextPayload", "contents": "getContextPayload()" }
+		, { "trigger": "setContext"       , "contents": "setContext( \n\t  recipientType = \"${1:recipientType}\"\n\t, recipientId = \"${2:recipientId}\"\n);" }
+	]
+}
