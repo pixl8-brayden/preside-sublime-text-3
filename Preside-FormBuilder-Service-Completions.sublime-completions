@@ -1,0 +1,36 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside FormBuilder Service"
+	, "completions":
+	[
+		  { "trigger": "activateForm"                , "contents": "activateForm( id = \"${1:id}\" );" }
+		, { "trigger": "addItem"                     , "contents": "addItem( \n\t  formId = \"${1:formId}\"\n\t, itemType = \"${2:itemType}\"\n\t, configuration = { ${3:configuration} }\n);" }
+		, { "trigger": "deactivateForm"              , "contents": "deactivateForm( id = \"${1:id}\" );" }
+		, { "trigger": "deleteForms"                 , "contents": "deleteForms( ids = \"${1:ids}\" );" }
+		, { "trigger": "deleteItem"                  , "contents": "deleteItem( id = \"${1:id}\" );" }
+		, { "trigger": "deleteSubmissions"           , "contents": "deleteSubmissions( submissionIds = [ ${1:submissionIds} ] );" }
+		, { "trigger": "exportResponsesToExcel"      , "contents": "exportResponsesToExcel( formId = \"${1:formId}\" );" }
+		, { "trigger": "formExists"                  , "contents": "formExists( id = \"${1:id}\" );" }
+		, { "trigger": "getForm"                     , "contents": "getForm( id = \"${1:id}\" );" }
+		, { "trigger": "getFormItem"                 , "contents": "getFormItem( id = \"${1:id}\" );" }
+		, { "trigger": "getFormItems"                , "contents": "getFormItems( id = \"${1:id}\" );" }
+		, { "trigger": "getItemByInputName"          , "contents": "getItemByInputName( \n\t  formId = \"${1:formId}\"\n\t, inputName = \"${2:inputName}\"\n);" }
+		, { "trigger": "getItemDataFromRequest"      , "contents": "getItemDataFromRequest( \n\t  itemType = \"${1:itemType}\"\n\t, inputName = \"${2:inputName}\"\n\t, requestData = { ${3:requestData} }\n\t, itemConfiguration = { ${4:itemConfiguration} }\n);" }
+		, { "trigger": "getRequestDataForForm"       , "contents": "getRequestDataForForm( \n\t  formId = \"${1:formId}\"\n\t, requestData = { ${2:requestData} }\n);" }
+		, { "trigger": "getSubmission"               , "contents": "getSubmission( submissionId = \"${1:submissionId}\" );" }
+		, { "trigger": "getSubmissionCount"          , "contents": "getSubmissionCount( formId = \"${1:formId}\" );" }
+		, { "trigger": "getSubmissionSuccessMessage" , "contents": "getSubmissionSuccessMessage( formId = \"${1:formId}\" );" }
+		, { "trigger": "getSubmissionsForGridListing", "contents": "getSubmissionsForGridListing( formId = \"${1:formId}\" );" }
+		, { "trigger": "isFormActive"                , "contents": "isFormActive( formId = \"${1:formId}\" );" }
+		, { "trigger": "isFormLocked"                , "contents": "isFormLocked( formId = \"${1:formId}\" );" }
+		, { "trigger": "lockForm"                    , "contents": "lockForm( id = \"${1:id}\" );" }
+		, { "trigger": "renderForm"                  , "contents": "renderForm( formId = \"${1:formId}\" );" }
+		, { "trigger": "renderFormItem"              , "contents": "renderFormItem( \n\t  itemType = \"${1:itemType}\"\n\t, configuration = { ${2:configuration} }\n);" }
+		, { "trigger": "renderResponse"              , "contents": "renderResponse( \n\t  formId = \"${1:formId}\"\n\t, inputName = \"${2:inputName}\"\n\t, inputValue = \"${3:inputValue}\"\n);" }
+		, { "trigger": "saveFormSubmission"          , "contents": "saveFormSubmission( \n\t  formId = \"${1:formId}\"\n\t, requestData = { ${2:requestData} }\n);" }
+		, { "trigger": "saveItem"                    , "contents": "saveItem( \n\t  id = \"${1:id}\"\n\t, configuration = { ${2:configuration} }\n);" }
+		, { "trigger": "setItemsSortOrder"           , "contents": "setItemsSortOrder( items = [ ${1:items} ] );" }
+		, { "trigger": "unlockForm"                  , "contents": "unlockForm( id = \"${1:id}\" );" }
+		, { "trigger": "validateItemConfig"          , "contents": "validateItemConfig( \n\t  formId = \"${1:formId}\"\n\t, itemType = \"${2:itemType}\"\n\t, config = { ${3:config} }\n);" }
+	]
+}
