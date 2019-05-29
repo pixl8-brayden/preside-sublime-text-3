@@ -1,0 +1,9 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Admin Object Link Builder Service"
+	, "completions":
+	[
+		  { "trigger": "buildLink"                , "contents": "buildLink( objectName = \"${1:objectName}\" );" }
+		, { "trigger": "getDefaultRecordOperation", "contents": "getDefaultRecordOperation( objectName = \"${1:objectName}\" );" }
+	]
+}

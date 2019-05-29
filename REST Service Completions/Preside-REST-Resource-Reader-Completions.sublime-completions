@@ -1,0 +1,11 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside REST Resource Reader"
+	, "completions":
+	[
+		  { "trigger": "isValidResource"        , "contents": "isValidResource( cfcPath = \"${1:cfcPath}\" );" }
+		, { "trigger": "readResource"           , "contents": "readResource( \n\t  cfcPath = \"${1:cfcPath}\"\n\t, api = \"${1:api}\"\n);" }
+		, { "trigger": "readResourceDirectories", "contents": "readResourceDirectories( directories = [ ${1:directories} ] );" }
+		, { "trigger": "readUri"                , "contents": "readUri( uri = \"${1:uri}\" );" }
+	]
+}

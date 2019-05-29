@@ -1,0 +1,13 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside REST Request"
+	, "completions":
+	[
+		  { "trigger": "finish", "contents": "finish()" }
+		, { "trigger": "getApi", "contents": "getApi()" }
+		, { "trigger": "getResource", "contents": "getResource()" }
+		, { "trigger": "getUri", "contents": "getUri()" }
+		, { "trigger": "getVerb", "contents": "getVerb()" }
+		, { "trigger": "isFinished", "contents": "isFinished()" }
+	]
+}
