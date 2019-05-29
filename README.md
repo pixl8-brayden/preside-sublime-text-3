@@ -103,7 +103,7 @@ Up to Preside version: `10.10.67`
 ##### System Form Controls :white_check_mark:
 
 ##### CSRF Protection      :white_check_mark:
-| Available Functions |
-|-------------------- |
-| `getCsrfToken`      |
-| `validateCsrfToken` |
+| Available Functions | Return Type |
+|---------------------|-------------|
+| `getCsrfToken`      | n/a         |
+| `validateCsrfToken` | boolean     |
