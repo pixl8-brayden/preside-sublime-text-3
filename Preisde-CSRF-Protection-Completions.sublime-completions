@@ -1,0 +1,10 @@
+{
+	  "scope"      : "embedding.cfml, text.xml"
+	, "comment"    : "Preside CSRF Protection"
+	, "completions":
+	[
+		  { "trigger": "csrfInput"        , "contents": "<input type=\"hidden\" name=\"${2:csrfToken}\" value=\"#event.getCsrfToken()#\">" }
+		, { "trigger": "getCsrfToken"     , "contents": "getCsrfToken()" }
+		, { "trigger": "validateCsrfToken", "contents": "validateCsrfToken( ${1:csrfToken} )" }
+	]
+}
