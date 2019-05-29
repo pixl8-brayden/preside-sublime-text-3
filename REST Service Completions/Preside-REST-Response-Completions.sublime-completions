@@ -1,0 +1,16 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside REST Response"
+	, "completions":
+	[
+		  { "trigger": "getMemento" , "contents": "getMemento();" }
+		, { "trigger": "noData"     , "contents": "noData();" }
+		, { "trigger": "setData"    , "contents": "setData( data = ${1:data} );" }
+		, { "trigger": "setError"   , "contents": "setError( \n\t  type = \"${1:type}\"\n\t, title = \"${2:title}\"\n);" }
+		, { "trigger": "setHeader"  , "contents": "setHeader( \n\t  name = \"${1:name}\"\n\t, value = \"${2:value}\"\n);" }
+		, { "trigger": "setHeaders" , "contents": "setHeaders( headers = { ${1:headers} } );" }
+		, { "trigger": "setMimeType", "contents": "setMimeType( mimeType = \"${1:mimeType}\" );" }
+		, { "trigger": "setRenderer", "contents": "setRenderer( renderer = \"${1:renderer}\" );" }
+		, { "trigger": "setStatus"  , "contents": "setStatus( \n\t  code = \"${1:code}\"\n\t, text = \"${2:text}\"\n);" }
+	]
+}
