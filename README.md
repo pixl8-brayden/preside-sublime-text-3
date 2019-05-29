@@ -25,14 +25,14 @@ Up to Preside version: `10.10.67`
 [ Included : :white_check_mark: ]
 
 ##### System service APIs
-- [ ] Ad-hoc Task Manager Service
-- [ ] AdHocTaskProgressReporter
-- [ ] AdminDataViewsService
-- [ ] Admin login service
-- [ ] AdminObjectLinkBuilderService
-- [ ] Admin permissions service
-- [ ] ApplicationsService
-- [x] AssetManager Service               :white_check_mark:
+- [ ] AdHoc Task Manager Service
+- [ ] AdHoc Task Progress Reporter
+- [x] Admin Data Views Service           :white_check_mark:
+- [x] Admin Login Service                :white_check_mark:
+- [x] Admin ObjectLink Builder Service   :white_check_mark:
+- [x] Admin Permissions Service          :white_check_mark:
+- [ ] Applications Service
+- [x] Asset Manager Service              :white_check_mark:
 - [x] Asset Renderer Service             :white_check_mark:
 - [x] Asset transformer                  :white_check_mark:
 - [ ] Audit Service
@@ -43,7 +43,6 @@ Up to Preside version: `10.10.67`
 - [ ] DataManagerService
 - [ ] DelayedStickerRendererService
 - [ ] DelayedViewletRendererService
-- [ ] Document metadata service
 - [x] EmailLayoutService                 :white_check_mark:
 - [x] EmailLoggingService                :white_check_mark:
 - [x] EmailMassSendingService            :white_check_mark:
@@ -53,8 +52,6 @@ Up to Preside version: `10.10.67`
 - [x] EmailServiceProviderService        :white_check_mark:
 - [x] EmailStyleInliner                  :white_check_mark:
 - [x] EmailTemplateService               :white_check_mark:
-- [ ] EnumService
-- [ ] Environment Variables Reader
 - [ ] Error Log Service
 - [ ] Feature service
 - [ ] File System Storage Provider
@@ -66,23 +63,17 @@ Up to Preside version: `10.10.67`
 - [x] FormDefinition                     :white_check_mark:
 - [x] Forms service                      :white_check_mark:
 - [ ] HealthcheckService
-- [ ] ImageMagick
-- [ ] Image Manipulation Service
-- [ ] InjectedConfigurationManager
 - [ ] Multilingual Preside Object Service
 - [ ] Native Image Manipulation Service
 - [x] Notification Service               :white_check_mark:
 - [ ] PresideObjectCloningService
 - [x] Preside Object Service             :white_check_mark:
 - [x] Preside Object View Service        :white_check_mark:
-- [ ] PresideRestConfigurationWrapper
-- [ ] Preside REST Request
-- [ ] Preside REST Resource Reader
-- [ ] Preside REST Response
-- [ ] PresideRestService
+- [x] PresideRestConfigurationWrapper    :white_check_mark:
+- [x] Preside REST Request               :white_check_mark:
+- [x] Preside REST Resource Reader       :white_check_mark:
+- [x] Preside REST Response              :white_check_mark:
 - [x] Preside Super Class                :white_check_mark:
-- [ ] QrCodeGenerator
-- [ ] RulesEngineAutoPresideObjectExpressionGenerator
 - [ ] RulesEngine Condition Service
 - [ ] RulesEngine Context Service
 - [ ] RulesEngine Expression Reader Service
@@ -93,7 +84,6 @@ Up to Preside version: `10.10.67`
 - [ ] RulesEngine Time Period Service
 - [ ] RulesEngine Web Request Service
 - [ ] SimpleColourPickerService
-- [ ] Site Templates service
 - [ ] Storage provider
 - [ ] System configuration service
 - [ ] SystemEmailTemplateService
@@ -109,6 +99,11 @@ Up to Preside version: `10.10.67`
 - [x] Website user action service        :white_check_mark:
 - [x] Website user impersonation service :white_check_mark:
 - [x] Website visitor service            :white_check_mark:
-- [ ] XmpMetaReader
 
-##### System form controls :white_check_mark:
+##### System Form Controls :white_check_mark:
+
+##### CSRF Protection      :white_check_mark:
+| Available Functions |
+|-------------------- |
+| `getCsrfToken`      |
+| `validateCsrfToken` |
