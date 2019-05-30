@@ -1,0 +1,25 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside AdHoc Task Manager Service"
+	, "completions":
+	[
+		  { "trigger": "completeTask", "contents": "completeTask( taskId = \"${1:taskId}\" );" }
+		, { "trigger": "createTask", "contents": "createTask( event = \"{$1:event}\" );" }
+		, { "trigger": "discardTask", "contents": "discardTask( taskId = \"${1:taskId}\" );" }
+		, { "trigger": "failTask", "contents": "failTask( taskId = \"${1:taskId}\" );" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+		, { "trigger": "temp", "contents": "temp" }
+	]
+}
