@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Error Log Services"
+	, "completions":
+	[
+		  { "trigger": "deleteAllErrors" , "contents": "deleteAllErrors()" }
+		, { "trigger": "deleteError"     , "contents": "deleteError( logFile = \"${1:logFile}\" )" }
+		, { "trigger": "listErrors"      , "contents": "listErrors()" }
+		, { "trigger": "raiseError"      , "contents": "raiseError( error = {\n\t${1:error}\n} )" }
+		, { "trigger": "readError"       , "contents": "readError( logFile = \"${1:logFile}\" )" }
+	]
+}
