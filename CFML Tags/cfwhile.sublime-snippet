@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfwhile ${1:condition}>
+	${2:body}
+</cfwhile>
+]]></content>
+	<tabTrigger>cfwhile</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>
