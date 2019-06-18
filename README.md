@@ -115,6 +115,7 @@ Up to Preside version: `10.10.76`
 - [x] Website visitor service               :white_check_mark:
 
 #### AdHocTaskManagerService
+|-------------------------------|
 | `completeTask()`              |
 | `createTask()`                |
 | `discardTask()`               |
