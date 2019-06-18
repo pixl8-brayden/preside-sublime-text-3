@@ -60,8 +60,6 @@ Up to Preside version: `10.10.76`
 - [x] Audit Service                         :white_check_mark:
 - [x] DataManagerCustomizationService       :white_check_mark:
 - [x] DataManagerService                    :white_check_mark:
-- [ ] DelayedStickerRendererService
-- [ ] DelayedViewletRendererService
 - [x] EmailLayoutService                    :white_check_mark:
 - [x] EmailLoggingService                   :white_check_mark:
 - [x] EmailMassSendingService               :white_check_mark:
