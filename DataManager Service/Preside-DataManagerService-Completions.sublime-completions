@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside DataManager Service"
+	, "completions":
+	[
+		  { "trigger": "getRecordsForGridListing" , "contents": "getRecordsForGridListing(\n\t  objectName = \"${1:objectName}\"\n\t, gridFields = [\n\t\t${2:gridFields}\n\t]\n)" }
+	]
+}
