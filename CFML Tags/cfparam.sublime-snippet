@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<cfparam name="${1:name}" />
+<cfparam name = "${1:paramName}" />
 ]]></content>
 	<tabTrigger>cfparam</tabTrigger>
 	<scope>embedding.cfml</scope>
