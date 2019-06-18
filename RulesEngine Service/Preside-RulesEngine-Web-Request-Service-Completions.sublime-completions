@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Web Request Service"
+	, "completions":
+	[
+		  { "trigger": "evaluateCondition" , "contents": "evaluateCondition( conditionId = \"${1:conditionId}\" )" }
+	]
+}

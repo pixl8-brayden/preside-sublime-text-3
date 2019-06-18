@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Time Period Service"
+	, "completions":
+	[
+		  { "trigger": "convertTimePeriodToDateRange" , "contents": "convertTimePeriodToDateRange( timePeriodJson = \"${1:timePeriodJson}\" )" }
+	]
+}

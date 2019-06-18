@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Rules Engine Condition Service"
+	, "completions":
+	[
+		  { "trigger": "evaluateCondition"                , "contents": "evaluateCondition( \n\t  conditionId = \"${1:conditionId}\"\n\t, context = \"${2:context}\"\n);" }
+		, { "trigger": "getCondition"                     , "contents": "getCondition( conditionId = \"${1:conditionId}\" );" }
+		, { "trigger": "getConditionRecord"               , "contents": "getConditionRecord( conditionId = \"${1:conditionId}\" );" }
+		, { "trigger": "listObjectsFilterableByCondition" , "contents": "listObjectsFilterableByCondition( expressionArray = [ ${1:expressionArray} ] );" }
+		, { "trigger": "validateCondition"                , "contents": "validateCondition( \n\t  condition = \"${1:condition}\"\n\t, context = \"${2:context}\"\n\t, validationResult = ${3:validationResult}\n);" }
+	]
+}

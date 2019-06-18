@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Filed Type Service"
+	, "completions":
+	[
+		  { "trigger": "getHandlerForFieldType"        , "contents": "getHandlerForFieldType( fieldType = \"${1:fieldType}\" )" }
+		, { "trigger": "prepareConfiguredFieldData"    , "contents": "prepareConfiguredFieldData(\n\t  fieldType = \"${1:fieldType}\"\n\t, fieldConfiguration = { ${2:fieldConfiguration} }\n\t, savedValue = ${3:savedValue}\n)" }
+		, { "trigger": "processConfigScreenSubmission" , "contents": "processConfigScreenSubmission(\n\t  fieldType = \"${1:fieldType}\"\n\t, fieldConfiguration = { ${2:fieldConfiguration} }\n\t, validationResult = ${3:validationResult}\n)" }
+		, { "trigger": "renderConfigScreen"            , "contents": "renderConfigScreen(\n\t  fieldType = \"${1:fieldType}\"\n\t, fieldConfiguration = { ${2:fieldConfiguration} }\n\t, currentValue = ${3:currentValue}\n)" }
+		, { "trigger": "renderConfiguredField"         , "contents": "renderConfiguredField(\n\t  fieldType = \"${1:fieldType}\"\n\t, fieldConfiguration = { ${2:fieldConfiguration} }\n\t, value = ${3:value}\n)" }
+	]
+}
