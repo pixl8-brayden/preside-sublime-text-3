@@ -113,3 +113,21 @@ Up to Preside version: `10.10.76`
 - [x] Website user action service           :white_check_mark:
 - [x] Website user impersonation service    :white_check_mark:
 - [x] Website visitor service               :white_check_mark:
+
+#### AdHocTaskManagerService
+| `completeTask()`              |
+| `createTask()`                |
+| `discardTask()`               |
+| `failTask()`                  |
+| `getNextAttemptInfo()`        |
+| `getNextScheduledTaskToRun()` |
+| `getProgress()`               |
+| `getTask()`                   |
+| `markTaskAsRunning()`         |
+| `requeueTask()`               |
+| `runScheduledTasks()`         |
+| `runTask()`                   |
+| `runTaskInThread()`           |
+| `setProgress()`               |
+| `setResult()`                 |
+| `setResultUrl()`              |
