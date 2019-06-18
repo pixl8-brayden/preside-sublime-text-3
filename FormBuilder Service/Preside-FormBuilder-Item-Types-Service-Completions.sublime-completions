@@ -3,8 +3,8 @@
 	, "comment"    : "Preside FormBuilder Item Types Service"
 	, "completions":
 	[
-		  { "trigger": "getConfigFormNameForItemType", "contents": "getConfigFormNameForItemType( itemType = \"${1:itemType}\" );" }
-		, { "trigger": "getItemTypeConfig"           , "contents": "getItemTypeConfig( itemType = \"${1:itemType}\" );" }
+		  { "trigger": "getConfigFormNameForItemType", "contents": "getConfigFormNameForItemType( itemType = \"${1:itemType}\" )" }
+		, { "trigger": "getItemTypeConfig"           , "contents": "getItemTypeConfig( itemType = \"${1:itemType}\" )" }
 		, { "trigger": "getItemTypesByCategory"      , "contents": "getItemTypesByCategory()" }
 	]
 }

@@ -3,15 +3,15 @@
 	, "comment"    : "Preside Email Recipient Type Service"
 	, "completions":
 	[
-		  { "trigger": "getFilterObjectForRecipientType"          , "contents": "getFilterObjectForRecipientType( recipientType = \"${1:recipientType}\" );" }
-		, { "trigger": "getGridFieldsForRecipientType"            , "contents": "getGridFieldsForRecipientType( recipientType = \"${1:recipientType}\" );" }
-		, { "trigger": "getPreviewParameters"                     , "contents": "getPreviewParameters( recipientType = \"${1:recipientType}\" );" }
-		, { "trigger": "getRecipientAdditionalLogProperties"      , "contents": "getRecipientAdditionalLogProperties( recipientType = \"${1:recipientType}\" );" }
-		, { "trigger": "getRecipientIdLogPropertyForRecipientType", "contents": "getRecipientIdLogPropertyForRecipientType( recipientType = \"${1:recipientType}\" );" }
-		, { "trigger": "getToAddress"                             , "contents": "getToAddress( \n\t  recipientType = \"${1:recipientType}\"\n\t, recipientId = \"${2:recipientId}\"\n);" }
-		, { "trigger": "listRecipientTypeParameters"              , "contents": "listRecipientTypeParameters( recipientType = \"${1:recipientType}\" );" }
-		, { "trigger": "listRecipientTypes"                       , "contents": "listRecipientTypes();" }
-		, { "trigger": "prepareParameters"                        , "contents": "prepareParameters( \n\t  recipientType = \"${1:recipientType}\"\n\t, recipientId = \"${2:recipientId}\"\n);" }
-		, { "trigger": "recipientTypeExists"                      , "contents": "recipientTypeExists( recipientType = \"${1:recipientType}\" );" }
+		  { "trigger": "getFilterObjectForRecipientType"          , "contents": "getFilterObjectForRecipientType( recipientType = \"${1:recipientType}\" )" }
+		, { "trigger": "getGridFieldsForRecipientType"            , "contents": "getGridFieldsForRecipientType( recipientType = \"${1:recipientType}\" )" }
+		, { "trigger": "getPreviewParameters"                     , "contents": "getPreviewParameters( recipientType = \"${1:recipientType}\" )" }
+		, { "trigger": "getRecipientAdditionalLogProperties"      , "contents": "getRecipientAdditionalLogProperties( recipientType = \"${1:recipientType}\" )" }
+		, { "trigger": "getRecipientIdLogPropertyForRecipientType", "contents": "getRecipientIdLogPropertyForRecipientType( recipientType = \"${1:recipientType}\" )" }
+		, { "trigger": "getToAddress"                             , "contents": "getToAddress( \n\t  recipientType = \"${1:recipientType}\"\n\t, recipientId = \"${2:recipientId}\"\n)" }
+		, { "trigger": "listRecipientTypeParameters"              , "contents": "listRecipientTypeParameters( recipientType = \"${1:recipientType}\" )" }
+		, { "trigger": "listRecipientTypes"                       , "contents": "listRecipientTypes()" }
+		, { "trigger": "prepareParameters"                        , "contents": "prepareParameters( \n\t  recipientType = \"${1:recipientType}\"\n\t, recipientId = \"${2:recipientId}\"\n)" }
+		, { "trigger": "recipientTypeExists"                      , "contents": "recipientTypeExists( recipientType = \"${1:recipientType}\" )" }
 	]
 }

@@ -3,9 +3,9 @@
 	, "comment"    : "Preside Website Permissions Service"
 	, "completions":
 	[
-		  { "trigger": "hasPermission"      , "contents": "hasPermission( permissionKey = \"${1:permissionKey}\" );" }
-		, { "trigger": "listPermissionKeys" , "contents": "listPermissionKeys( \n\t  benefit= \"${1:benefit}\"\n\t, user = \"${2:user}\"\n);" }
-		, { "trigger": "listUserBenefits"   , "contents": "listUserBenefits( userId = \"${1:userId}\" );" }
-		, { "trigger": "listUserPermissions", "contents": "listUserPermissions( userId = \"${1:userId}\" );" }
+		  { "trigger": "hasPermission"      , "contents": "hasPermission( permissionKey = \"${1:permissionKey}\" )" }
+		, { "trigger": "listPermissionKeys" , "contents": "listPermissionKeys( \n\t  benefit= \"${1:benefit}\"\n\t, user = \"${2:user}\"\n)" }
+		, { "trigger": "listUserBenefits"   , "contents": "listUserBenefits( userId = \"${1:userId}\" )" }
+		, { "trigger": "listUserPermissions", "contents": "listUserPermissions( userId = \"${1:userId}\" )" }
 	]
 }

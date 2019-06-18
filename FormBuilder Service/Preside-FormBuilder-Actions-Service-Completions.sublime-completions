@@ -3,16 +3,16 @@
 	, "comment"    : "Preside FormBuilder Actions Service"
 	, "completions":
 	[
-		  { "trigger": "addAction", "contents": "addAction( \n\t  formId = \"${1:formId}\"\n\t, action = \"${2:action}\"\n\t, configuration = { ${3:configuration} }\n);" }
-		, { "trigger": "deleteAction", "contents": "deleteAction( id = \"${1:id}\" );" }
-		, { "trigger": "getActionConfig", "contents": "getActionConfig( action = \"${1:action}\" );" }
-		, { "trigger": "getActionCount", "contents": "getActionCount( formId = \"${1:formId}\" );" }
-		, { "trigger": "getFormAction", "contents": "getFormAction( id = \"${1:id}\" );" }
-		, { "trigger": "getFormActions", "contents": "getFormActions( id = \"${1:id}\" );" }
-		, { "trigger": "listActions", "contents": "listActions();" }
-		, { "trigger": "saveAction", "contents": "saveAction( \n\t  id = \"${1:id}\"\n\t, configuration = { ${2:configuration} }\n);" }
-		, { "trigger": "setActionsSortOrder", "contents": "setActionsSortOrder( actions = [ ${1:actions} ] );" }
-		, { "trigger": "triggerSubmissionActions", "contents": "triggerSubmissionActions( \n\t  formId = \"${1:formId}\"\n\t, submissionData = { ${2:submissionData} }\n);" }
-		, { "trigger": "validateActionConfig", "contents": "validateActionConfig( \n\t  formId = \"${1:formId}\"\n\t, action = \"${2:action}\"\n\t, config = { ${3:config} }\n);" }
+		  { "trigger": "addAction", "contents": "addAction( \n\t  formId = \"${1:formId}\"\n\t, action = \"${2:action}\"\n\t, configuration = { ${3:configuration} }\n)" }
+		, { "trigger": "deleteAction", "contents": "deleteAction( id = \"${1:id}\" )" }
+		, { "trigger": "getActionConfig", "contents": "getActionConfig( action = \"${1:action}\" )" }
+		, { "trigger": "getActionCount", "contents": "getActionCount( formId = \"${1:formId}\" )" }
+		, { "trigger": "getFormAction", "contents": "getFormAction( id = \"${1:id}\" )" }
+		, { "trigger": "getFormActions", "contents": "getFormActions( id = \"${1:id}\" )" }
+		, { "trigger": "listActions", "contents": "listActions()" }
+		, { "trigger": "saveAction", "contents": "saveAction( \n\t  id = \"${1:id}\"\n\t, configuration = { ${2:configuration} }\n)" }
+		, { "trigger": "setActionsSortOrder", "contents": "setActionsSortOrder( actions = [ ${1:actions} ] )" }
+		, { "trigger": "triggerSubmissionActions", "contents": "triggerSubmissionActions( \n\t  formId = \"${1:formId}\"\n\t, submissionData = { ${2:submissionData} }\n)" }
+		, { "trigger": "validateActionConfig", "contents": "validateActionConfig( \n\t  formId = \"${1:formId}\"\n\t, action = \"${2:action}\"\n\t, config = { ${3:config} }\n)" }
 	]
 }

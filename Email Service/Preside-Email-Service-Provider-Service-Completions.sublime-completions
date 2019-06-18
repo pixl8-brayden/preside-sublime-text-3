@@ -3,18 +3,18 @@
 	, "comment"    : "Preside Email Service Provider Service"
 	, "completions":
 	[
-		  { "trigger": "getDefaultProvider", "contents": "getDefaultProvider();" }
-		, { "trigger": "getProvider", "contents": "getProvider( provider = \"${1:provider}\" );" }
-		, { "trigger": "getProviderConfigFormName", "contents": "getProviderConfigFormName( provider = \"${1:provider}\" );" }
-		, { "trigger": "getProviderForTemplate", "contents": "getProviderForTemplate( templateId = \"${1:templateId}\" );" }
-		, { "trigger": "getProviderSendAction", "contents": "getProviderSendAction( provider = \"${1:provider}\" );" }
-		, { "trigger": "getProviderSettings", "contents": "getProviderSettings( provider = \"${1:provider}\" );" }
-		, { "trigger": "getProviderSettingsCategory", "contents": "getProviderSettingsCategory( provider = \"${1:provider}\" );" }
-		, { "trigger": "getProviderValidateSettingsAction", "contents": "getProviderValidateSettingsAction( provider = \"${1:provider}\" );" }
-		, { "trigger": "isProviderEnabled", "contents": "isProviderEnabled( provider = \"${1:provider}\" );" }
-		, { "trigger": "listProviders", "contents": "listProviders();" }
-		, { "trigger": "saveSettings", "contents": "saveSettings( \n\t  provider = \"${1:provider}\"\n\t, settings = { ${2:settings} }\n);" }
-		, { "trigger": "sendWithProvider", "contents": "sendWithProvider( \n\t  provider = \"${1:provider}\"\n\t, sendArgs = { ${2:sendArgs} }\n);" }
-		, { "trigger": "validateSettings", "contents": "validateSettings( \n\t  provider = \"${1:provider}\"\n\t, settings = { ${2:settings} }\n);" }
+		  { "trigger": "getDefaultProvider", "contents": "getDefaultProvider()" }
+		, { "trigger": "getProvider", "contents": "getProvider( provider = \"${1:provider}\" )" }
+		, { "trigger": "getProviderConfigFormName", "contents": "getProviderConfigFormName( provider = \"${1:provider}\" )" }
+		, { "trigger": "getProviderForTemplate", "contents": "getProviderForTemplate( templateId = \"${1:templateId}\" )" }
+		, { "trigger": "getProviderSendAction", "contents": "getProviderSendAction( provider = \"${1:provider}\" )" }
+		, { "trigger": "getProviderSettings", "contents": "getProviderSettings( provider = \"${1:provider}\" )" }
+		, { "trigger": "getProviderSettingsCategory", "contents": "getProviderSettingsCategory( provider = \"${1:provider}\" )" }
+		, { "trigger": "getProviderValidateSettingsAction", "contents": "getProviderValidateSettingsAction( provider = \"${1:provider}\" )" }
+		, { "trigger": "isProviderEnabled", "contents": "isProviderEnabled( provider = \"${1:provider}\" )" }
+		, { "trigger": "listProviders", "contents": "listProviders()" }
+		, { "trigger": "saveSettings", "contents": "saveSettings( \n\t  provider = \"${1:provider}\"\n\t, settings = { ${2:settings} }\n)" }
+		, { "trigger": "sendWithProvider", "contents": "sendWithProvider( \n\t  provider = \"${1:provider}\"\n\t, sendArgs = { ${2:sendArgs} }\n)" }
+		, { "trigger": "validateSettings", "contents": "validateSettings( \n\t  provider = \"${1:provider}\"\n\t, settings = { ${2:settings} }\n)" }
 	]
 }

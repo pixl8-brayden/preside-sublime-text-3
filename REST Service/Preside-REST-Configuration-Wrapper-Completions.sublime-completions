@@ -3,6 +3,6 @@
 	, "comment"    : "Preside REST Configuration Wrapper"
 	, "completions":
 	[
-		{ "trigger": "getSetting", "contents": "getSetting( \n\t  name = \"${1:name}\"\n\t, defaultValue = \"$2\"\n\t, api = \"${3:/}\"\n);" }
+		{ "trigger": "getSetting", "contents": "getSetting( \n\t  name = \"${1:name}\"\n\t, defaultValue = \"$2\"\n\t, api = \"${3:/}\"\n)" }
 	]
 }

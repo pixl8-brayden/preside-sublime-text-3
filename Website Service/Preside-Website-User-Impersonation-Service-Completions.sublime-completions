@@ -3,7 +3,7 @@
 	, "comment"    : "Preside Website User Impersonation Service"
 	, "completions":
 	[
-		  { "trigger": "create" , "contents": "create( \n\t  userId = \"${1:userId}\"\n\t, targetUrl = \"${2:targetUrl}\"\n);" }
-		, { "trigger": "resolve", "contents": "resolve( id = \"${1:id}\" );" }
+		  { "trigger": "create" , "contents": "create( \n\t  userId = \"${1:userId}\"\n\t, targetUrl = \"${2:targetUrl}\"\n)" }
+		, { "trigger": "resolve", "contents": "resolve( id = \"${1:id}\" )" }
 	]
 }

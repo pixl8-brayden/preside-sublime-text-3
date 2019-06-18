@@ -3,23 +3,23 @@
 	, "comment"    : "Preside Forms Service"
 	, "completions":
 	[
-		  { "trigger": "createForm"                                , "contents": "createForm( ${1:generator} );" }
+		  { "trigger": "createForm"                                , "contents": "createForm( ${1:generator} )" }
 		, { "trigger": "formExists"                                , "contents": "formExists( formName = \"${1:formName}\" )" }
-		, { "trigger": "getDefaultFormForPresideObject"            , "contents": "getDefaultFormForPresideObject( objectName = \"${1:objectName}\" );" }
-		, { "trigger": "getForm"                                   , "contents": "getForm( formName = \"${1:formName}\" );" }
-		, { "trigger": "getFormField"                              , "contents": "getFormField( \n\t  formName = \"${1:formName}\"\n\t, fieldName = \"${2:fieldName}\"\n);" }
-		, { "trigger": "getMergedFormName"                         , "contents": "getMergedFormName( \n\t  formName = \"${1:formName}\"\n\t, mergeWithFormName = \"${2:mergeWithFormName}\"\n);" }
-		, { "trigger": "getValidationJs"                           , "contents": "getValidationJs( formName = \"${1:formName}\" );" }
-		, { "trigger": "listFields"                                , "contents": "listFields( formName = \"${1:formName}\" );" }
-		, { "trigger": "listForms"                                 , "contents": "listForms();" }
-		, { "trigger": "mergeForms"                                , "contents": "mergeForms( \n\t  formName = \"${1:formName}\"\n\t, mergeWithFormName = \"${2:mergeWithFormName}\"\n);" }
-		, { "trigger": "preProcessForm"                            , "contents": "preProcessForm( \n\t  formName = \"${1:formName}\"\n\t, formData = \"${2:formData}\"\n);" }
-		, { "trigger": "preProcessFormField"                       , "contents": "preProcessFormField( \n\t  formName = \"${1:formName}\"\n\t, fieldName = \"${2:fieldName}\"\n\t, fieldValue = \"${3:fieldValue}\"\n);" }
+		, { "trigger": "getDefaultFormForPresideObject"            , "contents": "getDefaultFormForPresideObject( objectName = \"${1:objectName}\" )" }
+		, { "trigger": "getForm"                                   , "contents": "getForm( formName = \"${1:formName}\" )" }
+		, { "trigger": "getFormField"                              , "contents": "getFormField( \n\t  formName = \"${1:formName}\"\n\t, fieldName = \"${2:fieldName}\"\n)" }
+		, { "trigger": "getMergedFormName"                         , "contents": "getMergedFormName( \n\t  formName = \"${1:formName}\"\n\t, mergeWithFormName = \"${2:mergeWithFormName}\"\n)" }
+		, { "trigger": "getValidationJs"                           , "contents": "getValidationJs( formName = \"${1:formName}\" )" }
+		, { "trigger": "listFields"                                , "contents": "listFields( formName = \"${1:formName}\" )" }
+		, { "trigger": "listForms"                                 , "contents": "listForms()" }
+		, { "trigger": "mergeForms"                                , "contents": "mergeForms( \n\t  formName = \"${1:formName}\"\n\t, mergeWithFormName = \"${2:mergeWithFormName}\"\n)" }
+		, { "trigger": "preProcessForm"                            , "contents": "preProcessForm( \n\t  formName = \"${1:formName}\"\n\t, formData = \"${2:formData}\"\n)" }
+		, { "trigger": "preProcessFormField"                       , "contents": "preProcessFormField( \n\t  formName = \"${1:formName}\"\n\t, fieldName = \"${2:fieldName}\"\n\t, fieldValue = \"${3:fieldValue}\"\n)" }
 		, { "trigger": "reload"                                    , "contents": "reload()" }
-		, { "trigger": "removePermissionedFieldsFromFormDefinition", "contents": "removePermissionedFieldsFromFormDefinition( formDefinition = \"${1:formDefinition}\" );" }
-		, { "trigger": "renderForm"                                , "contents": "renderForm( \n\t  formName = \"${1:formName}\"\n\t, validationResult = \"${2:validationResult}\"\n);" }
-		, { "trigger": "renderFormControl"                         , "contents": "renderFormControl( \n\t  name = \"${1:name}\"\n\t, type = \"${2:type}\"\n);" }
-		, { "trigger": "renderFormControlForObjectField"           , "contents": "renderFormControlForObjectField( \n\t  objectName = \"${1:objectName}\"\n\t, fieldName = \"${2:fieldName}\"\n);" }
-		, { "trigger": "validateForm"                              , "contents": "validateForm( \n\t  formName = \"${1:formName}\"\n\t, formData = \"${2:formData}\"\n);" }
+		, { "trigger": "removePermissionedFieldsFromFormDefinition", "contents": "removePermissionedFieldsFromFormDefinition( formDefinition = \"${1:formDefinition}\" )" }
+		, { "trigger": "renderForm"                                , "contents": "renderForm( \n\t  formName = \"${1:formName}\"\n\t, validationResult = \"${2:validationResult}\"\n)" }
+		, { "trigger": "renderFormControl"                         , "contents": "renderFormControl( \n\t  name = \"${1:name}\"\n\t, type = \"${2:type}\"\n)" }
+		, { "trigger": "renderFormControlForObjectField"           , "contents": "renderFormControlForObjectField( \n\t  objectName = \"${1:objectName}\"\n\t, fieldName = \"${2:fieldName}\"\n)" }
+		, { "trigger": "validateForm"                              , "contents": "validateForm( \n\t  formName = \"${1:formName}\"\n\t, formData = \"${2:formData}\"\n)" }
 	]
 }
