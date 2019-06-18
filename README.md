@@ -14,17 +14,17 @@ Up to Preside version: `10.10.67`
 ## CFML Tags
 | Tags              | Output                       |
 |-------------------|------------------------------|
-| `cfpresideparam`  | <cf_presideparam name="paramName" editable="true" /> |
-| `cfelse`          | <cfelse>                                             |
-| `cfif`            | <cfif statement>...</cfif>                           |
-| `cfifelse`        | <cfif statement>...<cfelse>...</cfif>                |
-| `cfloop`          | <cfloop statement>...</cfloop>                       |
-| `cfoutput`        | <cfoutput>...</cfoutput>                             |
-| `cfparam`         | <cfparam name="name" />                              |
-| `cfscript`        | <cfscript>...</cfscript>                             |
-| `cfset`           | <cfset variable = value />                           |
-| `cfswitch`        | <cfswitch>...</cfswitch>                             |
-| `cfwhile`         | <cfwhile condition>...</cfwhile>                     |
+| `cfpresideparam`  | `<cf_presideparam name="paramName" editable="true" />` |
+| `cfelse`          | `<cfelse>`                                             |
+| `cfif`            | `<cfif statement>...</cfif>`                           |
+| `cfifelse`        | `<cfif statement>...<cfelse>...</cfif>`                |
+| `cfloop`          | `<cfloop statement>...</cfloop>`                       |
+| `cfoutput`        | `<cfoutput>...</cfoutput>`                             |
+| `cfparam`         | `<cfparam name="name" /> `                             |
+| `cfscript`        | `<cfscript>...</cfscript>`                             |
+| `cfset`           | `<cfset variable = value /> `                          |
+| `cfswitch`        | `<cfswitch>...</cfswitch>`                             |
+| `cfwhile`         | `<cfwhile condition>...</cfwhile>`                     |
 
 ## Snippets
 | Snippets          | Description                  |
