@@ -1,0 +1,11 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Filter Service"
+	, "completions":
+	[
+		  { "trigger": "getExpressionArrayForSavedFilter" , "contents": "getExpressionArrayForSavedFilter( filterId = \"${1:filterId}\" )" }
+		, { "trigger": "getMatchingRecordCount"           , "contents": "getMatchingRecordCount(\n\t  objectName = \"${1:objectName}\"\n\t, expressionArray = [\n\t\t${2:expressionArray}\n\t]\n)" }
+		, { "trigger": "prepareFilter"                    , "contents": "prepareFilter(\n\t  objectName = \"${1:objectName}\"\n\t, filterId = \"${2:filterId}\"\n)" }
+		, { "trigger": "selectData"                       , "contents": "selectData(\n\t  objectName = \"${1:objectName}\"\n\t, expressionArray = [\n\t\t${2:expressionArray}\n\t]\n)" }
+	]
+}

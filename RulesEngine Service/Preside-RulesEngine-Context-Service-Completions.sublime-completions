@@ -1,0 +1,14 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Rules Engine Context Service"
+	, "completions":
+	[
+		  { "trigger": "addContext"                                   , "contents": "addContext( id = \"${1:id}\" )" }
+		, { "trigger": "expandContexts"                               , "contents": "expandContexts( contexts = [\n\t${1:contexts}\n] )" }
+		, { "trigger": "getContextObject"                             , "contents": "getContextObject( context = \"${1:context}\" )" }
+		, { "trigger": "getContextPayload"                            , "contents": "getContextPayload( context = \"${1:context}\" )" }
+		, { "trigger": "getObjectContexts"                            , "contents": "getObjectContexts( objectName = \"${1:objectName}\" )" }
+		, { "trigger": "listContexts"                                 , "contents": "listContexts()" }
+		, { "trigger": "listValidExpressionContextsForParentContexts" , "contents": "listValidExpressionContextsForParentContexts( parentContexts = [\n\t${1:parentContexts}\n] )" }
+	]
+}

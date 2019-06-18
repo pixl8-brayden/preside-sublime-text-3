@@ -1,0 +1,10 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Audit Service"
+	, "completions":
+	[
+		  { "trigger": "getAuditLog"      , "contents": "getAuditLog( auditLogId = \"{1:auditLogId}\" )" }
+		, { "trigger": "log"              , "contents": "log(\n\t  userId = \"${1:userId}\"\n\t, action = \"${2:action}\"\n\t, type = \"${3:type}\"\n)" }
+		, { "trigger": "renderLogMessage" , "contents": "renderLogMessage( log = {\n\t${1:log}\n} )" }
+	]
+}

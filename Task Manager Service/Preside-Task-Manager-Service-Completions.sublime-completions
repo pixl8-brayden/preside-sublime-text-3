@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Task Manager Service"
+	, "completions":
+	[
+		  { "trigger": "runTask" , "contents": "runTask(\n\t  taskKey = \"${1:taskKey}\"\n\t, args    = {${2}}\n)" }
+	]
+}

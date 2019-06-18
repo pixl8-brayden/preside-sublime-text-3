@@ -1,0 +1,8 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside TaskManager Configuration Wrapper"
+	, "completions":
+	[
+		  { "trigger": "getConfiguredTasks" , "contents": "getConfiguredTasks()" }
+	]
+}

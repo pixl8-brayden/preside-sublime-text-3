@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Health Check Service"
+	, "completions":
+	[
+		  { "trigger": "checkService"           , "contents": "checkService( serviceId = \"${1:serviceId}\" )" }
+		, { "trigger": "isUp"                   , "contents": "isUp( serviceId = \"${1:serviceId}\" )" }
+		, { "trigger": "listRegisteredServices" , "contents": "listRegisteredServices()" }
+		, { "trigger": "serviceExists"          , "contents": "serviceExists( serviceId = \"${1:serviceId}\" )" }
+		, { "trigger": "setIsUp"                , "contents": "setIsUp(\n\t  serviceId = \"${1:serviceId}\"\n\t, isUp = ${2:true}\n)" }
+	]
+}

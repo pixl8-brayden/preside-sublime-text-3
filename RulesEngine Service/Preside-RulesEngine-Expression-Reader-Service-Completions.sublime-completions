@@ -1,0 +1,13 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Expression Reader Service"
+	, "completions":
+	[
+		  { "trigger": "getDefaultFieldTypeForArgumentType"        , "contents": "getDefaultFieldTypeForArgumentType( argumentType = \"${1:argumentType}\" )" }
+		, { "trigger": "getExpressionFieldsFromFunctionDefinition" , "contents": "getExpressionFieldsFromFunctionDefinition( functionMeta = ${1:functionMeta} )" }
+		, { "trigger": "getExpressionsFromCfc"                     , "contents": "getExpressionsFromCfc(\n\t  componentPath = \"${1:componentPath}\"\n\t, rootPath = \"${2:rootPath}\"\n)" }
+		, { "trigger": "getExpressionsFromDirectories"             , "contents": "getExpressionsFromDirectories( directories = ${1:directories} )" }
+		, { "trigger": "getExpressionsFromDirectory"               , "contents": "getExpressionsFromDirectory( directory = ${1:directory} )" }
+		, { "trigger": "getFieldDefinition"                        , "contents": "getFieldDefinition( functionArgumentMeta = { ${1:functionArgumentMeta} } )" }
+	]
+}

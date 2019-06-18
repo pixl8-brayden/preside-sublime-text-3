@@ -47,64 +47,58 @@ Up to Preside version: `10.10.76`
 | `validateCsrfToken` | boolean     |
 
 ##### System service APIs
-- [x] AdHoc Task Manager Service         :white_check_mark:
-- [x] AdHoc Task Progress Reporter       :white_check_mark:
-- [x] Admin Data Views Service           :white_check_mark:
-- [x] Admin Login Service                :white_check_mark:
-- [x] Admin ObjectLink Builder Service   :white_check_mark:
-- [x] Admin Permissions Service          :white_check_mark:
-- [ ] Applications Service
-- [x] Asset Manager Service              :white_check_mark:
-- [x] Asset Renderer Service             :white_check_mark:
-- [x] Asset transformer                  :white_check_mark:
-- [ ] Audit Service
-- [ ] Database Migration Service
-- [ ] DataExporterReader
-- [ ] DataExportService
-- [ ] DataManagerCustomizationService
-- [ ] DataManagerService
-- [ ] DelayedStickerRendererService
-- [ ] DelayedViewletRendererService
-- [x] EmailLayoutService                 :white_check_mark:
-- [x] EmailLoggingService                :white_check_mark:
-- [x] EmailMassSendingService            :white_check_mark:
-- [x] Email Recipient Type Service       :white_check_mark:
-- [x] EmailSendingContextService         :white_check_mark:
-- [x] Email service                      :white_check_mark:
-- [x] EmailServiceProviderService        :white_check_mark:
-- [x] EmailStyleInliner                  :white_check_mark:
-- [x] EmailTemplateService               :white_check_mark:
+- [x] AdHoc Task Manager Service            :white_check_mark:
+- [x] AdHoc Task Progress Reporter          :white_check_mark:
+- [x] Admin Data Views Service              :white_check_mark:
+- [x] Admin Login Service                   :white_check_mark:
+- [x] Admin ObjectLink Builder Service      :white_check_mark:
+- [x] Admin Permissions Service             :white_check_mark:
+- [x] Applications Service                  :white_check_mark:
+- [x] Asset Manager Service                 :white_check_mark:
+- [x] Asset Renderer Service                :white_check_mark:
+- [x] Asset transformer                     :white_check_mark:
+- [x] Audit Service                         :white_check_mark:
+- [x] DataManagerCustomizationService       :white_check_mark:
+- [x] DataManagerService                    :white_check_mark:
+- [x] EmailLayoutService                    :white_check_mark:
+- [x] EmailLoggingService                   :white_check_mark:
+- [x] EmailMassSendingService               :white_check_mark:
+- [x] Email Recipient Type Service          :white_check_mark:
+- [x] EmailSendingContextService            :white_check_mark:
+- [x] Email service                         :white_check_mark:
+- [x] EmailServiceProviderService           :white_check_mark:
+- [x] EmailStyleInliner                     :white_check_mark:
+- [x] EmailTemplateService                  :white_check_mark:
 - [ ] Error Log Service
 - [ ] Feature service
-- [ ] File System Storage Provider
-- [x] FormBuilderActionsService          :white_check_mark:
-- [x] FormBuilderItemTypesService        :white_check_mark:
-- [x] FormBuilderRenderingService        :white_check_mark:
-- [x] FormBuilderService                 :white_check_mark:
-- [x] FormBuilderValidationService       :white_check_mark:
-- [x] FormDefinition                     :white_check_mark:
-- [x] Forms service                      :white_check_mark:
+- [x] FormBuilderActionsService             :white_check_mark:
+- [x] FormBuilderItemTypesService           :white_check_mark:
+- [x] FormBuilderRenderingService           :white_check_mark:
+- [x] FormBuilderService                    :white_check_mark:
+- [x] FormBuilderValidationService          :white_check_mark:
+- [x] FormDefinition                        :white_check_mark:
+- [x] Forms service                         :white_check_mark:
 - [ ] HealthcheckService
 - [ ] Multilingual Preside Object Service
 - [ ] Native Image Manipulation Service
-- [x] Notification Service               :white_check_mark:
-- [ ] PresideObjectCloningService
-- [x] Preside Object Service             :white_check_mark:
-- [x] Preside Object View Service        :white_check_mark:
-- [x] PresideRestConfigurationWrapper    :white_check_mark:
-- [x] Preside REST Request               :white_check_mark:
-- [x] Preside REST Resource Reader       :white_check_mark:
-- [x] Preside REST Response              :white_check_mark:
-- [x] Preside Super Class                :white_check_mark:
-- [ ] RulesEngine Condition Service
-- [ ] RulesEngine Context Service
-- [ ] RulesEngine Expression Reader Service
-- [ ] RulesEngine Expression Service
-- [ ] RulesEngine Field Type Service
-- [ ] Rules Engine Filter Service
-- [ ] RulesEngine Operator Service
-- [ ] RulesEngine Time Period Service
-- [ ] RulesEngine Web Request Service
+- [x] Notification Service                  :white_check_mark:
+- [x] PresideObjectCloningService           :white_check_mark:
+- [x] Preside Object Service                :white_check_mark:
+- [x] Preside Object View Service           :white_check_mark:
+- [x] PresideRestConfigurationWrapper       :white_check_mark:
+- [x] Preside REST Request                  :white_check_mark:
+- [x] Preside REST Resource Reader          :white_check_mark:
+- [x] Preside REST Response                 :white_check_mark:
+- [x] Preside Super Class                   :white_check_mark:
+- [x] RulesEngine Condition Service         :white_check_mark:
+- [x] RulesEngine Context Service           :white_check_mark:
+- [x] RulesEngine Expression Reader Service :white_check_mark:
+- [x] RulesEngine Expression Service        :white_check_mark:
+- [x] RulesEngine Field Type Service        :white_check_mark:
+- [x] Rules Engine Filter Service           :white_check_mark:
+- [x] RulesEngine Operator Service          :white_check_mark:
+- [x] RulesEngine Time Period Service       :white_check_mark:
+- [x] RulesEngine Web Request Service       :white_check_mark:
 - [ ] SimpleColourPickerService
 - [ ] Storage provider
 - [ ] System configuration service
@@ -115,9 +109,9 @@ Up to Preside version: `10.10.76`
 - [ ] ThreadUtil
 - [ ] Validation Engine
 - [ ] Validation result
-- [x] ViewletsService                    :white_check_mark:
-- [x] Website login service              :white_check_mark:
-- [x] Website permissions service        :white_check_mark:
-- [x] Website user action service        :white_check_mark:
-- [x] Website user impersonation service :white_check_mark:
-- [x] Website visitor service            :white_check_mark:
+- [x] ViewletsService                       :white_check_mark:
+- [x] Website login service                 :white_check_mark:
+- [x] Website permissions service           :white_check_mark:
+- [x] Website user action service           :white_check_mark:
+- [x] Website user impersonation service    :white_check_mark:
+- [x] Website visitor service               :white_check_mark:

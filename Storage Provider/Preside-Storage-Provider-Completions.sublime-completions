@@ -1,0 +1,18 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Storage Provider"
+	, "completions":
+	[
+		  { "trigger": "restoreObject"    , "contents": "restoreObject(\n\t  trashedPath = \"${1:trashedPath}\"\n\t, newPath = \"${2:newPath}\"\n)" }
+		, { "trigger": "validate"         , "contents": "validate(\n\t  configuration = { ${1:configuration} }\n\t, validationResult = ${2:validationResult}\n)" }
+		, { "trigger": "putObject"        , "contents": "putObject(\n\t  object = ${1:object}\n\t, path = \"${2:path}\"\n)" }
+		, { "trigger": "getObjectUrl"     , "contents": "getObjectUrl( path = \"${1:path}\" )" }
+		, { "trigger": "moveObject"       , "contents": "moveObject(\n\t  originalPath = \"${1:originalPath}\"\n\t, newPath = \"${2:newPath}\"\n)" }
+		, { "trigger": "objectExists"     , "contents": "objectExists( path = \"${1:path}\" )" }
+		, { "trigger": "deleteObject"     , "contents": "deleteObject( path = \"${1:path}\" )" }
+		, { "trigger": "listObjects"      , "contents": "listObjects( path = \"${1:path}\" )" }
+		, { "trigger": "getObjectInfo"    , "contents": "getObjectInfo( path = \"${1:path}\" )" }
+		, { "trigger": "getObject"        , "contents": "getObject( path = \"${1:path}\" )" }
+		, { "trigger": "softDeleteObject" , "contents": "softDeleteObject( path = \"${1:path}\" )" }
+	]
+}

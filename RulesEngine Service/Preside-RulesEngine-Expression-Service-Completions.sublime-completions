@@ -1,0 +1,16 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Expression Service"
+	, "completions":
+	[
+		  { "trigger": "evaluateExpression"            , "contents": "evaluateExpression(\n\t  expressionId = \"${1:expressionId}\"\n\t, context = \"${2:context}\", payload = { ${3:payload} }\n\t, configuredFields = { ${4:configuredFields} }\n)" }
+		, { "trigger": "getExpression"                 , "contents": "getExpression( expressionId = \"${1:expressionId}\" )" }
+		, { "trigger": "getExpressionLabel"            , "contents": "getExpressionLabel( expressionId = \"${1:expressionId}\" )" }
+		, { "trigger": "getExpressionText"             , "contents": "getExpressionText( expressionId = \"${1:expressionId}\" )" }
+		, { "trigger": "getFilterObjectsForExpression" , "contents": "getFilterObjectsForExpression( expressionId = \"${1:expressionId}\" )" }
+		, { "trigger": "isExpressionValid"             , "contents": "isExpressionValid(\n\t  expressionId = \"${1:expressionId}\"\n\t, fields = { ${2:fields} }\n\t, context = \"${3:context}\"\n\t, validationResult = ${4:validationResult}\n)" }
+		, { "trigger": "listExpressions"               , "contents": "listExpressions()" }
+		, { "trigger": "preProcessConfiguredFields"    , "contents": "preProcessConfiguredFields(\n\t  expressionId = \"${1:expressionId}\"\n\t, configuredFields = { ${2:configuredFields} }\n)" }
+		, { "trigger": "prepareExpressionFilters"      , "contents": "prepareExpressionFilters(\n\t  expressionId = \"${1:expressionId}\"\n\t, objectName = \"${2:objectName}\"\n\t, configuredFields = { ${3:configuredFields} }\n)" }
+	]
+}

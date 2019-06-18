@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Object Cloning Service"
+	, "completions":
+	[
+		  { "trigger": "cloneOneToManyRecords" , "contents": "cloneOneToManyRecords(\n\t  objectName = \"${1:objectName}\"\n\t, recordId = \"${2:recordId}\"\n\t, newRecordId = \"${3:newRecordId}\"\n\t, propertyName = \"${4:propertyName}\"\n)" }
+		, { "trigger": "cloneRecord"           , "contents": "cloneRecord(\n\t  objectName = \"${1:objectName}\"\n\t, recordId = \"${2:recordId}\"\n\t, data ={ ${3:data} }\n)" }
+		, { "trigger": "getCloneHandler"       , "contents": "getCloneHandler( objectName = \"{1:objectName}\" )" }
+		, { "trigger": "objectName"            , "contents": "objectName( objectName = \"${1:objectName}\" )" }
+		, { "trigger": "listCloneableFields"   , "contents": "listCloneableFields( objectName = \"${1:objectName}\" )" }
+	]
+}
