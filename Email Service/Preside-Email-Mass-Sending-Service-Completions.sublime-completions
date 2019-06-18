@@ -5,11 +5,11 @@
 	[
 		  { "trigger": "autoQueueScheduledSendouts" , "contents": "autoQueueScheduledSendouts()" }
 		, { "trigger": "getNextQueuedEmail"         , "contents": "getNextQueuedEmail()" }
-		, { "trigger": "getTemplateRecipientCount"  , "contents": "getTemplateRecipientCount( templateId = \"${1:templateId}\" );" }
-		, { "trigger": "getTemplateRecipientFilters", "contents": "getTemplateRecipientFilters( templateId = \"${1:templateId}\" );" }
+		, { "trigger": "getTemplateRecipientCount"  , "contents": "getTemplateRecipientCount( templateId = \"${1:templateId}\" )" }
+		, { "trigger": "getTemplateRecipientFilters", "contents": "getTemplateRecipientFilters( templateId = \"${1:templateId}\" )" }
 		, { "trigger": "processQueue"               , "contents": "processQueue()" }
-		, { "trigger": "queueSendout"               , "contents": "queueSendout( templateId = \"${1:templateId}\" );" }
-		, { "trigger": "removeFromQueue"            , "contents": "removeFromQueue( id = \"${1:id}\" );" }
+		, { "trigger": "queueSendout"               , "contents": "queueSendout( templateId = \"${1:templateId}\" )" }
+		, { "trigger": "removeFromQueue"            , "contents": "removeFromQueue( id = \"${1:id}\" )" }
 		, { "trigger": "requeueHungEmails"          , "contents": "requeueHungEmails()" }
 	]
 }

@@ -3,30 +3,30 @@
 	, "comment"    : "Preside Admin Login Service"
 	, "completions":
 	[
-		  { "trigger": "attemptTwoFactorAuthentication"         , "contents": "attemptTwoFactorAuthentication( \n\t  token = \"${1:token}\"\n\t, ipAddress = \"${2:ipAddress}\"\n\t, userAgent = \"${3:userAgent}\"\n);" }
-		, { "trigger": "createLoginResetToken"                  , "contents": "createLoginResetToken( userId = \"${1:userId}\" );" }
-		, { "trigger": "disableTwoFactorAuthenticationForUser"  , "contents": "disableTwoFactorAuthenticationForUser();" }
-		, { "trigger": "enableTwoFactorAuthenticationForUser"   , "contents": "enableTwoFactorAuthenticationForUser();" }
-		, { "trigger": "generateTwoFactorAuthenticationKey"     , "contents": "generateTwoFactorAuthenticationKey();" }
-		, { "trigger": "getLoggedInUserDetails",                 "contents": "getLoggedInUserDetails();" }
-		, { "trigger": "getLoggedInUserId"                      , "contents": "getLoggedInUserId();" }
-		, { "trigger": "getOrCreateUser"                        , "contents": "getOrCreateUser( loginId = \"${1:loginId}\" );" }
-		, { "trigger": "isPasswordCorrect"                      , "contents": "isPasswordCorrect( password = \"${1:password}\" );" }
+		  { "trigger": "attemptTwoFactorAuthentication"         , "contents": "attemptTwoFactorAuthentication( \n\t  token = \"${1:token}\"\n\t, ipAddress = \"${2:ipAddress}\"\n\t, userAgent = \"${3:userAgent}\"\n)" }
+		, { "trigger": "createLoginResetToken"                  , "contents": "createLoginResetToken( userId = \"${1:userId}\" )" }
+		, { "trigger": "disableTwoFactorAuthenticationForUser"  , "contents": "disableTwoFactorAuthenticationForUser()" }
+		, { "trigger": "enableTwoFactorAuthenticationForUser"   , "contents": "enableTwoFactorAuthenticationForUser()" }
+		, { "trigger": "generateTwoFactorAuthenticationKey"     , "contents": "generateTwoFactorAuthenticationKey()" }
+		, { "trigger": "getLoggedInUserDetails",                 "contents": "getLoggedInUserDetails()" }
+		, { "trigger": "getLoggedInUserId"                      , "contents": "getLoggedInUserId()" }
+		, { "trigger": "getOrCreateUser"                        , "contents": "getOrCreateUser( loginId = \"${1:loginId}\" )" }
+		, { "trigger": "isPasswordCorrect"                      , "contents": "isPasswordCorrect( password = \"${1:password}\" )" }
 		, { "trigger": "isSystemUser"                           , "contents": "isSystemUser()" }
-		, { "trigger": "isTwoFactorAuthenticated"               , "contents": "isTwoFactorAuthenticated( \n\t  ipAddress = \"${1:ipAddress}\"\n\t, userAgent = \"${1:userAgent}\"\n);" }
-		, { "trigger": "isTwoFactorAuthenticationEnabled"       , "contents": "isTwoFactorAuthenticationEnabled();" }
-		, { "trigger": "isTwoFactorAuthenticationEnabledForUser", "contents": "isTwoFactorAuthenticationEnabledForUser();" }
-		, { "trigger": "isTwoFactorAuthenticationSetupForUser"  , "contents": "isTwoFactorAuthenticationSetupForUser();" }
-		, { "trigger": "login"                                  , "contents": "login( \n\t  loginId = \"${1:loginId}\"\n\t, password = \"${2:password}\"\n);" }
-		, { "trigger": "logout"                                 , "contents": "logout();" }
-		, { "trigger": "recordLogin"                            , "contents": "recordLogin();" }
+		, { "trigger": "isTwoFactorAuthenticated"               , "contents": "isTwoFactorAuthenticated( \n\t  ipAddress = \"${1:ipAddress}\"\n\t, userAgent = \"${1:userAgent}\"\n)" }
+		, { "trigger": "isTwoFactorAuthenticationEnabled"       , "contents": "isTwoFactorAuthenticationEnabled()" }
+		, { "trigger": "isTwoFactorAuthenticationEnabledForUser", "contents": "isTwoFactorAuthenticationEnabledForUser()" }
+		, { "trigger": "isTwoFactorAuthenticationSetupForUser"  , "contents": "isTwoFactorAuthenticationSetupForUser()" }
+		, { "trigger": "login"                                  , "contents": "login( \n\t  loginId = \"${1:loginId}\"\n\t, password = \"${2:password}\"\n)" }
+		, { "trigger": "logout"                                 , "contents": "logout()" }
+		, { "trigger": "recordLogin"                            , "contents": "recordLogin()" }
 		, { "trigger": "recordLogout"                           , "contents": "recordLogout()" }
 		, { "trigger": "recordVisit"                            , "contents": "recordVisit()" }
-		, { "trigger": "resendPasswordResetInstructions"        , "contents": "resendPasswordResetInstructions( userId = \"${1:userId}\" );" }
-		, { "trigger": "resetPassword"                          , "contents": "resetPassword( \n\t  token = \"${1:token}\"\n\t, password = \"${2:password}\"\n);" }
-		, { "trigger": "sendPasswordResetInstructions"          , "contents": "sendPasswordResetInstructions( userId = \"${1:userId}\" );" }
-		, { "trigger": "sendWelcomeEmail"                       , "contents": "sendWelcomeEmail( \n\t  userId = \"${1:userId}\"\n\t, createdBy = \"${2:createdBy}\"\n);" }
-		, { "trigger": "twoFactorAuthenticationRequired"        , "contents": "twoFactorAuthenticationRequired( \n\t  ipAddress = \"${1:ipAddress}\"\n\t, userAgent = \"${2:userAgent}\"\n);" }
+		, { "trigger": "resendPasswordResetInstructions"        , "contents": "resendPasswordResetInstructions( userId = \"${1:userId}\" )" }
+		, { "trigger": "resetPassword"                          , "contents": "resetPassword( \n\t  token = \"${1:token}\"\n\t, password = \"${2:password}\"\n)" }
+		, { "trigger": "sendPasswordResetInstructions"          , "contents": "sendPasswordResetInstructions( userId = \"${1:userId}\" )" }
+		, { "trigger": "sendWelcomeEmail"                       , "contents": "sendWelcomeEmail( \n\t  userId = \"${1:userId}\"\n\t, createdBy = \"${2:createdBy}\"\n)" }
+		, { "trigger": "twoFactorAuthenticationRequired"        , "contents": "twoFactorAuthenticationRequired( \n\t  ipAddress = \"${1:ipAddress}\"\n\t, userAgent = \"${2:userAgent}\"\n)" }
 		, { "trigger": "validateResetPasswordToken"             , "contents": "validateResetPasswordToken( token = \"${1:token}\" )" }
 	]
 }

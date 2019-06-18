@@ -3,25 +3,25 @@
 	, "comment"    : "Preside Website Login Service"
 	, "completions":
 	[
-		  { "trigger": "changePassword"                 , "contents": "changePassword( \n\t  password = \"${1:password}\"\n\t, userId = \"${2:userId}\"\n);" }
-		, { "trigger": "createPasswordResetToken"       , "contents": "createPasswordResetToken();" }
-		, { "trigger": "doesLoggedInUserHaveBenefits"   , "contents": "doesLoggedInUserHaveBenefits( benefits = { ${1:benefits} } );" }
-		, { "trigger": "getLoggedInUserDetails"         , "contents": "getLoggedInUserDetails();" }
-		, { "trigger": "getLoggedInUserId"              , "contents": "getLoggedInUserId();" }
+		  { "trigger": "changePassword"                 , "contents": "changePassword( \n\t  password = \"${1:password}\"\n\t, userId = \"${2:userId}\"\n)" }
+		, { "trigger": "createPasswordResetToken"       , "contents": "createPasswordResetToken()" }
+		, { "trigger": "doesLoggedInUserHaveBenefits"   , "contents": "doesLoggedInUserHaveBenefits( benefits = { ${1:benefits} } )" }
+		, { "trigger": "getLoggedInUserDetails"         , "contents": "getLoggedInUserDetails()" }
+		, { "trigger": "getLoggedInUserId"              , "contents": "getLoggedInUserId()" }
 		, { "trigger": "isAutoLoggedIn"                 , "contents": "isAutoLoggedIn()" }
 		, { "trigger": "isImpersonated"                 , "contents": "isImpersonated()" }
 		, { "trigger": "isLoggedIn"                     , "contents": "isLoggedIn()" }
-		, { "trigger": "listLoggedInUserBenefits"       , "contents": "listLoggedInUserBenefits();" }
+		, { "trigger": "listLoggedInUserBenefits"       , "contents": "listLoggedInUserBenefits()" }
 		, { "trigger": "login"                          , "contents": "login( \n\t  loginId = \"${1:loginId}\"\n\t, password = \"${2:password}\"\n)" }
 		, { "trigger": "logout"                         , "contents": "logout()" }
 		, { "trigger": "recordLogin"                    , "contents": "recordLogin()" }
 		, { "trigger": "recordLogout"                   , "contents": "recordLogout()" }
 		, { "trigger": "recordVisit"                    , "contents": "recordVisit()" }
-		, { "trigger": "resendPasswordResetInstructions", "contents": "resendPasswordResetInstructions( userId = \"${1:userId}\" );" }
-		, { "trigger": "resetPassword"                  , "contents": "resetPassword( \n\t  token = \"${1:token}\"\n\t, password = \"${2:password}\"\n);" }
-		, { "trigger": "sendPasswordResetInstructions"  , "contents": "sendPasswordResetInstructions( loginId = \"${1:loginId}\" );" }
-		, { "trigger": "sendWelcomeEmail"               , "contents": "sendWelcomeEmail( userId = \"${1:userId}\" );" }
-		, { "trigger": "validatePassword"               , "contents": "validatePassword( \n\t  password = \"${1:password}\"\n\t, userId = \"${2:userId}\"\n);" }
-		, { "trigger": "validateResetPasswordToken"     , "contents": "validateResetPasswordToken( token = \"${1:token}\" );" }
+		, { "trigger": "resendPasswordResetInstructions", "contents": "resendPasswordResetInstructions( userId = \"${1:userId}\" )" }
+		, { "trigger": "resetPassword"                  , "contents": "resetPassword( \n\t  token = \"${1:token}\"\n\t, password = \"${2:password}\"\n)" }
+		, { "trigger": "sendPasswordResetInstructions"  , "contents": "sendPasswordResetInstructions( loginId = \"${1:loginId}\" )" }
+		, { "trigger": "sendWelcomeEmail"               , "contents": "sendWelcomeEmail( userId = \"${1:userId}\" )" }
+		, { "trigger": "validatePassword"               , "contents": "validatePassword( \n\t  password = \"${1:password}\"\n\t, userId = \"${2:userId}\"\n)" }
+		, { "trigger": "validateResetPasswordToken"     , "contents": "validateResetPasswordToken( token = \"${1:token}\" )" }
 	]
 }
