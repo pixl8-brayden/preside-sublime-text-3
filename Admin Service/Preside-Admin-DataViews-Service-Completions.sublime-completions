@@ -3,13 +3,13 @@
 	, "comment"    : "Preside Admin DataViews Service"
 	, "completions":
 	[
-		  { "trigger": "getDefaultViewGroupForProperty"            , "contents": "getDefaultViewGroupForProperty( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n);" }
-		, { "trigger": "getRendererForField"                       , "contents": "getRendererForField( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n);" }
-		, { "trigger": "getViewGroupDetail"                        , "contents": "getViewGroupDetail( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n);" }
-		, { "trigger": "getViewGroupForProperty"                   , "contents": "getViewGroupForProperty( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n);" }
-		, { "trigger": "listGridFieldsForRelationshipPropertyTable", "contents": "listGridFieldsForRelationshipPropertyTable( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n);" }
-		, { "trigger": "listRenderableObjectProperties"            , "contents": "listRenderableObjectProperties( objectName = \"${1:objectName}\" );" }
-		, { "trigger": "listViewGroupsForObject"                   , "contents": "listViewGroupsForObject( objectName = \"${1:objectName}\" );" }
-		, { "trigger": "renderField"                               , "contents": "renderField( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n\t, recordId = \"${3:recordId}\"\n);" }
+		  { "trigger": "getDefaultViewGroupForProperty"            , "contents": "getDefaultViewGroupForProperty( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n)" }
+		, { "trigger": "getRendererForField"                       , "contents": "getRendererForField( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n)" }
+		, { "trigger": "getViewGroupDetail"                        , "contents": "getViewGroupDetail( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n)" }
+		, { "trigger": "getViewGroupForProperty"                   , "contents": "getViewGroupForProperty( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n)" }
+		, { "trigger": "listGridFieldsForRelationshipPropertyTable", "contents": "listGridFieldsForRelationshipPropertyTable( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n)" }
+		, { "trigger": "listRenderableObjectProperties"            , "contents": "listRenderableObjectProperties( objectName = \"${1:objectName}\" )" }
+		, { "trigger": "listViewGroupsForObject"                   , "contents": "listViewGroupsForObject( objectName = \"${1:objectName}\" )" }
+		, { "trigger": "renderField"                               , "contents": "renderField( \n\t  objectName = \"${1:objectName}\"\n\t, propertyName = \"${2:propertyName}\"\n\t, recordId = \"${3:recordId}\"\n)" }
 	]
 }

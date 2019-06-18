@@ -3,6 +3,6 @@
 	, "comment"    : "Preside Email Style Inliner"
 	, "completions":
 	[
-		{ "trigger": "inlineStyles", "contents": "inlineStyles( html = \"${1:html}\" );" }
+		{ "trigger": "inlineStyles", "contents": "inlineStyles( html = \"${1:html}\" )" }
 	]
 }

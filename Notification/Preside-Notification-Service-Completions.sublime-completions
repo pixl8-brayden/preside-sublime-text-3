@@ -3,21 +3,21 @@
 	, "comment"    : "Preside Notification Service"
 	, "completions":
 	[
-		  { "trigger": "createNotification"          , "contents": "createNotification( \n\t  topic = \"${1:topic}\"\n\t, type = \"${2:type}\"\n\t, data = \"${3:data}\"\n);" }
-		, { "trigger": "dismiss"                     , "contents": "dismiss( \n\tnotificationIds = { \n\t\t${1:notificationIds} \n\t} \n);" }
-		, { "trigger": "getGlobalTopicConfiguration" , "contents": "getGlobalTopicConfiguration( topic = \"${1:topic}\" );" }
-		, { "trigger": "getNotification"             , "contents": "getNotification( id = \"${1:id}\" );" }
-		, { "trigger": "getNotifications"            , "contents": "getNotifications( userId = \"${1:userId}\" );" }
-		, { "trigger": "getNotificationsCount"       , "contents": "getNotificationsCount( userId = \"${1:userId}\" );" }
-		, { "trigger": "getUnreadNotificationCount"  , "contents": "getUnreadNotificationCount( userId = \"${1:userId}\" );" }
-		, { "trigger": "getUnreadTopics"             , "contents": "getUnreadTopics( userId = \"${1:userId}\" );" }
-		, { "trigger": "getUserSubscriptions"        , "contents": "getUserSubscriptions( userId = \"${1:userId}\" );" }
-		, { "trigger": "listTopicUserGroups"         , "contents": "listTopicUserGroups( topic = \"${1:topic}\" );" }
-		, { "trigger": "listTopics"                  , "contents": "listTopics( userId = \"${1:userId}\" );" }
-		, { "trigger": "markAsRead"                  , "contents": "markAsRead( \n\t  notificationIds = [ ${1:notificationIds} ]\n\t, userId = \"${2:userId}\"\n);" }
-		, { "trigger": "renderNotification"          , "contents": "renderNotification( \n\t  topic = \"${1:topic}\"\n\t, data = \"${2:data}\"\n\t, context = \"${3:context}\"\n);" }
-		, { "trigger": "saveGlobalTopicConfiguration", "contents": "saveGlobalTopicConfiguration( \n\t  topic = \"${1:topic}\"\n\t, configuration = { ${2:configuration} }\n);" }
-		, { "trigger": "saveUserSubscriptions"       , "contents": "saveUserSubscriptions( \n\t  userId = \"${1:userId}\"\n\t, topics = [ ${2:topics} ]\n);" }
-		, { "trigger": "userHasAccessToTopic"        , "contents": "userHasAccessToTopic( \n\t  userId = \"${1:userId}\"\n\t, topic = \"${2:topic}\"\n);" }
+		  { "trigger": "createNotification"          , "contents": "createNotification( \n\t  topic = \"${1:topic}\"\n\t, type = \"${2:type}\"\n\t, data = \"${3:data}\"\n)" }
+		, { "trigger": "dismiss"                     , "contents": "dismiss( \n\tnotificationIds = { \n\t\t${1:notificationIds} \n\t} \n)" }
+		, { "trigger": "getGlobalTopicConfiguration" , "contents": "getGlobalTopicConfiguration( topic = \"${1:topic}\" )" }
+		, { "trigger": "getNotification"             , "contents": "getNotification( id = \"${1:id}\" )" }
+		, { "trigger": "getNotifications"            , "contents": "getNotifications( userId = \"${1:userId}\" )" }
+		, { "trigger": "getNotificationsCount"       , "contents": "getNotificationsCount( userId = \"${1:userId}\" )" }
+		, { "trigger": "getUnreadNotificationCount"  , "contents": "getUnreadNotificationCount( userId = \"${1:userId}\" )" }
+		, { "trigger": "getUnreadTopics"             , "contents": "getUnreadTopics( userId = \"${1:userId}\" )" }
+		, { "trigger": "getUserSubscriptions"        , "contents": "getUserSubscriptions( userId = \"${1:userId}\" )" }
+		, { "trigger": "listTopicUserGroups"         , "contents": "listTopicUserGroups( topic = \"${1:topic}\" )" }
+		, { "trigger": "listTopics"                  , "contents": "listTopics( userId = \"${1:userId}\" )" }
+		, { "trigger": "markAsRead"                  , "contents": "markAsRead( \n\t  notificationIds = [ ${1:notificationIds} ]\n\t, userId = \"${2:userId}\"\n)" }
+		, { "trigger": "renderNotification"          , "contents": "renderNotification( \n\t  topic = \"${1:topic}\"\n\t, data = \"${2:data}\"\n\t, context = \"${3:context}\"\n)" }
+		, { "trigger": "saveGlobalTopicConfiguration", "contents": "saveGlobalTopicConfiguration( \n\t  topic = \"${1:topic}\"\n\t, configuration = { ${2:configuration} }\n)" }
+		, { "trigger": "saveUserSubscriptions"       , "contents": "saveUserSubscriptions( \n\t  userId = \"${1:userId}\"\n\t, topics = [ ${2:topics} ]\n)" }
+		, { "trigger": "userHasAccessToTopic"        , "contents": "userHasAccessToTopic( \n\t  userId = \"${1:userId}\"\n\t, topic = \"${2:topic}\"\n)" }
 	]
 }

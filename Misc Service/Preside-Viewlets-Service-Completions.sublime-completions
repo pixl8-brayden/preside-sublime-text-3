@@ -3,6 +3,6 @@
 	, "comment"    : "Preside Viewlets Service"
 	, "completions":
 	[
-		  { "trigger": "listPossibleViewlets" , "contents": "listPossibleViewlets( filter = \"${1:filter}\" );" }
+		  { "trigger": "listPossibleViewlets" , "contents": "listPossibleViewlets( filter = \"${1:filter}\" )" }
 	]
 }

@@ -7,13 +7,13 @@
 		  { "trigger": "presideService", "contents": "@presideService" }
 		, { "trigger": "useSuperClass" , "contents": "@presideService" }
 		// Functions
-		, { "trigger": "announceInterception"         , "contents": "announceInterception( \n\t  state = \"${1:state}\"\n\t, interceptData = { ${2:interceptData} }\n);" }
-		, { "trigger": "audit"                        , "contents": "audit( userId = \"${1:userId}\" );" }
-		, { "trigger": "createNotification"           , "contents": "createNotification( \n\t  topic = \"${1:topic}\"\n\t, type = \"${2:type}\"\n\t, data = {\n\t\t${3:data}\n\t}\n);" }
-		, { "trigger": "createTask"                   , "contents": "createTask( \n\t  event = \"${1:event}\"\n\t, args ={${2:args}}\n\t, runNow = ${3:true}\n);" }
-		, { "trigger": "getAdhocTaskManagerService"   , "contents": "getAdhocTaskManagerService();" }
-		, { "trigger": "getAdminLoggedInUserDetails"  , "contents": "getAdminLoggedInUserDetails();" }
-		, { "trigger": "getAdminLoggedInUserId"       , "contents": "getAdminLoggedInUserId();" }
+		, { "trigger": "announceInterception"         , "contents": "announceInterception( \n\t  state = \"${1:state}\"\n\t, interceptData = { ${2:interceptData} }\n)" }
+		, { "trigger": "audit"                        , "contents": "audit( userId = \"${1:userId}\" )" }
+		, { "trigger": "createNotification"           , "contents": "createNotification( \n\t  topic = \"${1:topic}\"\n\t, type = \"${2:type}\"\n\t, data = {\n\t\t${3:data}\n\t}\n)" }
+		, { "trigger": "createTask"                   , "contents": "createTask( \n\t  event = \"${1:event}\"\n\t, args ={${2:args}}\n\t, runNow = ${3:true}\n)" }
+		, { "trigger": "getAdhocTaskManagerService"   , "contents": "getAdhocTaskManagerService()" }
+		, { "trigger": "getAdminLoggedInUserDetails"  , "contents": "getAdminLoggedInUserDetails()" }
+		, { "trigger": "getAdminLoggedInUserId"       , "contents": "getAdminLoggedInUserId()" }
 		, { "trigger": "getAdminLoginService"         , "contents": "getAdminLoginService()" }
 		, { "trigger": "getAdminPermissionService"    , "contents": "getAdminPermissionService()" }
 		, { "trigger": "getAuditService"              , "contents": "getAuditService()" }
@@ -24,16 +24,16 @@
 		, { "trigger": "getFeatureService"            , "contents": "getFeatureService()" }
 		, { "trigger": "getHealthcheckService"        , "contents": "getHealthcheckService()" }
 		, { "trigger": "getNotificationService"       , "contents": "getNotificationService()" }
-		, { "trigger": "getPresideCategorySettings"   , "contents": "getPresideCategorySettings( ${1:setting} );" }
+		, { "trigger": "getPresideCategorySettings"   , "contents": "getPresideCategorySettings( ${1:setting} )" }
 		, { "trigger": "getPresideObject"             , "contents": "getPresideObject( ${1:objectName} )" }
 		, { "trigger": "getPresideObjectService"      , "contents": "getPresideObjectService()" }
-		, { "trigger": "getPresideSetting"            , "contents": "getPresideSetting( ${1:setting} );" }
-		, { "trigger": "getRequestContext"            , "contents": "getRequestContext();" }
+		, { "trigger": "getPresideSetting"            , "contents": "getPresideSetting( ${1:setting} )" }
+		, { "trigger": "getRequestContext"            , "contents": "getRequestContext()" }
 		, { "trigger": "getSystemConfigurationService", "contents": "getSystemConfigurationService()" }
 		, { "trigger": "getThreadUtil"                , "contents": "getThreadUtil()" }
 		, { "trigger": "getValidationEngine"          , "contents": "getValidationEngine()" }
-		, { "trigger": "getWebsiteLoggedInUserDetails", "contents": "getWebsiteLoggedInUserDetails();" }
-		, { "trigger": "getWebsiteLoggedInUserId"     , "contents": "getWebsiteLoggedInUserId();" }
+		, { "trigger": "getWebsiteLoggedInUserDetails", "contents": "getWebsiteLoggedInUserDetails()" }
+		, { "trigger": "getWebsiteLoggedInUserId"     , "contents": "getWebsiteLoggedInUserId()" }
 		, { "trigger": "getWebsiteLoginService"       , "contents": "getWebsiteLoginService()" }
 		, { "trigger": "getWebsitePermissionService"  , "contents": "getWebsitePermissionService()" }
 		, { "trigger": "hasAdminPermission"           , "contents": "hasAdminPermission( \"${1:permission}\" )" }
@@ -46,18 +46,18 @@
 		, { "trigger": "isWebsiteUserImpersonated"    , "contents": "isWebsiteUserImpersonated()" }
 		, { "trigger": "isWebsiteUserLoggedIn"        , "contents": "isWebsiteUserLoggedIn()" }
 		, { "trigger": "newValidationResult"          , "contents": "newValidationResult()" }
-		, { "trigger": "raiseError"                   , "contents": "raiseError( ${1:error} );" }
+		, { "trigger": "raiseError"                   , "contents": "raiseError( ${1:error} )" }
 		, { "trigger": "recordWebsiteUserAction"      , "contents": "recordWebsiteUserAction( userId = \"${1:userId}\" )" }
 		, { "trigger": "renderContent"                , "contents": "renderContent()" }
 		, { "trigger": "renderField"                  , "contents": "renderField()" }
 		, { "trigger": "renderLabel"                  , "contents": "renderLabel()" }
-		, { "trigger": "renderViewlet"                , "contents": "renderViewlet( \n\t  event = \"${1:event}\"\n\t, args = ${2:args}\n);" }
-		, { "trigger": "runTask"                      , "contents": "runTask( \"${1:task}\" );" }
-		, { "trigger": "sendEmail"                    , "contents": "sendEmail( \n\t  template = \"${1:template}\"\n\t, args = { ${2:args} }\n);" }
-		, { "trigger": "slugify"                      , "contents": "slugify( \"${1:string}\" );" }
-		, { "trigger": "systemOutput"                 , "contents": "systemOutput( \"${1:message}\" );" }
-		, { "trigger": "translateObjectName"          , "contents": "translateObjectName( objectName = \"${1:objectName}\", plural = ${2:false} );" }
-		, { "trigger": "translatePropertyName"        , "contents": "translatePropertyName( objectName = \"${1:objectName}\", propertyName = \"${2:propertyName}\" );" }
-		, { "trigger": "translateResource"            , "contents": "translateResource( uri = \"${1:uri}\" );" }
+		, { "trigger": "renderViewlet"                , "contents": "renderViewlet( \n\t  event = \"${1:event}\"\n\t, args = ${2:args}\n)" }
+		, { "trigger": "runTask"                      , "contents": "runTask( \"${1:task}\" )" }
+		, { "trigger": "sendEmail"                    , "contents": "sendEmail( \n\t  template = \"${1:template}\"\n\t, args = { ${2:args} }\n)" }
+		, { "trigger": "slugify"                      , "contents": "slugify( \"${1:string}\" )" }
+		, { "trigger": "systemOutput"                 , "contents": "systemOutput( \"${1:message}\" )" }
+		, { "trigger": "translateObjectName"          , "contents": "translateObjectName( objectName = \"${1:objectName}\", plural = ${2:false} )" }
+		, { "trigger": "translatePropertyName"        , "contents": "translatePropertyName( objectName = \"${1:objectName}\", propertyName = \"${2:propertyName}\" )" }
+		, { "trigger": "translateResource"            , "contents": "translateResource( uri = \"${1:uri}\" )" }
 	]
 }

@@ -3,12 +3,12 @@
 	, "comment"    : "Preside Email Layout Service"
 	, "completions":
 	[
-		  { "trigger": "getLayout"              , "contents": "getLayout( layout = \"${1:layout}\" );" }
-		, { "trigger": "getLayoutConfig"        , "contents": "getLayoutConfig( layout = \"${1:layout}\" );" }
-		, { "trigger": "getLayoutConfigFormName", "contents": "getLayoutConfigFormName( layout = \"${1:layout}\" );" }
-		, { "trigger": "layoutExists"           , "contents": "layoutExists( layout = \"${1:layout}\" );" }
-		, { "trigger": "listLayouts"            , "contents": "listLayouts();" }
+		  { "trigger": "getLayout"              , "contents": "getLayout( layout = \"${1:layout}\" )" }
+		, { "trigger": "getLayoutConfig"        , "contents": "getLayoutConfig( layout = \"${1:layout}\" )" }
+		, { "trigger": "getLayoutConfigFormName", "contents": "getLayoutConfigFormName( layout = \"${1:layout}\" )" }
+		, { "trigger": "layoutExists"           , "contents": "layoutExists( layout = \"${1:layout}\" )" }
+		, { "trigger": "listLayouts"            , "contents": "listLayouts()" }
 		, { "trigger": "renderLayout"           , "contents": "renderLayout( \n\t  layout = \"${1:layout}\"\n\t, emailTemplate = \"${2:emailTemplate}\"\n\t, blueprint = \"${3:blueprint}\"\n\t, type = \"${4:type}\"\n\t, subject = \"${5:subject}\"\n\t, body = \"${6:body}\"\n)" }
-		, { "trigger": "saveLayoutConfig"       , "contents": "saveLayoutConfig( \n\t  layout = \"${1:layout}\"\n\t, config = { ${2:config} }\n);" }
+		, { "trigger": "saveLayoutConfig"       , "contents": "saveLayoutConfig( \n\t  layout = \"${1:layout}\"\n\t, config = { ${2:config} }\n)" }
 	]
 }

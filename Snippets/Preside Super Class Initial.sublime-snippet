@@ -9,8 +9,10 @@ component {
 		return this;
 	}
 
-	//TODO Your functions here
-	${1:function}
+	private ${1:any} function ${2:functionName}( ${3:variables} ) {
+		${4:// TODO Your functions here}
+		return;
+	}
 }
 ]]></content>
 	<tabTrigger>superclass</tabTrigger>

@@ -3,11 +3,11 @@
 	, "comment"    : "Preside FormBuilder Rendering Service"
 	, "completions":
 	[
-		  { "trigger": "getActionViewlet"         , "contents": "getActionViewlet( \n\t  action = \"${1:action}\"\n\t, context = \"${2:context}\"\n);" }
-		, { "trigger": "getFormFieldLayoutViewlet", "contents": "getFormFieldLayoutViewlet( \n\t  itemType = \"${1:itemType}\"\n\t, layout = \"${2:layout}\"\n);" }
-		, { "trigger": "getFormLayoutViewlet"     , "contents": "getFormLayoutViewlet( layout = \"${1:layout}\" );" }
-		, { "trigger": "getItemTypeExportColumns" , "contents": "getItemTypeExportColumns( \n\t  itemType = \"${1:itemType}\"\n\t, configuration = { ${2:configuration} }\n);" }
-		, { "trigger": "getItemTypeViewlet"       , "contents": "getItemTypeViewlet( \n\t  itemType = \"${1:itemType}\"\n\t, context = \"${2:context}\"\n);" }
-		, { "trigger": "listFormFieldLayouts"     , "contents": "listFormFieldLayouts( itemType = \"${1:itemType}\" );" }
+		  { "trigger": "getActionViewlet"         , "contents": "getActionViewlet( \n\t  action = \"${1:action}\"\n\t, context = \"${2:context}\"\n)" }
+		, { "trigger": "getFormFieldLayoutViewlet", "contents": "getFormFieldLayoutViewlet( \n\t  itemType = \"${1:itemType}\"\n\t, layout = \"${2:layout}\"\n)" }
+		, { "trigger": "getFormLayoutViewlet"     , "contents": "getFormLayoutViewlet( layout = \"${1:layout}\" )" }
+		, { "trigger": "getItemTypeExportColumns" , "contents": "getItemTypeExportColumns( \n\t  itemType = \"${1:itemType}\"\n\t, configuration = { ${2:configuration} }\n)" }
+		, { "trigger": "getItemTypeViewlet"       , "contents": "getItemTypeViewlet( \n\t  itemType = \"${1:itemType}\"\n\t, context = \"${2:context}\"\n)" }
+		, { "trigger": "listFormFieldLayouts"     , "contents": "listFormFieldLayouts( itemType = \"${1:itemType}\" )" }
 	]
 }

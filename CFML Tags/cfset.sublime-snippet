@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<cf_presideparam name="${1:paramName}" />
+<cfset ${1:variable} = ${2:value} />
 ]]></content>
-	<tabTrigger>cfpresideparam</tabTrigger>
+	<tabTrigger>cfset</tabTrigger>
 	<scope>embedding.cfml</scope>
 </snippet>

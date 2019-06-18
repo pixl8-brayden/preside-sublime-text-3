@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<cfoutput>
+
+	${1:content}
+
+</cfoutput>
+]]></content>
+	<tabTrigger>cfoutput</tabTrigger>
+	<scope>embedding.cfml</scope>
+</snippet>

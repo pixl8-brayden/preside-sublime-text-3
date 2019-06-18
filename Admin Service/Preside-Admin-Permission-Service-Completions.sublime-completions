@@ -3,9 +3,9 @@
 	, "comment"    : "Preside Admin Permission Service"
 	, "completions":
 	[
-		  { "trigger": "hasPermission"     , "contents": "hasPermission( permissionKey = \"${1:permissionKey}\" );" }
-		, { "trigger": "listPermissionKeys", "contents": "listPermissionKeys( \n\t  role = \"${1:role}\"\n\t, group = \"${2:group}\"\n\t, user = \"${3:user}\"\n);" }
-		, { "trigger": "listRoles"         , "contents": "listRoles();" }
-		, { "trigger": "listUserGroups"    , "contents": "listUserGroups( userId = \"${1:userId}\" );" }
+		  { "trigger": "hasPermission"     , "contents": "hasPermission( permissionKey = \"${1:permissionKey}\" )" }
+		, { "trigger": "listPermissionKeys", "contents": "listPermissionKeys( \n\t  role = \"${1:role}\"\n\t, group = \"${2:group}\"\n\t, user = \"${3:user}\"\n)" }
+		, { "trigger": "listRoles"         , "contents": "listRoles()" }
+		, { "trigger": "listUserGroups"    , "contents": "listUserGroups( userId = \"${1:userId}\" )" }
 	]
 }

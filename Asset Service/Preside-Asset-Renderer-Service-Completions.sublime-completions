@@ -3,6 +3,6 @@
 	, "comment"    : "Preside Asset Renderer Service"
 	, "completions":
 	[
-		{ "trigger": "renderAsset", "contents": "renderAsset( assetId = \"${1:assetId}\" );" }
+		{ "trigger": "renderAsset", "contents": "renderAsset( assetId = \"${1:assetId}\" )" }
 	]
 }

@@ -1,5 +1,5 @@
 # Sublime Text Preside Package
-Sublime Text Preside Package is a collection of Preside snippets and autocompletions for Sublime Text 3
+Sublime Text Preside Package is a collection of Preside snippets and auto completions for Sublime Text 3
 
 Preside full documentation refer link
 [Preside Documentation](https://docs.preside.org)
@@ -7,14 +7,28 @@ Preside full documentation refer link
 ## Features
 Autocomplete for:
 
-Up to Preside version: `10.10.67`
+Up to Preside version: `10.10.76`
 
 ## Notes
+
+## CFML Tags
+| Triggers          | Output                       |
+|-------------------|------------------------------|
+| `cfpresideparam`  | `<cf_presideparam name="..." editable="true" />` |
+| `cfelse`          | `<cfelse>`                                       |
+| `cfif`            | `<cfif statement>...</cfif>`                     |
+| `cfifelse`        | `<cfif statement>...<cfelse>...</cfif>`          |
+| `cfloop`          | `<cfloop statement>...</cfloop>`                 |
+| `cfoutput`        | `<cfoutput>...</cfoutput>`                       |
+| `cfparam`         | `<cfparam name = "..." /> `                      |
+| `cfscript`        | `<cfscript>...</cfscript>`                       |
+| `cfset`           | `<cfset variable = value /> `                    |
+| `cfswitch`        | `<cfswitch>...</cfswitch>`                       |
+| `cfwhile`         | `<cfwhile condition>...</cfwhile>`               |
 
 ## Snippets
 | Snippets          | Description                  |
 |-------------------|------------------------------|
-| `cfpresideparam`  | Generate cf_presideparam tag |
 | `form`            | Generate base for Preside Form XML |
 | `dataObject`      | Generate base for Preside Object Component |
 | `superclass`      | Generate base for Preside Object Component with super class applied |
@@ -24,9 +38,17 @@ Up to Preside version: `10.10.67`
 ## Functions
 [ Included : :white_check_mark: ]
 
+##### System Form Controls :white_check_mark:
+
+##### CSRF Protection      :white_check_mark:
+| Available Functions | Return Type |
+|---------------------|-------------|
+| `getCsrfToken`      | n/a         |
+| `validateCsrfToken` | boolean     |
+
 ##### System service APIs
-- [ ] AdHoc Task Manager Service
-- [ ] AdHoc Task Progress Reporter
+- [x] AdHoc Task Manager Service         :white_check_mark:
+- [x] AdHoc Task Progress Reporter       :white_check_mark:
 - [x] Admin Data Views Service           :white_check_mark:
 - [x] Admin Login Service                :white_check_mark:
 - [x] Admin ObjectLink Builder Service   :white_check_mark:
@@ -99,11 +121,3 @@ Up to Preside version: `10.10.67`
 - [x] Website user action service        :white_check_mark:
 - [x] Website user impersonation service :white_check_mark:
 - [x] Website visitor service            :white_check_mark:
-
-##### System Form Controls :white_check_mark:
-
-##### CSRF Protection      :white_check_mark:
-| Available Functions | Return Type |
-|---------------------|-------------|
-| `getCsrfToken`      | n/a         |
-| `validateCsrfToken` | boolean     |

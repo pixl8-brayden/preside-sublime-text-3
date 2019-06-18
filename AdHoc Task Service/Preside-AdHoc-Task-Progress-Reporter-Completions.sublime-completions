@@ -1,0 +1,11 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside AdHoc Task Progress Reporter"
+	, "completions":
+	[
+		  { "trigger": "isCancelled" , "contents": "isCancelled()" }
+		, { "trigger": "setProgress" , "contents": "setProgress( progress = ${1:progress} )" }
+		, { "trigger": "setResult"   , "contents": "setResult( result = ${1:result} )" }
+		, { "trigger": "setResultUrl", "contents": "setResultUrl( resultUrl = \"${1:resultUrl}\" )" }
+	]
+}
