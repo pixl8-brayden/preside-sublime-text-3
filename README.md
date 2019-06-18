@@ -114,22 +114,20 @@ Up to Preside version: `10.10.76`
 - [x] Website user impersonation service    :white_check_mark:
 - [x] Website visitor service               :white_check_mark:
 
-<dl>
-	<dt>AdHocTaskManagerService</dt>
-	<dd>completeTask()</dd>
-	<dd>createTask()</dd>
-	<dd>discardTask()</dd>
-	<dd>failTask()</dd>
-	<dd>getNextAttemptInfo()</dd>
-	<dd>getNextScheduledTaskToRun()</dd>
-	<dd>getProgress()</dd>
-	<dd>getTask()</dd>
-	<dd>markTaskAsRunning()</dd>
-	<dd>requeueTask()</dd>
-	<dd>runScheduledTasks()</dd>
-	<dd>runTask()</dd>
-	<dd>runTaskInThread()</dd>
-	<dd>setProgress()</dd>
-	<dd>setResult()</dd>
-	<dd>setResultUrl()</dd>
-</dl>
+##### AdHocTaskManagerService
+- `completeTask()`
+- `createTask()`
+- `discardTask()`
+- `failTask()`
+- `getNextAttemptInfo()`
+- `getNextScheduledTaskToRun()`
+- `getProgress()`
+- `getTask()`
+- `markTaskAsRunning()`
+- `requeueTask()`
+- `runScheduledTasks()`
+- `runTask()`
+- `runTaskInThread()`
+- `setProgress()`
+- `setResult()`
+- `setResultUrl()`
