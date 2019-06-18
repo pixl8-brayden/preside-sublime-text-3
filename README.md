@@ -118,20 +118,20 @@ Up to Preside version: `10.10.76`
 <details>
 	<summary>List of functions</summary>
 
-|	`completeTask()`
-|	`createTask()`
-|	`discardTask()`
-|	`failTask()`
-|	`getNextAttemptInfo()`
-|	`getNextScheduledTaskToRun()`
-|	`getProgress()`
-|	`getTask()`
-|	`markTaskAsRunning()`
-|	`requeueTask()`
-|	`runScheduledTasks()`
-|	`runTask()`
-|	`runTaskInThread()`
-|	`setProgress()`
-|	`setResult()`
-|	`setResultUrl()`
+	- `completeTask()`
+	- `createTask()`
+	- `discardTask()`
+	- `failTask()`
+	- `getNextAttemptInfo()`
+	- `getNextScheduledTaskToRun()`
+	- `getProgress()`
+	- `getTask()`
+	- `markTaskAsRunning()`
+	- `requeueTask()`
+	- `runScheduledTasks()`
+	- `runTask()`
+	- `runTaskInThread()`
+	- `setProgress()`
+	- `setResult()`
+	- `setResultUrl()`
 </details>
