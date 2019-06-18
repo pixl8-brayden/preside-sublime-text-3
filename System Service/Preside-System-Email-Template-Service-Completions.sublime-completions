@@ -1,0 +1,21 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside System Email Template Service"
+	, "completions":
+	[
+		  { "trigger": "getDefaultHtmlBody"           , "contents": "getDefaultHtmlBody( template = \"${1:template}\" )" }
+		, { "trigger": "getDefaultLayout"             , "contents": "getDefaultLayout( template = \"${1:template}\" )" }
+		, { "trigger": "getDefaultSubject"            , "contents": "getDefaultSubject( template = \"${1:template}\" )" }
+		, { "trigger": "getDefaultTextBody"           , "contents": "getDefaultTextBody( template = \"${1:template}\" )" }
+		, { "trigger": "getPreviewParameters"         , "contents": "getPreviewParameters( template = \"${1:template}\" )" }
+		, { "trigger": "getRecipientType"             , "contents": "getRecipientType( template = \"${1:template}\" )" }
+		, { "trigger": "getSavedContentExpiry"        , "contents": "getSavedContentExpiry( template = \"${1:template}\" )" }
+		, { "trigger": "listTemplateParameters"       , "contents": "listTemplateParameters( template = \"${1:template}\" )" }
+		, { "trigger": "listTemplates"                , "contents": "listTemplates()" }
+		, { "trigger": "prepareAttachments"           , "contents": "prepareAttachments( template = \"${1:template}\" )" }
+		, { "trigger": "prepareParameters"            , "contents": "prepareParameters( template = \"${1:template}\" )" }
+		, { "trigger": "rebuildArgsForResend"         , "contents": "rebuildArgsForResend(\n\t  template = \"${1:template}\"\n\t, logId = \"${2:logId}\"\n\t, originalArgs = { ${3:originalArgs} }\n)" }
+		, { "trigger": "shouldSaveContentForTemplate" , "contents": "shouldSaveContentForTemplate( template = \"${1:template}\" )" }
+		, { "trigger": "templateExists"               , "contents": "templateExists( template = \"${1:template}\" )" }
+	]
+}
