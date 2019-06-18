@@ -1,0 +1,9 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside RulesEngine Operator Service"
+	, "completions":
+	[
+		  { "trigger": "compareNumbers" , "contents": "compareNumbers(\n\t  leftHandSide  = ${1:leftHandSide}\n\t, operator      = \"${2:operator}\"\n\t, rightHandSide = ${3:rightHandSide}\n)" }
+		, { "trigger": "compareStrings" , "contents": "compareStrings(\n\t  leftHandSide  = \"${1:leftHandSide}\"\n\t, operator      = \"${2:operator}\"\n\t, rightHandSide = \"${3:rightHandSide}\"\n)" }
+	]
+}
