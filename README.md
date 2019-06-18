@@ -114,7 +114,10 @@ Up to Preside version: `10.10.76`
 - [x] Website user impersonation service    :white_check_mark:
 - [x] Website visitor service               :white_check_mark:
 
-##### AdHocTaskManagerService
+### AdHocTaskManagerService
+<details>
+	<summary>List of functions</summary>
+
 - `completeTask()`
 - `createTask()`
 - `discardTask()`
@@ -131,3 +134,4 @@ Up to Preside version: `10.10.76`
 - `setProgress()`
 - `setResult()`
 - `setResultUrl()`
+</details>
