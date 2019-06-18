@@ -1,0 +1,13 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside DataManager Customization Service"
+	, "completions":
+	[
+		  { "trigger": "getCustomizationEventForObject"   , "contents": "getCustomizationEventForObject(\n\t  objectName = \"${1:objectName}\"\n\t, action = \"${2:action}\"\n)" }
+		, { "trigger": "getCustomizationHandlerForObject" , "contents": "getCustomizationHandlerForObject( objectName = \"${1:objectName}\" )" }
+		, { "trigger": "getGlobalCustomizationEvent"      , "contents": "getGlobalCustomizationEvent( action = \"${1:action}\" )" }
+		, { "trigger": "getGlobalCustomizationHandler"    , "contents": "getGlobalCustomizationHandler()" }
+		, { "trigger": "objectHasCustomization"           , "contents": "objectHasCustomization(\n\t  objectName = \"${1:objectName}\"\n\t, action = \"${2:action}\"\n)" }
+		, { "trigger": "runCustomization"                 , "contents": "runCustomization(\n\t  objectName = \"${1:objectName}\"\n\t, action = \"${2:action}\"\n)" }
+	]
+}
