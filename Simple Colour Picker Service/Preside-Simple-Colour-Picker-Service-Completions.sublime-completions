@@ -1,0 +1,17 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Simple Colour Picker Service"
+	, "completions":
+	[
+		  { "trigger": "buildRgbColourArray"  , "contents": "buildRgbColourArray(\n\t  from = ${1:from}\n\t, to = ${2:to}\n\t, step = ${3:step}\n)" }
+		, { "trigger": "convertColours"       , "contents": "convertColours(\n\t  colours = [ ${1:colours} ]\n\t, colourFormat = \"${2:colourFormat}\"\n)" }
+		, { "trigger": "detectColourFormat"   , "contents": "detectColourFormat( colour = \"${1:colour}\" )" }
+		, { "trigger": "getAvailablePalettes" , "contents": "getAvailablePalettes()" }
+		, { "trigger": "getPalette"           , "contents": "getPalette( name = \"${1:name}\" )" }
+		, { "trigger": "hexToRgb"             , "contents": "hexToRgb( hexColour = \"${1:hexColour}\" )" }
+		, { "trigger": "isValidHex"           , "contents": "isValidHex( colour = \"${1:colour}\" )" }
+		, { "trigger": "isValidRgb"           , "contents": "isValidRgb( colour = \"${1:colour}\" )" }
+		, { "trigger": "registerPalette"      , "contents": "registerPalette(\n\t  name = \"${1:name}\"\n\t, colours = [ ${2:colours} ]\n)" }
+		, { "trigger": "rgbToHex"             , "contents": "rgbToHex( rgbColour = \"${1:rgbColour}\" )" }
+	]
+}
