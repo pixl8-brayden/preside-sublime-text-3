@@ -1,0 +1,11 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Native Image Manipulation Service"
+	, "completions":
+	[
+		  { "trigger": "cropAroundFocalPoint" , "contents": "cropAroundFocalPoint(\n\t  image = ${1:image}\n\t, width = ${2:width}\n\t, height = ${3:height}\n\t, focalPoint = \"${4:focalPoint}\"\n)" }
+		, { "trigger": "pdfPreview"           , "contents": "pdfPreview( asset = ${1:assetBinary} )" }
+		, { "trigger": "resize"               , "contents": "resize(\n\t  asset = ${1:assetBinary}\n\t, maintainAspectRatio = ${2:true}\n)" }
+		, { "trigger": "shrinkToFit"          , "contents": "shrinkToFit(\n\t  asset = ${1:assetBinary}\n\t, width = ${2:width}\n\t, height = ${3:height}\n)" }
+	]
+}
