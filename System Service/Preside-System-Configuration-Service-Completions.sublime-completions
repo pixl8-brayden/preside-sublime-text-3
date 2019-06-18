@@ -1,0 +1,10 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside System Configuration Service"
+	, "completions":
+	[
+		  { "trigger": "getCategorySettings" , "contents": "getCategorySettings( category = \"${1:category}\" )" }
+		, { "trigger": "getSetting"          , "contents": "getSetting(\n\t  category = \"${1:category}\"\n\t, setting = \"${2:setting}\"\n)" }
+		, { "trigger": "saveSetting"         , "contents": "saveSetting(\n\t  category = \"${1:category}\"\n\t, setting = \"${2:setting}\"\n\t, value = \"${3:value}\"\n)" }
+	]
+}

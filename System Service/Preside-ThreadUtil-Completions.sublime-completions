@@ -1,0 +1,17 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside ThreadUtil"
+	, "completions":
+	[
+		  { "trigger": "getCurrentThread"         , "contents": "getCurrentThread()" }
+		, { "trigger": "getRequestScope"          , "contents": "getRequestScope( theThread = ${1:theThread} )" }
+		, { "trigger": "interrupt"                , "contents": "interrupt( thethread = ${1:thethread} )" }
+		, { "trigger": "isInterrupted"            , "contents": "isInterrupted()" }
+		, { "trigger": "isSleeping"               , "contents": "isSleeping( thethread = ${1:thethread} )" }
+		, { "trigger": "isTerminated"             , "contents": "isTerminated( thethread = ${1:thethread} )" }
+		, { "trigger": "setThreadName"            , "contents": "setThreadName( name = \"${1:name}\" )" }
+		, { "trigger": "setThreadRequestDefaults" , "contents": "setThreadRequestDefaults()" }
+		, { "trigger": "shutdownThread"           , "contents": "shutdownThread( thethread = ${1:thethread} )" }
+		, { "trigger": "softInterrupt"            , "contents": "softInterrupt( thethread = ${1:thethread} )" }
+	]
+}
