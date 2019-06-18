@@ -11,10 +11,24 @@ Up to Preside version: `10.10.67`
 
 ## Notes
 
+## CFML Tags
+| Tags              | Output                       |
+|-------------------|------------------------------|
+| `cfpresideparam`  | <cf_presideparam name="paramName" editable="true" /> |
+| `cfelse`          | <cfelse>                                             |
+| `cfif`            | <cfif statement>...</cfif>                           |
+| `cfifelse`        | <cfif statement>...<cfelse>...</cfif>                |
+| `cfloop`          | <cfloop statement>...</cfloop>                       |
+| `cfoutput`        | <cfoutput>...</cfoutput>                             |
+| `cfparam`         | <cfparam name="name" />                              |
+| `cfscript`        | <cfscript>...</cfscript>                             |
+| `cfset`           | <cfset variable = value />                           |
+| `cfswitch`        | <cfswitch>...</cfswitch>                             |
+| `cfwhile`         | <cfwhile condition>...</cfwhile>                     |
+
 ## Snippets
 | Snippets          | Description                  |
 |-------------------|------------------------------|
-| `cfpresideparam`  | Generate cf_presideparam tag |
 | `form`            | Generate base for Preside Form XML |
 | `dataObject`      | Generate base for Preside Object Component |
 | `superclass`      | Generate base for Preside Object Component with super class applied |
