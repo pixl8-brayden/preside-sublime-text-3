@@ -1,0 +1,12 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Application Service"
+	, "completions":
+	[
+		  { "trigger": "getActiveApplication"  , "contents": "getActiveApplication( event = \"${1:event}\" )" }
+		, { "trigger": "getDefaultApplication" , "contents": "getDefaultApplication()" }
+		, { "trigger": "getDefaultEvent"       , "contents": "getDefaultEvent( applicationId = \"${1:applicationId}\" )" }
+		, { "trigger": "getLayout"             , "contents": "getLayout( applicationId = \"${1:applicationId}\" )" }
+		, { "trigger": "listApplications"      , "contents": "listApplications()" }
+	]
+}
