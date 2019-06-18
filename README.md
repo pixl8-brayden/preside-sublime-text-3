@@ -1,5 +1,5 @@
 # Sublime Text Preside Package
-Sublime Text Preside Package is a collection of Preside snippets and autocompletions for Sublime Text 3
+Sublime Text Preside Package is a collection of Preside snippets and auto completions for Sublime Text 3
 
 Preside full documentation refer link
 [Preside Documentation](https://docs.preside.org)
@@ -25,8 +25,8 @@ Up to Preside version: `10.10.67`
 [ Included : :white_check_mark: ]
 
 ##### System service APIs
-- [ ] AdHoc Task Manager Service
-- [ ] AdHoc Task Progress Reporter
+- [x] AdHoc Task Manager Service         :white_check_mark:
+- [x] AdHoc Task Progress Reporter       :white_check_mark:
 - [x] Admin Data Views Service           :white_check_mark:
 - [x] Admin Login Service                :white_check_mark:
 - [x] Admin ObjectLink Builder Service   :white_check_mark:
