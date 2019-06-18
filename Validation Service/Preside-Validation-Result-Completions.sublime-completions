@@ -1,0 +1,13 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Validation Result"
+	, "completions":
+	[
+		  { "trigger": "addError"                 , "contents": "addError( fieldName = \"${1:fieldName}\", message = \"${2:message}\" )" }
+		, { "trigger": "fieldHasError"            , "contents": "fieldHasError( fieldName = \"${1:fieldName}\" )" }
+		, { "trigger": "getError"                 , "contents": "getError( fieldName = \"${1:fieldName}\" )" }
+		, { "trigger": "listErrorFields"          , "contents": "listErrorFields()" }
+		, { "trigger": "listErrorParameterValues" , "contents": "listErrorParameterValues( fieldName = \"${1:fieldName}\" )" }
+		, { "trigger": "validated"                , "contents": "validated()" }
+	]
+}

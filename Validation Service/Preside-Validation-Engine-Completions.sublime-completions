@@ -1,0 +1,15 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "temp"
+	, "completions":
+	[
+		  { "trigger": "getJqueryValidateJs" , "contents": "getJqueryValidateJs( ruleset = \"{1:ruleset}\" )" }
+		, { "trigger": "listRulesets"        , "contents": "listRulesets()" }
+		, { "trigger": "listValidators"      , "contents": "listValidators()" }
+		, { "trigger": "newProvider"         , "contents": "newProvider( sourceCfc = ${1:sourceCfc} )" }
+		, { "trigger": "newRuleset"          , "contents": "newRuleset(\n\t  name = \"${1:name}\"\n\t, rules = ${2:rules}\n)" }
+		, { "trigger": "newValidationResult" , "contents": "newValidationResult()" }
+		, { "trigger": "rulesetExists"       , "contents": "rulesetExists( rulesetName = \"${1:rulesetName}\" )" }
+		, { "trigger": "validate"            , "contents": "validate(\n\t  ruleset = \"${1:ruleset}\"\n\t, data = { ${1:data} }\n)" }
+	]
+}
