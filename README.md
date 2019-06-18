@@ -69,8 +69,8 @@ Up to Preside version: `10.10.76`
 - [x] EmailServiceProviderService           :white_check_mark:
 - [x] EmailStyleInliner                     :white_check_mark:
 - [x] EmailTemplateService                  :white_check_mark:
-- [ ] Error Log Service
-- [ ] Feature service
+- [x] Error Log Service                     :white_check_mark:
+- [x] Feature service                       :white_check_mark:
 - [x] FormBuilderActionsService             :white_check_mark:
 - [x] FormBuilderItemTypesService           :white_check_mark:
 - [x] FormBuilderRenderingService           :white_check_mark:
@@ -78,9 +78,8 @@ Up to Preside version: `10.10.76`
 - [x] FormBuilderValidationService          :white_check_mark:
 - [x] FormDefinition                        :white_check_mark:
 - [x] Forms service                         :white_check_mark:
-- [ ] HealthcheckService
-- [ ] Multilingual Preside Object Service
-- [ ] Native Image Manipulation Service
+- [x] HealthcheckService                    :white_check_mark:
+- [x] Native Image Manipulation Service     :white_check_mark:
 - [x] Notification Service                  :white_check_mark:
 - [x] PresideObjectCloningService           :white_check_mark:
 - [x] Preside Object Service                :white_check_mark:
@@ -99,16 +98,15 @@ Up to Preside version: `10.10.76`
 - [x] RulesEngine Operator Service          :white_check_mark:
 - [x] RulesEngine Time Period Service       :white_check_mark:
 - [x] RulesEngine Web Request Service       :white_check_mark:
-- [ ] SimpleColourPickerService
-- [ ] Storage provider
-- [ ] System configuration service
-- [ ] SystemEmailTemplateService
-- [ ] TaskManager Configuration Wrapper
-- [ ] TaskManager Logger Wrapper
-- [ ] Task Manager Service
-- [ ] ThreadUtil
-- [ ] Validation Engine
-- [ ] Validation result
+- [x] SimpleColourPickerService             :white_check_mark:
+- [x] Storage provider                      :white_check_mark:
+- [x] System configuration service          :white_check_mark:
+- [x] SystemEmailTemplateService            :white_check_mark:
+- [x] TaskManager Configuration Wrapper     :white_check_mark:
+- [x] Task Manager Service                  :white_check_mark:
+- [x] ThreadUtil                            :white_check_mark:
+- [x] Validation Engine                     :white_check_mark:
+- [x] Validation result                     :white_check_mark:
 - [x] ViewletsService                       :white_check_mark:
 - [x] Website login service                 :white_check_mark:
 - [x] Website permissions service           :white_check_mark:
