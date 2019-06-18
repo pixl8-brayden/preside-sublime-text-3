@@ -1,0 +1,9 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Feature Service"
+	, "completions":
+	[
+		  { "trigger": "getFeatureForWidget" , "contents": "getFeatureForWidget( widget = \"{1:widget}\" )" }
+		, { "trigger": "isFeatureEnabled"    , "contents": "isFeatureEnabled( feature = \"${1:feature}\" )" }
+	]
+}
