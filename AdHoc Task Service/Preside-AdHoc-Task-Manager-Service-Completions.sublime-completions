@@ -1,0 +1,23 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside AdHoc Task Manager Service"
+	, "completions":
+	[
+		  { "trigger": "completeTask"             , "contents": "completeTask( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "createTask"               , "contents": "createTask( event = \"{$1:event}\" )" }
+		, { "trigger": "discardTask"              , "contents": "discardTask( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "failTask"                 , "contents": "failTask( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "getNextAttemptInfo"       , "contents": "getNextAttemptInfo( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "getNextScheduledTaskToRun", "contents": "getNextScheduledTaskToRun()" }
+		, { "trigger": "getProgress"              , "contents": "getProgress( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "getTask"                  , "contents": "getTask( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "markTaskAsRunning"        , "contents": "markTaskAsRunning( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "requeueTask"              , "contents": "requeueTask( \n\t  taskId = \"${1:taskId}\"\n\t, nextAttemptDate = ${2:nextAttemptDate}\n)" }
+		, { "trigger": "runScheduledTasks"        , "contents": "runScheduledTasks()" }
+		, { "trigger": "runTask"                  , "contents": "runTask( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "runTaskInThread"          , "contents": "runTaskInThread( taskId = \"${1:taskId}\" )" }
+		, { "trigger": "setProgress"              , "contents": "setProgress( \n\t  taskId = \"${1:taskId}\"\n\t, progress = ${2:progress}\n)" }
+		, { "trigger": "setResult"                , "contents": "setResult( \n\t  taskId = \"${1:taskId}\"\n\t, result = ${2:result}\n)" }
+		, { "trigger": "setResultUrl"             , "contents": "setResultUrl( \n\t  taskId = \"${1:taskId}\"\n\t, resultUrl = ${2:resultUrl}\n)" }
+	]
+}
