@@ -73,7 +73,6 @@ Up to Preside version: `10.10.76`
 - [x] EmailTemplateService                  :white_check_mark:
 - [ ] Error Log Service
 - [ ] Feature service
-- [ ] File System Storage Provider
 - [x] FormBuilderActionsService             :white_check_mark:
 - [x] FormBuilderItemTypesService           :white_check_mark:
 - [x] FormBuilderRenderingService           :white_check_mark:
@@ -85,7 +84,7 @@ Up to Preside version: `10.10.76`
 - [ ] Multilingual Preside Object Service
 - [ ] Native Image Manipulation Service
 - [x] Notification Service                  :white_check_mark:
-- [ ] PresideObjectCloningService
+- [x] PresideObjectCloningService           :white_check_mark:
 - [x] Preside Object Service                :white_check_mark:
 - [x] Preside Object View Service           :white_check_mark:
 - [x] PresideRestConfigurationWrapper       :white_check_mark:
