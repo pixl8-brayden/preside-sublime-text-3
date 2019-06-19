@@ -7,4 +7,5 @@
 ]]></content>
 	<tabTrigger>javadoc</tabTrigger>
 	<scope>embedding.cfml</scope>
+	<description>Java Doc</description>
 </snippet>

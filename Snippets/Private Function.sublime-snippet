@@ -6,4 +6,5 @@ private ${1:any} function ${2:functionName}( ${3:variables} ) {
 ]]></content>
 	<tabTrigger>privatefunction</tabTrigger>
 	<scope>embedding.cfml</scope>
+	<description>Private Function</description>
 </snippet>

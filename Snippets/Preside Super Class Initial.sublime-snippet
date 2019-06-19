@@ -17,4 +17,5 @@ component {
 ]]></content>
 	<tabTrigger>superclass</tabTrigger>
 	<scope>embedding.cfml</scope>
+	<description>Preside Service with Super Class Base</description>
 </snippet>
