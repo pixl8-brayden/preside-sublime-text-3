@@ -13,4 +13,5 @@
 ]]></content>
 	<tabTrigger>form</tabTrigger>
 	<scope>text.xml</scope>
+	<description>Preside Form Base</description>
 </snippet>

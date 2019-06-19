@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+title.singular=${1:singular title}
+title=${2:title}
+description=${3:description}
+
+]]></content>
+	<tabTrigger>i18nPresideObject</tabTrigger>
+	<scope>source.java-props</scope>
+	<description>Preside Object i18n Generator</description>
+</snippet>

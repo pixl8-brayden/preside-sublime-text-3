@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+title=${1:title}
+description=${2:description}
+iconclass=${3:fa-square-o}
+
+]]></content>
+	<tabTrigger>i18nGroup</tabTrigger>
+	<scope>source.java-props</scope>
+	<description>Preside Object Group i18n Generator</description>
+</snippet>
