@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+field.${1:$SELECTION}.title=${SELECTION/^(\w)|(?:_(\w))/(?1\u$1:)(?2 $2:)/g}
+]]></content>
+	<tabTrigger>i18nField</tabTrigger>
+	<scope>source.java-props</scope>
+	<description>Field i18n Generator</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+name=${1:page name}
+description=${2:description}
+iconclass=${3:fa-file-o}
+
+]]></content>
+	<tabTrigger>i18nPageTypes</tabTrigger>
+	<scope>source.java-props</scope>
+	<description>Preside Page Types i18n Generator</description>
+</snippet>
