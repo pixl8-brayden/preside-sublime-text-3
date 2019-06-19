@@ -6,4 +6,5 @@ public ${1:any} function ${2:functionName}( ${3:variables} ) {
 ]]></content>
 	<tabTrigger>publicfunction</tabTrigger>
 	<scope>embedding.cfml</scope>
+	<description>Public Function</description>
 </snippet>

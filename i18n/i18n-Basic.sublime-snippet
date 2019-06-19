@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+title=${1:title}
+description=${2:description}
+
+]]></content>
+	<tabTrigger>i18nBasic</tabTrigger>
+	<scope>source.java-props</scope>
+	<description>Preside Basic i18n Generator</description>
+</snippet>

@@ -12,4 +12,5 @@ component {
 ]]></content>
 	<tabTrigger>dataObject</tabTrigger>
 	<scope>embedding.cfml</scope>
+	<description>Preside Object Base</description>
 </snippet>
