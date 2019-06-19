@@ -29,11 +29,20 @@ Up to Preside version: `10.10.76`
 ## Snippets
 | Triggers          | Description                  |
 |-------------------|------------------------------|
-| `form`            | Generate base for Preside Form XML |
-| `dataObject`      | Generate base for Preside Object Component |
-| `superclass`      | Generate base for Preside Object Component with super class applied |
-| `publicfunction`  | Generate base for public function |
-| `privatefunction` | Generate base for private function |
+| `form`            | Generate base for Preside Form XML                         |
+| `dataObject`      | Generate base for Preside Object Component                 |
+| `superclass`      | Generate base for Preside Service with super class applied |
+| `publicfunction`  | Generate base for public function                          |
+| `privatefunction` | Generate base for private function                         |
+
+## i18n
+| Triggers            | Description                  |
+|-------------------- |------------------------------|
+| `i18nBasic`         | Generate base for basic i18n                |
+| `i18nField`         | *Generate field i18n*                       |
+| `i18nPageTypes`     | Generate base for page types i18n           |
+| `i18nGroup`         | Generate base for preside object group i18n |
+| `i18nPresideObject` | Generate base for preside object i18n       |
 
 ## CSRF Protection
 | Available Functions | Return Type |
