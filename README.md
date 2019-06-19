@@ -35,12 +35,7 @@ Up to Preside version: `10.10.76`
 | `publicfunction`  | Generate base for public function |
 | `privatefunction` | Generate base for private function |
 
-## Functions
-[ Included : :white_check_mark: ]
-
-##### System Form Controls :white_check_mark:
-
-##### CSRF Protection      :white_check_mark:
+## CSRF Protection
 | Available Functions | Return Type |
 |---------------------|-------------|
 | `getCsrfToken`      | n/a         |
