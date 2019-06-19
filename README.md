@@ -27,7 +27,7 @@ Up to Preside version: `10.10.76`
 | `cfwhile`         | `<cfwhile condition>...</cfwhile>`               |
 
 ## Snippets
-| Snippets          | Description                  |
+| Triggers          | Description                  |
 |-------------------|------------------------------|
 | `form`            | Generate base for Preside Form XML |
 | `dataObject`      | Generate base for Preside Object Component |
