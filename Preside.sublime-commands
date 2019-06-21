@@ -1,0 +1,7 @@
+[
+	{
+		"caption": "Preside: Generate i18n From Preside Data Object",
+		"command": "preside_generate_i18n",
+		"args": {}
+	}
+]
