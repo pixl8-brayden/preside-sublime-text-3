@@ -1,0 +1,18 @@
+{
+	  "scope"      : "embedding.cfml"
+	, "comment"    : "Preside Form Definition"
+	, "completions":
+	[
+		  { "trigger": "addField"        , "contents": "addField( \n\t  name = \"${1:name}\"\n\t, fieldset = \"${2:fieldset}\"\n\t, tab = \"${3:tab}\"\n)" }
+		, { "trigger": "addFieldset"     , "contents": "addFieldset( \n\t  id =\"${1:id}\"\n\t, tab = \"${2:tab}\"\n)" }
+		, { "trigger": "addTab"          , "contents": "addTab( id = \"${1:id}\" )" }
+		, { "trigger": "deleteField"     , "contents": "deleteFieldaddField( \n\t  name = \"${1:name}\"\n\t, fieldset = \"${2:fieldset}\"\n\t, tab = \"${3:tab}\"\n)" }
+		, { "trigger": "deleteFieldset"  , "contents": "deleteFieldset( \n\t  id =\"${1:id}\"\n\t, tab = \"${2:tab}\"\n)" }
+		, { "trigger": "deleteTab"       , "contents": "deleteTab( id = \"${1:id}\" )" }
+		, { "trigger": "getRawDefinition", "contents": "getRawDefinition()" }
+		, { "trigger": "modifyField"     , "contents": "modifyField( \n\t  name = \"${1:name}\"\n\t, fieldset = \"${2:fieldset}\"\n\t, tab = \"${3:tab}\"\n)" }
+		, { "trigger": "modifyFieldset"  , "contents": "modifyFieldset( \n\t  id =\"${1:id}\"\n\t, tab = \"${2:tab}\"\n)" }
+		, { "trigger": "modifyTab"       , "contents": "modifyTab( id = \"${1:id}\" )" }
+		, { "trigger": "setAttributes"   , "contents": "setAttributes( ${1:any} )" }
+	]
+}
