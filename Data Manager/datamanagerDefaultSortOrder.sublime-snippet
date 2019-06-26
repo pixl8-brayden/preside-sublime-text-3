@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@datamanagerDefaultSortOrder ${1:field} ${2:asc}
+]]></content>
+	<tabTrigger>datamanagerDefaultSortOrder</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Default sort order</description>
+</snippet>

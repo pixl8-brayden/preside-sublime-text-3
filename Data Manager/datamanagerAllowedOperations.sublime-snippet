@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@datamanagerAllowedOperations ${1:delete},${2:view},#{3:viewversions}
+]]></content>
+	<tabTrigger>datamanagerAllowedOperations</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Allowed operations</description>
+</snippet>

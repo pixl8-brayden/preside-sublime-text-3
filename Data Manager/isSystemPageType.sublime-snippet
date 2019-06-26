@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@isSystemPageType ${1:true}
+]]></content>
+	<tabTrigger>isSystemPageType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Page Types: Is system page type</description>
+</snippet>

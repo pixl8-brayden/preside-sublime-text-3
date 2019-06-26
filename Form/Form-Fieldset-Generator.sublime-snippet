@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<fieldset id="${1:${SELECTION}}">
+	${2}
+</fieldset>
+]]></content>
+	<tabTrigger>formFieldset</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form Fieldset Generator</description>
+</snippet>

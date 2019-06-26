@@ -1,7 +1,17 @@
 [
 	{
-		"caption": "Preside: Generate i18n From Preside Data Object",
+		"caption": "Preside: Generate i18n from Data Object",
 		"command": "preside_generate_i18n",
+		"args": {}
+	},
+	{
+		"caption": "Preside: Generate Form from Data Object",
+		"command": "preside_generate_form",
+		"args": {}
+	},
+	{
+		"caption": "Preside: Generate View from Data Object",
+		"command": "preside_generate_view",
 		"args": {}
 	}
 ]

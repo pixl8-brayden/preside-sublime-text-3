@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderAuditLog()
+]]></content>
+	<tabTrigger>renderAuditLog</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: renderAuditLog</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@datamanagerGroup ${1:group name}
+]]></content>
+	<tabTrigger>datamanagerGroup</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Group</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@allowedParentPageTypes ${1:page type}
+]]></content>
+	<tabTrigger>allowedParentPageTypes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Allowed parent page types</description>
+</snippet>

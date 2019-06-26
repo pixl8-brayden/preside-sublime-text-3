@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+translateValidationMessages()
+]]></content>
+	<tabTrigger>translateValidationMessages</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: translateValidationMessages</description>
+</snippet>

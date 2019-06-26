@@ -19,7 +19,6 @@ class PresideGenerateI18nCommand(sublime_plugin.TextCommand):
 		i18n_file = generateI18NFile( path = file_name )
 		window.open_file( i18n_file )
 
-
 def generateI18NFile( path):
 	if not os.path.exists( path ) and not os.path.isfile( path ):
 		exit()
@@ -46,6 +45,8 @@ def generateI18NFile( path):
 
 	for index in range( len( i18n_directory ) ):
 		i18n_path = os.path.join( i18n_path, i18n_directory[index] )
+		if not os.path.exists( i18n_path ) and splitext( i18n_path )[1] == '':
+			os.makedirs( i18n_path )
 
 	file            = open( path, 'r' )
 	file_lines      = file.read()
@@ -55,6 +56,7 @@ def generateI18NFile( path):
 		object_property[index] = 'field.' + object_property[index] + '.title=' + object_property[index][0].upper() + object_property[index].replace( '_', ' ' )[1:]
 
 	if 'page-types' in directory:
+		object_property.insert( 0, '' )
 		object_property.insert( 0, 'fieldset.' + objectname + '.title=' + objectname[0].upper() + objectname.replace( '_', ' ' )[1:] )
 		object_property.insert( 0, 'tab.'      + objectname + '.title=' + objectname[0].upper() + objectname.replace( '_', ' ' )[1:] )
 		object_property.insert( 0, '' )

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function preRenderSiteTreePage( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>preRenderSiteTreePage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: preRenderSiteTreePage</description>
+</snippet>

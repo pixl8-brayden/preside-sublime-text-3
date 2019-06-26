@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function postDbSyncObjects( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>postDbSyncObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: postDbSyncObjects</description>
+</snippet>

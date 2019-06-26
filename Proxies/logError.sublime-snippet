@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+logError()
+]]></content>
+	<tabTrigger>logError</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: logError</description>
+</snippet>
