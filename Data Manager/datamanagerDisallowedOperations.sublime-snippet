@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@datamanagerDisallowedOperations ${1:add},${2:edit},${3:clone}
+]]></content>
+	<tabTrigger>datamanagerDisallowedOperations</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Disallowed operations</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function preUpdateObjectData( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>preUpdateObjectData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: preUpdateObjectData</description>
+</snippet>

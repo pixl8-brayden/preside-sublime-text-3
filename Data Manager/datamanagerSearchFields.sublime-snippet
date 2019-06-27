@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@datamanagerSearchFields ${1:field 1},${2:field 2}
+]]></content>
+	<tabTrigger>datamanagerSearchFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Search fields</description>
+</snippet>

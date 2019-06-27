@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+simpleRequestCache()
+]]></content>
+	<tabTrigger>simpleRequestCache</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: simpleRequestCache</description>
+</snippet>

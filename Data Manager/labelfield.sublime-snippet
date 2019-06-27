@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@labelfield ${1:label field}
+]]></content>
+	<tabTrigger>labelfield</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Label field</description>
+</snippet>

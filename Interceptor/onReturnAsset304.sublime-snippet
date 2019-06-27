@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function onReturnAsset304( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>onReturnAsset304</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: onReturnAsset304</description>
+</snippet>

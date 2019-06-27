@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<tab id="${1:${SELECTION}}">
+	${2}
+</tab>
+]]></content>
+	<tabTrigger>formTab</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form Tab Generator</description>
+</snippet>

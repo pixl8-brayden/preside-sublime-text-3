@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderLogMessage()
+]]></content>
+	<tabTrigger>renderLogMessage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: renderLogMessage</description>
+</snippet>

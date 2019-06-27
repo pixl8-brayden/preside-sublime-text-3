@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function postAddSiteTreePage( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>postAddSiteTreePage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: postAddSiteTreePage</description>
+</snippet>

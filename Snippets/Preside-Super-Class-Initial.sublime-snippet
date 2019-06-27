@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 /**
- * @presideService
+ * @singleton      true
+ * @presideService true
  */
 component {
 

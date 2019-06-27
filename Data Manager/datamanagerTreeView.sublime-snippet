@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@datamanagerTreeView ${1:true}
+]]></content>
+	<tabTrigger>datamanagerTreeView</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Data Manager: Tree view</description>
+</snippet>

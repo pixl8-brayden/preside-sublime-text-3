@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<cf_presideparam name="${1:args}.${2:${SELECTION}}" field="${3:object_name}.${2:${SELECTION}}" editable="${4:true}" />
+]]></content>
+	<tabTrigger>viewParam</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>View Preside Param Generator</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderForm()
+]]></content>
+	<tabTrigger>renderForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: renderForm</description>
+</snippet>

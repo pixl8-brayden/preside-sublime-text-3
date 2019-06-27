@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+private any function _get${1:Object}() {
+	return _${2:argument};
+}
+private void function _set${1:Object}( required any ${2:argument} ) {
+	_${2:argument} = arguments.${2:argument};
+}
+]]></content>
+	<tabTrigger>getterSetter</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Service Private Getter and Setter</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function preDownloadFile( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>preDownloadFile</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: preDownloadFile</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isFeatureDefined()
+]]></content>
+	<tabTrigger>isFeatureDefined</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: isFeatureDefined</description>
+</snippet>

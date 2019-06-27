@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @isSystemPageType ${1:true}
+ *
+ */
+
+component {
+	property name="${2:name}";
+}
+]]></content>
+	<tabTrigger>pageTypeObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Page Type Object Base</description>
+</snippet>

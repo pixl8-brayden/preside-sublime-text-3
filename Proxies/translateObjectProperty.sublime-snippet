@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+translateObjectProperty()
+]]></content>
+	<tabTrigger>translateObjectProperty</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: translateObjectProperty</description>
+</snippet>

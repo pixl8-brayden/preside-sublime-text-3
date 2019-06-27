@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field binding="${1}.${2:${SELECTION}}" ${3} />
+]]></content>
+	<tabTrigger>formField</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form Field Generator</description>
+</snippet>
