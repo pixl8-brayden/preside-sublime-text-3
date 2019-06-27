@@ -182,80 +182,89 @@
 				"caption": "Interceptor",
 				"children":
 				[
-					{ "caption": "prePresideReload"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/prePresideReload.sublime-snippet" } },
-					{ "caption": "postPresideReload"                     , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPresideReload.sublime-snippet" } },
-					{ "caption": "onBuildLink"                           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onBuildLink.sublime-snippet" } },
-					{ "caption": "onCreateSelectDataCacheKey"            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onCreateSelectDataCacheKey.sublime-snippet" } },
-					{ "caption": "postDbSyncObjects"                     , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postDbSyncObjects.sublime-snippet" } },
-					{ "caption": "postDeleteObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postDeleteObjectData.sublime-snippet" } },
-					{ "caption": "postInsertObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postInsertObjectData.sublime-snippet" } },
-					{ "caption": "postLoadPresideObject"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postLoadPresideObject.sublime-snippet" } },
-					{ "caption": "postLoadPresideObjects"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postLoadPresideObjects.sublime-snippet" } },
-					{ "caption": "postPrepareObjectFilter"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPrepareObjectFilter.sublime-snippet" } },
-					{ "caption": "postReadPresideObject"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postReadPresideObject.sublime-snippet" } },
-					{ "caption": "postReadPresideObjects"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postReadPresideObjects.sublime-snippet" } },
-					{ "caption": "postRenderSiteTreePage"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postRenderSiteTreePage.sublime-snippet" } },
-					{ "caption": "postAddSiteTreePage"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postAddSiteTreePage.sublime-snippet" } },
-					{ "caption": "postEditSiteTreePage"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postEditSiteTreePage.sublime-snippet" } },
-					{ "caption": "postSelectObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postSelectObjectData.sublime-snippet" } },
-					{ "caption": "postUpdateObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postUpdateObjectData.sublime-snippet" } },
-					{ "caption": "postParseSelectFields"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postParseSelectFields.sublime-snippet" } },
-					{ "caption": "postPrepareTableJoins"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPrepareTableJoins.sublime-snippet" } },
-					{ "caption": "postPrepareVersionSelect"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPrepareVersionSelect.sublime-snippet" } },
-					{ "caption": "preDbSyncObjects"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDbSyncObjects.sublime-snippet" } },
-					{ "caption": "preDeleteObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDeleteObjectData.sublime-snippet" } },
-					{ "caption": "preInsertObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preInsertObjectData.sublime-snippet" } },
-					{ "caption": "preLoadPresideObject"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preLoadPresideObject.sublime-snippet" } },
-					{ "caption": "preLoadPresideObjects"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preLoadPresideObjects.sublime-snippet" } },
-					{ "caption": "prePrepareObjectFilter"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/prePrepareObjectFilter.sublime-snippet" } },
-					{ "caption": "preReadPresideObject"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preReadPresideObject.sublime-snippet" } },
-					{ "caption": "preRenderSiteTreePage"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preRenderSiteTreePage.sublime-snippet" } },
-					{ "caption": "postInitializePresideSiteteePage"      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postInitializePresideSiteteePage.sublime-snippet" } },
-					{ "caption": "preSelectObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preSelectObjectData.sublime-snippet" } },
-					{ "caption": "preUpdateObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preUpdateObjectData.sublime-snippet" } },
-					{ "caption": "preParseSelectFields"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preParseSelectFields.sublime-snippet" } },
-					{ "caption": "onApplicationStart"                    , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onApplicationStart.sublime-snippet" } },
-					{ "caption": "onApplicationEnd"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onApplicationEnd.sublime-snippet" } },
-					{ "caption": "onCreateNotification"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onCreateNotification.sublime-snippet" } },
-					{ "caption": "preCreateNotification"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preCreateNotification.sublime-snippet" } },
-					{ "caption": "postCreateNotification"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postCreateNotification.sublime-snippet" } },
-					{ "caption": "preCreateNotificationConsumer"         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preCreateNotificationConsumer.sublime-snippet" } },
-					{ "caption": "postCreateNotificationConsumer"        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postCreateNotificationConsumer.sublime-snippet" } },
-					{ "caption": "preAttemptLogin"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preAttemptLogin.sublime-snippet" } },
-					{ "caption": "onLoginSuccess"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onLoginSuccess.sublime-snippet" } },
-					{ "caption": "onLoginFailure"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onLoginFailure.sublime-snippet" } },
-					{ "caption": "onAdminLoginSuccess"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onAdminLoginSuccess.sublime-snippet" } },
-					{ "caption": "onAdminLoginFailure"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onAdminLoginFailure.sublime-snippet" } },
-					{ "caption": "preDownloadFile"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDownloadFile.sublime-snippet" } },
-					{ "caption": "onDownloadFile"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onDownloadFile.sublime-snippet" } },
-					{ "caption": "onReturnFile304"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onReturnFile304.sublime-snippet" } },
-					{ "caption": "preDownloadAsset"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDownloadAsset.sublime-snippet" } },
-					{ "caption": "onDownloadAsset"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onDownloadAsset.sublime-snippet" } },
-					{ "caption": "postReadRestResourceDirectories"       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postReadRestResourceDirectories.sublime-snippet" } },
-					{ "caption": "onRestRequest"                         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onRestRequest.sublime-snippet" } },
-					{ "caption": "onRestError"                           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onRestError.sublime-snippet" } },
-					{ "caption": "onMissingRestResource"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onMissingRestResource.sublime-snippet" } },
-					{ "caption": "onUnsupportedRestMethod"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onUnsupportedRestMethod.sublime-snippet" } },
-					{ "caption": "preInvokeRestResource"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preInvokeRestResource.sublime-snippet" } },
-					{ "caption": "postInvokeRestResource"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postInvokeRestResource.sublime-snippet" } },
-					{ "caption": "onRestRequestParameterValidationError" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onRestRequestParameterValidationError.sublime-snippet" } },
-					{ "caption": "preFormBuilderFormSubmission"          , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preFormBuilderFormSubmission.sublime-snippet" } },
-					{ "caption": "postFormBuilderFormSubmission"         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postFormBuilderFormSubmission.sublime-snippet" } },
-					{ "caption": "preSaveSystemConfig"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preSaveSystemConfig.sublime-snippet" } },
-					{ "caption": "postSaveSystemConfig"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postSaveSystemConfig.sublime-snippet" } },
-					{ "caption": "preSetUserSession"                     , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preSetUserSession.sublime-snippet" } },
-					{ "caption": "prePresideRequestCapture"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/prePresideRequestCapture.sublime-snippet" } },
-					{ "caption": "postPresideRequestCapture"             , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPresideRequestCapture.sublime-snippet" } },
-					{ "caption": "onPresideDetectIncomingSite"           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideDetectIncomingSite.sublime-snippet" } },
-					{ "caption": "onPresideDetectLanguage"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideDetectLanguage.sublime-snippet" } },
-					{ "caption": "onPresideUrlRedirects"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideUrlRedirects.sublime-snippet" } },
-					{ "caption": "onPresideRedirectDomains"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideRedirectDomains.sublime-snippet" } },
-					{ "caption": "preRoutePresideSESRequest"             , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preRoutePresideSESRequest.sublime-snippet" } },
-					{ "caption": "postRoutePresideSESRequest"            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postRoutePresideSESRequest.sublime-snippet" } },
-					{ "caption": "onGetEmailContextPayload"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onGetEmailContextPayload.sublime-snippet" } },
-					{ "caption": "onAccessDenied"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onAccessDenied.sublime-snippet" } },
-					{ "caption": "onNotFound"                            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onNotFound.sublime-snippet" } },
-					{ "caption": "onReturnAsset304"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onReturnAsset304.sublime-snippet" } },
+					  { "caption": "prePresideReload"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/prePresideReload.sublime-snippet" } }
+					, { "caption": "postPresideReload"                     , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPresideReload.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "onBuildLink"                           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onBuildLink.sublime-snippet" } }
+					, { "caption": "onCreateSelectDataCacheKey"            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onCreateSelectDataCacheKey.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "postDbSyncObjects"                     , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postDbSyncObjects.sublime-snippet" } }
+					, { "caption": "postDeleteObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postDeleteObjectData.sublime-snippet" } }
+					, { "caption": "postInsertObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postInsertObjectData.sublime-snippet" } }
+					, { "caption": "postLoadPresideObject"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postLoadPresideObject.sublime-snippet" } }
+					, { "caption": "postLoadPresideObjects"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postLoadPresideObjects.sublime-snippet" } }
+					, { "caption": "postPrepareObjectFilter"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPrepareObjectFilter.sublime-snippet" } }
+					, { "caption": "postReadPresideObject"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postReadPresideObject.sublime-snippet" } }
+					, { "caption": "postReadPresideObjects"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postReadPresideObjects.sublime-snippet" } }
+					, { "caption": "postRenderSiteTreePage"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postRenderSiteTreePage.sublime-snippet" } }
+					, { "caption": "postAddSiteTreePage"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postAddSiteTreePage.sublime-snippet" } }
+					, { "caption": "postEditSiteTreePage"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postEditSiteTreePage.sublime-snippet" } }
+					, { "caption": "postSelectObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postSelectObjectData.sublime-snippet" } }
+					, { "caption": "postUpdateObjectData"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postUpdateObjectData.sublime-snippet" } }
+					, { "caption": "postParseSelectFields"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postParseSelectFields.sublime-snippet" } }
+					, { "caption": "postPrepareTableJoins"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPrepareTableJoins.sublime-snippet" } }
+					, { "caption": "postPrepareVersionSelect"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPrepareVersionSelect.sublime-snippet" } }
+					, { "caption": "preDbSyncObjects"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDbSyncObjects.sublime-snippet" } }
+					, { "caption": "preDeleteObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDeleteObjectData.sublime-snippet" } }
+					, { "caption": "preInsertObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preInsertObjectData.sublime-snippet" } }
+					, { "caption": "preLoadPresideObject"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preLoadPresideObject.sublime-snippet" } }
+					, { "caption": "preLoadPresideObjects"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preLoadPresideObjects.sublime-snippet" } }
+					, { "caption": "prePrepareObjectFilter"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/prePrepareObjectFilter.sublime-snippet" } }
+					, { "caption": "preReadPresideObject"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preReadPresideObject.sublime-snippet" } }
+					, { "caption": "preRenderSiteTreePage"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preRenderSiteTreePage.sublime-snippet" } }
+					, { "caption": "postInitializePresideSiteteePage"      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postInitializePresideSiteteePage.sublime-snippet" } }
+					, { "caption": "preSelectObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preSelectObjectData.sublime-snippet" } }
+					, { "caption": "preUpdateObjectData"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preUpdateObjectData.sublime-snippet" } }
+					, { "caption": "preParseSelectFields"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preParseSelectFields.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "onApplicationStart"                    , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onApplicationStart.sublime-snippet" } }
+					, { "caption": "onApplicationEnd"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onApplicationEnd.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "onCreateNotification"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onCreateNotification.sublime-snippet" } }
+					, { "caption": "preCreateNotification"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preCreateNotification.sublime-snippet" } }
+					, { "caption": "postCreateNotification"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postCreateNotification.sublime-snippet" } }
+					, { "caption": "preCreateNotificationConsumer"         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preCreateNotificationConsumer.sublime-snippet" } }
+					, { "caption": "postCreateNotificationConsumer"        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postCreateNotificationConsumer.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "preAttemptLogin"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preAttemptLogin.sublime-snippet" } }
+					, { "caption": "onLoginSuccess"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onLoginSuccess.sublime-snippet" } }
+					, { "caption": "onLoginFailure"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onLoginFailure.sublime-snippet" } }
+					, { "caption": "onAdminLoginSuccess"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onAdminLoginSuccess.sublime-snippet" } }
+					, { "caption": "onAdminLoginFailure"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onAdminLoginFailure.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "preDownloadFile"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDownloadFile.sublime-snippet" } }
+					, { "caption": "onDownloadFile"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onDownloadFile.sublime-snippet" } }
+					, { "caption": "onReturnFile304"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onReturnFile304.sublime-snippet" } }
+					, { "caption": "preDownloadAsset"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preDownloadAsset.sublime-snippet" } }
+					, { "caption": "onDownloadAsset"                       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onDownloadAsset.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "postReadRestResourceDirectories"       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postReadRestResourceDirectories.sublime-snippet" } }
+					, { "caption": "onRestRequest"                         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onRestRequest.sublime-snippet" } }
+					, { "caption": "onRestError"                           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onRestError.sublime-snippet" } }
+					, { "caption": "onMissingRestResource"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onMissingRestResource.sublime-snippet" } }
+					, { "caption": "onUnsupportedRestMethod"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onUnsupportedRestMethod.sublime-snippet" } }
+					, { "caption": "preInvokeRestResource"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preInvokeRestResource.sublime-snippet" } }
+					, { "caption": "postInvokeRestResource"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postInvokeRestResource.sublime-snippet" } }
+					, { "caption": "onRestRequestParameterValidationError" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onRestRequestParameterValidationError.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "preFormBuilderFormSubmission"          , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preFormBuilderFormSubmission.sublime-snippet" } }
+					, { "caption": "postFormBuilderFormSubmission"         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postFormBuilderFormSubmission.sublime-snippet" } }
+					, { "caption": "-" }
+					, { "caption": "preSaveSystemConfig"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preSaveSystemConfig.sublime-snippet" } }
+					, { "caption": "postSaveSystemConfig"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postSaveSystemConfig.sublime-snippet" } }
+					, { "caption": "preSetUserSession"                     , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preSetUserSession.sublime-snippet" } }
+					, { "caption": "prePresideRequestCapture"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/prePresideRequestCapture.sublime-snippet" } }
+					, { "caption": "postPresideRequestCapture"             , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postPresideRequestCapture.sublime-snippet" } }
+					, { "caption": "onPresideDetectIncomingSite"           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideDetectIncomingSite.sublime-snippet" } }
+					, { "caption": "onPresideDetectLanguage"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideDetectLanguage.sublime-snippet" } }
+					, { "caption": "onPresideUrlRedirects"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideUrlRedirects.sublime-snippet" } }
+					, { "caption": "onPresideRedirectDomains"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onPresideRedirectDomains.sublime-snippet" } }
+					, { "caption": "preRoutePresideSESRequest"             , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/preRoutePresideSESRequest.sublime-snippet" } }
+					, { "caption": "postRoutePresideSESRequest"            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/postRoutePresideSESRequest.sublime-snippet" } }
+					, { "caption": "onGetEmailContextPayload"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onGetEmailContextPayload.sublime-snippet" } }
+					, { "caption": "onAccessDenied"                        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onAccessDenied.sublime-snippet" } }
+					, { "caption": "onNotFound"                            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onNotFound.sublime-snippet" } }
+					, { "caption": "onReturnAsset304"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onReturnAsset304.sublime-snippet" } }
 				]
 			}
 		]
