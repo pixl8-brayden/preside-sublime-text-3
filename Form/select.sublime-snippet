@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:colours}" control="select" values="${2:red,blue}" labels="${3:colours:red,colours:blue}" />
+]]></content>
+	<tabTrigger>select</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: select</description>
+</snippet>

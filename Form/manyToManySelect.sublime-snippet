@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:name}" control="manyToManySelect" object="${2:objectName}" />
+]]></content>
+	<tabTrigger>manyToManySelect</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: manyToManySelect</description>
+</snippet>

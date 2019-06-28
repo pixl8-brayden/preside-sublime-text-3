@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:terms}" control="checkbox" />
+]]></content>
+	<tabTrigger>checkbox</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: checkbox</description>
+</snippet>

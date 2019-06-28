@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:title}" control="textinput" />
+]]></content>
+	<tabTrigger>textInput</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: textInput</description>
+</snippet>

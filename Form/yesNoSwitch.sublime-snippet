@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:active}" control="yesNoSwitch" />
+]]></content>
+	<tabTrigger>yesNoSwitch</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: yesNoSwitch</description>
+</snippet>

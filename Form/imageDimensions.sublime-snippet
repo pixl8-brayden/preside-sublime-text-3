@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:dimensions}" control="imageDimensions" />
+]]></content>
+	<tabTrigger>imageDimensions</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: imageDimensions</description>
+</snippet>

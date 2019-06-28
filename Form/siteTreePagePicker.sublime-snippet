@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:pages}" control="sitetreePagePicker" />
+]]></content>
+	<tabTrigger>siteTreePagePicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: siteTreePagePicker</description>
+</snippet>

@@ -4,20 +4,23 @@
 	, "completions":
 	[
 		// Attribute inside tag
-		  { "trigger": "field"                , "contents": "<field binding=\"$1\" />" }
-		, { "trigger": "multiple"             , "contents": "multiple=\"${1:true}\"" }
-		, { "trigger": "sortable"             , "contents": "sortable=\"${1:true}\"" }
-		, { "trigger": "quickAdd"             , "contents": "quickAdd=\"${1:true}\"" }
-		, { "trigger": "quickEdit"            , "contents": "quickEdit=\"${1:true}\"" }
-		, { "trigger": "required"             , "contents": "required=\"true\"" }
-		, { "trigger": "minDate"              , "contents": "minDate=\"${1:2016-01-01}\"" }
-		, { "trigger": "relativeToField"      , "contents": "relativeToField=\"${1:fieldName}\"" }
-		, { "trigger": "relativeOperator"     , "contents": "relativeOperator=\"${1:lte}\"" }
-		, { "trigger": "passwordPolicyContext", "contents": "passwordPolicyContext=\"${1:website}\"" }
-		, { "trigger": "minvalue"             , "contents": "minvalue=\"${1:0}\"" }
-		, { "trigger": "maxvalue"             , "contents": "maxvalue=\"${1:200000}\"" }
-		, { "trigger": "step"                 , "contents": "step=\"${1:5000}\"" }
-		, { "trigger": "placeholder"          , "contents": "placeholder=\"${1:e.g. Lorem ipsum}\"" }
+		  { "trigger": "field"                  , "contents": "<field binding=\"$1\" />" }
+		, { "trigger": "multiple"               , "contents": "multiple=\"${1:true}\"" }
+		, { "trigger": "sortable"               , "contents": "sortable=\"${1:true}\"" }
+		, { "trigger": "quickAdd"               , "contents": "quickAdd=\"${1:true}\"" }
+		, { "trigger": "quickEdit"              , "contents": "quickEdit=\"${1:true}\"" }
+		, { "trigger": "required"               , "contents": "required=\"true\"" }
+		, { "trigger": "minDate"                , "contents": "minDate=\"${1:2016-01-01}\"" }
+		, { "trigger": "relativeToField"        , "contents": "relativeToField=\"${1:fieldName}\"" }
+		, { "trigger": "relativeOperator"       , "contents": "relativeOperator=\"${1:lte}\"" }
+		, { "trigger": "passwordPolicyContext"  , "contents": "passwordPolicyContext=\"${1:website}\"" }
+		, { "trigger": "minvalue"               , "contents": "minvalue=\"${1:0}\"" }
+		, { "trigger": "maxvalue"               , "contents": "maxvalue=\"${1:200000}\"" }
+		, { "trigger": "step"                   , "contents": "step=\"${1:5000}\"" }
+		, { "trigger": "placeholder"            , "contents": "placeholder=\"${1:e.g. Lorem ipsum}\"" }
+		, { "trigger": "removeObjectPickerClass", "contents": "removeObjectPickerClass=\"${1:true}\"" }
+		, { "trigger": "class"                  , "contents": "class=\"${1:form-control}\"" }
+		, { "trigger": "extraClasses"           , "contents": "extraClasses=\"${1:form-control}\"" }
 		// Preside form control
 		, { "trigger": "assetFolderPicker"       , "contents": "<field name=\"${1:folders}\" control=\"assetFolderPicker\" />" }
 		, { "trigger": "assetPicker"             , "contents": "<field name=\"${1:images}\" control=\"assetPicker\" allowedTypes=\"${2:image}\" maxFileSize=\"${3:2.5}\" />" }
@@ -37,7 +40,7 @@
 		, { "trigger": "linkPicker"              , "contents": "<field name=\"${1:links}\" control=\"linkPicker\" />" }
 		, { "trigger": "manyToManySelect"        , "contents": "<field name=\"${1:name}\" control=\"manyToManySelect\" object=\"${2:objectName}\" />" }
 		, { "trigger": "manyToOneSelect"         , "contents": "<field name=\"${1:name}\" control=\"manyToOneSelect\" object=\"${2:objectName}\" />" }
-		, { "trigger": "objectPicker"            , "contents": "<field name=\"${1:name}\" control=\"objectPicker\" object=\"${2:objectName}\" />" }
+		, { "trigger": "objectPicker"            , "contents": "<field name=\"${1:name}\" control=\"objectPicker\" object=\"${2:objectName}\" removeObjectPickerClass=\"${3:true}\" class=\"${4:form-control}\" />" }
 		// Form control: One-to-many configurator (pending)
 		// Form control: One-to-many manager (pending)
 		// Form control: One-to-many select (pending)

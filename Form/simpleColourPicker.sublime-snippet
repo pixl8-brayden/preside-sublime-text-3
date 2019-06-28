@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:colour}" control="simpleColourPicker" />
+]]></content>
+	<tabTrigger>simpleColourPicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: simpleColourPicker</description>
+</snippet>

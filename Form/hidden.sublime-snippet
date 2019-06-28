@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field binding="${1:product.id}" control="hidden"/>
+]]></content>
+	<tabTrigger>hidden</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: hidden</description>
+</snippet>
