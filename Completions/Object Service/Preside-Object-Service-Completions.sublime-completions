@@ -19,7 +19,7 @@
 		, { "trigger": "getObjectPropertyAttribute"   , "contents": "getObjectPropertyAttribute( \n\t  objectName = \"$1\"\n\t, propertyName = \"$2\"\n\t, attributeName = \"$3\" \n)" }
 		, { "trigger": "getRecordVersions"            , "contents": "getRecordVersions( \n\t  objectName = \"$1\"\n\t, id = \"$2\" \n)" }
 		, { "trigger": "getVersionObjectName"         , "contents": "getVersionObjectName( \n\tsourceObjectName = \"$1\" \n)" }
-		, { "trigger": "insertData"                   , "contents": "insertData( \n\t  objectName = \"$1\"\n\t, data = \"$2\" \n)" }
+		, { "trigger": "insertData"                   , "contents": "insertData( \n\t  objectName = \"$1\"\n\t, data = { $2 } \n)" }
 		, { "trigger": "insertDataFromSelect"         , "contents": "insertDataFromSelect( \n\t  objectName = \"$1\"\n\t, selectDataArgs = \"$2\"\n\t, fieldList = \"$3\" \n)" }
 		, { "trigger": "listObjects"                  , "contents": "listObjects( includeGeneratedObjects = $1 )" }
 		, { "trigger": "objectExists"                 , "contents": "objectExists( objectName = \"$1\" )" }
@@ -30,6 +30,6 @@
 		, { "trigger": "syncManyToManyData"           , "contents": "syncManyToManyData( \n\t  sourceObject = \"$1\"\n\t, sourceProperty = \"$2\"\n\t, sourceId = \"$3\"\n\t, targetIdList = \"$4\" \n)" }
 		, { "trigger": "syncOneToManyConfiguratorData", "contents": "syncOneToManyConfiguratorData( \n\t  sourceObject = \"$1\"\n\t, sourceProperty = \"$2\"\n\t, sourceId = \"$3\"\n\t, configuratorData = \"$4\"\n\t, versionNumber = $5 \n)" }
 		, { "trigger": "syncOneToManyData"            , "contents": "syncOneToManyData( \n\t  sourceObject = \"$1\"\n\t, sourceProperty = \"$2\"\n\t, sourceId = \"$3\"\n\t, targetIdList = \"$4\" \n)" }
-		, { "trigger": "updateData"                   , "contents": "updateData( \n\t  objectName = \"${1:string}\"\n\t, data = [\n\t\t${2:array}\n\t] \n)" }
+		, { "trigger": "updateData"                   , "contents": "updateData( \n\t  objectName = \"${1:string}\"\n\t, data = {\n\t\t${2:struct}\n\t}\n)" }
 	]
 }
