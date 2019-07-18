@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:folders}" control="assetFolderPicker" />
+]]></content>
+	<tabTrigger>assetFolderPicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: assetFolderPicker</description>
+</snippet>

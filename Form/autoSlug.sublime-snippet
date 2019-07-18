@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:slug}" control="autoSlug" basedOn="${2:title}" />
+]]></content>
+	<tabTrigger>autoSlug</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: autoSlug</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:filetypes}" control="fileTypePicker" />
+]]></content>
+	<tabTrigger>fileTypePicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: fileTypePicker</description>
+</snippet>

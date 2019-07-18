@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:description}" control="textarea" maxlength="${2:200}" />
+]]></content>
+	<tabTrigger>textarea</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: textarea</description>
+</snippet>

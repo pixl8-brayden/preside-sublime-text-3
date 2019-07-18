@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:start_time}" control="timePicker" />
+]]></content>
+	<tabTrigger>timePicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: timePicker</description>
+</snippet>

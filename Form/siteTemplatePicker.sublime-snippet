@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:templates}" control="siteTemplatePicker" />
+]]></content>
+	<tabTrigger>siteTemplatePicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: siteTemplatePicker</description>
+</snippet>

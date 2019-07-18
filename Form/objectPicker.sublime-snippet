@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:name}" control="objectPicker" object="${2:objectName}" removeObjectPickerClass="${3:true}" class="${4:form-control}" />
+]]></content>
+	<tabTrigger>objectPicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: objectPicker</description>
+</snippet>

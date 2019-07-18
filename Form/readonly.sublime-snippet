@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field binding="${1:my_protected_object.title}" control="readonly" />
+]]></content>
+	<tabTrigger>readonly</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: readonly</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:permissions}" control="websitePermissionsPicker" />
+]]></content>
+	<tabTrigger>websitePermissionsPicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: websitePermissionsPicker</description>
+</snippet>

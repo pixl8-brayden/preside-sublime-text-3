@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:images}" control="assetPicker" allowedTypes="${2:image}" maxFileSize="${3:2.5}" />
+]]></content>
+	<tabTrigger>assetPicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: assetPicker</description>
+</snippet>
