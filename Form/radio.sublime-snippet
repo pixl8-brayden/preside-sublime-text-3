@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:number}" control="radio" values="${2:1,2,3}" labels="${3:One,Two,Three}"/>
+]]></content>
+	<tabTrigger>radio</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: radio</description>
+</snippet>

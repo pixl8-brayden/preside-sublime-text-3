@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<cf_presideparam name="args.title"        field="page.title"        editable="true" />
+<cf_presideparam name="args.main_content" field="page.main_content" editable="true" />
+
+<cfoutput>
+	${1:content}
+</cfoutput>
+]]></content>
+	<tabTrigger>view</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside View Base</description>
+</snippet>

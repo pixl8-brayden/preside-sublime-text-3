@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderWidgetConfigForm()
+]]></content>
+	<tabTrigger>renderWidgetConfigForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: renderWidgetConfigForm</description>
+</snippet>

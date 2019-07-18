@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:storageLocation}" control="assetStorageLocationPicker" />
+]]></content>
+	<tabTrigger>storageLocation</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: storageLocation</description>
+</snippet>

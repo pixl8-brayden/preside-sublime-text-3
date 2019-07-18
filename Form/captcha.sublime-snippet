@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:captcha}" control="captcha" />
+]]></content>
+	<tabTrigger>captcha</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: captcha</description>
+</snippet>

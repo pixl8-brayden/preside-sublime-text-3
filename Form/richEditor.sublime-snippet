@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:body}" control="richeditor" />
+]]></content>
+	<tabTrigger>richEditor</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: richEditor</description>
+</snippet>

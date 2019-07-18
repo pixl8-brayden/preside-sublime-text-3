@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+hasWebsitePermission()
+]]></content>
+	<tabTrigger>hasWebsitePermission</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: hasWebsitePermission</description>
+</snippet>

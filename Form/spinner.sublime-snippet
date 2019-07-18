@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:companySize}" control="spinner" />
+]]></content>
+	<tabTrigger>spinner</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: spinner</description>
+</snippet>

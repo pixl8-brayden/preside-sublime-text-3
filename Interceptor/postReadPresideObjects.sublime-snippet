@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function postReadPresideObjects( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>postReadPresideObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: postReadPresideObjects</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderLabel()
+]]></content>
+	<tabTrigger>renderLabel</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: renderLabel</description>
+</snippet>

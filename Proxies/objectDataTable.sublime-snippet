@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+objectDataTable()
+]]></content>
+	<tabTrigger>objectDataTable</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: objectDataTable</description>
+</snippet>

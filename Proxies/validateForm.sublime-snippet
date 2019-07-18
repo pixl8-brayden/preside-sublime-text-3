@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+validateForm()
+]]></content>
+	<tabTrigger>validateForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: validateForm</description>
+</snippet>

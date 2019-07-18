@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderContent()
+]]></content>
+	<tabTrigger>renderContent</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Proxies: renderContent</description>
+</snippet>

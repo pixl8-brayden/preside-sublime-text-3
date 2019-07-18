@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public void function onPresideDetectLanguage( event, interceptData ) output=false {
+	${1:// TODO your login here}
+}
+]]></content>
+	<tabTrigger>onPresideDetectLanguage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Interceptor: onPresideDetectLanguage</description>
+</snippet>

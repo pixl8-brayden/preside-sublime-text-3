@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:derivatives}" control="derivativePicker" />
+]]></content>
+	<tabTrigger>derivativePicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: derivativePicker</description>
+</snippet>

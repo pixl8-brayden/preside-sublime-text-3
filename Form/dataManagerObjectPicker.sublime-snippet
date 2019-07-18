@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field name="${1:objects}" control="dataManagerObjectPicker" />
+]]></content>
+	<tabTrigger>dataManagerObjectPicker</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Preside Form Control: dataManagerObjectPicker</description>
+</snippet>
