@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+enum_js(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>enum_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>enum: enum_js</description>
+</snippet>

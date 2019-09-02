@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+compareVersions(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>compareVersions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: compareVersions</description>
+</snippet>

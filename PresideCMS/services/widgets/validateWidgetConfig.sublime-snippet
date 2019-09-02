@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+validateWidgetConfig(
+	  widgetId = ${1:string}
+	, config = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>validateWidgetConfig</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>widgets: validateWidgetConfig</description>
+</snippet>

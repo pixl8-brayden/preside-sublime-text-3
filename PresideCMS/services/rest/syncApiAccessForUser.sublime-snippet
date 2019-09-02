@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+syncApiAccessForUser(
+	  userId = ${1:string}
+	, apis = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>syncApiAccessForUser</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: syncApiAccessForUser</description>
+</snippet>

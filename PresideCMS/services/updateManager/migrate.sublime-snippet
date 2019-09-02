@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+migrate(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>migrate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: migrate</description>
+</snippet>

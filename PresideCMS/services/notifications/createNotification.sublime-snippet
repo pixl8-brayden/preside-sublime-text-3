@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+createNotification(
+	  topic = ${1:string}
+	, type = ${2:string}
+	, data = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createNotification</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: createNotification</description>
+</snippet>

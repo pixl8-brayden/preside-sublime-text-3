@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+listSites(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listSites</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: listSites</description>
+</snippet>

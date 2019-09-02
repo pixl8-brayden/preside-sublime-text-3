@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+reloadPresideObjects(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>reloadPresideObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: reloadPresideObjects</description>
+</snippet>

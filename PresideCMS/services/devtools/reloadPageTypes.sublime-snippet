@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+reloadPageTypes(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>reloadPageTypes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: reloadPageTypes</description>
+</snippet>

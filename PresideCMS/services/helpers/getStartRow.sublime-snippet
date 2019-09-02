@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getStartRow(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getStartRow</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>helpers: getStartRow</description>
+</snippet>

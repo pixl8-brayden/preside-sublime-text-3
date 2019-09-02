@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+createTaskHistoryLog(
+	  taskKey = ${1:string}
+	, threadId = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createTaskHistoryLog</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: createTaskHistoryLog</description>
+</snippet>

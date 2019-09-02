@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isValidHex(
+	  colour = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isValidHex</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formcontrols: isValidHex</description>
+</snippet>

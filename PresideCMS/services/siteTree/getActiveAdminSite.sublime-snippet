@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getActiveAdminSite(
+	  domain = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getActiveAdminSite</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getActiveAdminSite</description>
+</snippet>

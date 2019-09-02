@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+reloadAll(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>reloadAll</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: reloadAll</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+ensureTasksExistInStatusDb(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>ensureTasksExistInStatusDb</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: ensureTasksExistInStatusDb</description>
+</snippet>

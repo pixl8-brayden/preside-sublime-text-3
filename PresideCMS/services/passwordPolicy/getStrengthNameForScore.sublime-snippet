@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getStrengthNameForScore(
+	  score = ${1:numeric}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getStrengthNameForScore</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>passwordPolicy: getStrengthNameForScore</description>
+</snippet>

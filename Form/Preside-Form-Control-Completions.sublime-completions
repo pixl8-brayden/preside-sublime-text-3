@@ -21,6 +21,7 @@
 		, { "trigger": "removeObjectPickerClass", "contents": "removeObjectPickerClass=\"${1:true}\"" }
 		, { "trigger": "class"                  , "contents": "class=\"${1:form-control}\"" }
 		, { "trigger": "extraClasses"           , "contents": "extraClasses=\"${1:form-control}\"" }
+		, { "trigger": "sortorder"              , "contents": "sortorder=\"${1:35}\"" }
 		// Preside form control
 		, { "trigger": "assetFolderPicker"       , "contents": "<field name=\"${1:folders}\" control=\"assetFolderPicker\" />" }
 		, { "trigger": "assetPicker"             , "contents": "<field name=\"${1:images}\" control=\"assetPicker\" allowedTypes=\"${2:image}\" maxFileSize=\"${3:2.5}\" />" }
@@ -41,9 +42,6 @@
 		, { "trigger": "manyToManySelect"        , "contents": "<field name=\"${1:name}\" control=\"manyToManySelect\" object=\"${2:objectName}\" />" }
 		, { "trigger": "manyToOneSelect"         , "contents": "<field name=\"${1:name}\" control=\"manyToOneSelect\" object=\"${2:objectName}\" />" }
 		, { "trigger": "objectPicker"            , "contents": "<field name=\"${1:name}\" control=\"objectPicker\" object=\"${2:objectName}\" removeObjectPickerClass=\"${3:true}\" class=\"${4:form-control}\" />" }
-		// Form control: One-to-many configurator (pending)
-		// Form control: One-to-many manager (pending)
-		// Form control: One-to-many select (pending)
 		, { "trigger": "password"                , "contents": "<field name=\"${1:password}\" control=\"password\" required=\"true\" />" }
 		, { "trigger": "radio"                   , "contents": "<field name=\"${1:number}\" control=\"radio\" values=\"${2:1,2,3}\" labels=\"${3:One,Two,Three}\"/>" }
 		, { "trigger": "readonly"                , "contents": "<field binding=\"${1:my_protected_object.title}\" control=\"readonly\" />" }

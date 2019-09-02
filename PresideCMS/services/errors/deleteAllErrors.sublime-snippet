@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+deleteAllErrors(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>deleteAllErrors</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>errors: deleteAllErrors</description>
+</snippet>

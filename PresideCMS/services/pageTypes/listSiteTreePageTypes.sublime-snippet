@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+listSiteTreePageTypes(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listSiteTreePageTypes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>pageTypes: listSiteTreePageTypes</description>
+</snippet>

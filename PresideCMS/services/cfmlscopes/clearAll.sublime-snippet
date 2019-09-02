@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+clearAll(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>clearAll</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: clearAll</description>
+</snippet>

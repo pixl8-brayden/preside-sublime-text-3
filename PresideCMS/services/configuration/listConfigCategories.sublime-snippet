@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+listConfigCategories(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listConfigCategories</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>configuration: listConfigCategories</description>
+</snippet>

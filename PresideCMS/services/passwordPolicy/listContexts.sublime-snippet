@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+listContexts(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listContexts</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>passwordPolicy: listContexts</description>
+</snippet>

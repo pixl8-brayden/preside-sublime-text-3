@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+clearMaintenanceMode(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>clearMaintenanceMode</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>maintenanceMode: clearMaintenanceMode</description>
+</snippet>

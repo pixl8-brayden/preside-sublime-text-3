@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+setRequestTenantIds(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setRequestTenantIds</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>tenancy: setRequestTenantIds</description>
+</snippet>

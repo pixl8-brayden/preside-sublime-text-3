@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getRawDefinition(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRawDefinition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: getRawDefinition</description>
+</snippet>

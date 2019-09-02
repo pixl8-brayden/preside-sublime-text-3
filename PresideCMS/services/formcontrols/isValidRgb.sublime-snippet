@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isValidRgb(
+	  colour = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isValidRgb</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formcontrols: isValidRgb</description>
+</snippet>

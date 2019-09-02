@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+regenerateToken(
+	  userId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>regenerateToken</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: regenerateToken</description>
+</snippet>

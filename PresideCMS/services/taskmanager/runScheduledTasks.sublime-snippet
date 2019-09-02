@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+runScheduledTasks(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>runScheduledTasks</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: runScheduledTasks</description>
+</snippet>

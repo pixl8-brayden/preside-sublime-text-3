@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+listRegisteredServices(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listRegisteredServices</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>healthchecks: listRegisteredServices</description>
+</snippet>

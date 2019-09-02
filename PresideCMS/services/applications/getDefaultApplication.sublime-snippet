@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getDefaultApplication(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDefaultApplication</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>applications: getDefaultApplication</description>
+</snippet>

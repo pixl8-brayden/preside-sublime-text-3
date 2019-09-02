@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+saveUserTopicSubscriptionSettings(
+	  userId = ${1:string}
+	, topic = ${2:string}
+	, settings = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>saveUserTopicSubscriptionSettings</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: saveUserTopicSubscriptionSettings</description>
+</snippet>

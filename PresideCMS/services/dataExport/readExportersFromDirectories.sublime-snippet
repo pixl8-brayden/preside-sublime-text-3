@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+readExportersFromDirectories(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>readExportersFromDirectories</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>dataExport: readExportersFromDirectories</description>
+</snippet>

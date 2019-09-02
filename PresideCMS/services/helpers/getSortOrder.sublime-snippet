@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getSortOrder(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getSortOrder</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>helpers: getSortOrder</description>
+</snippet>

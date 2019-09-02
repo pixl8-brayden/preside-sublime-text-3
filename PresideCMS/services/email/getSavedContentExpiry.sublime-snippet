@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getSavedContentExpiry(
+	  template = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getSavedContentExpiry</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getSavedContentExpiry</description>
+</snippet>

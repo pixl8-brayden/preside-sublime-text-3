@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+listStrengths(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listStrengths</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>passwordPolicy: listStrengths</description>
+</snippet>

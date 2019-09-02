@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+reverseMatch(
+	  buildArgs = ${1:struct}
+	, event = ${2:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>reverseMatch</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>routeHandlers: reverseMatch</description>
+</snippet>

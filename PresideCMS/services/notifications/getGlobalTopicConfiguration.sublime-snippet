@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getGlobalTopicConfiguration(
+	  topic = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getGlobalTopicConfiguration</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: getGlobalTopicConfiguration</description>
+</snippet>

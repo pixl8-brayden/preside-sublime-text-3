@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDefaultLayout(
+	  template = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDefaultLayout</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getDefaultLayout</description>
+</snippet>

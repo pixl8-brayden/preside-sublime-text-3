@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+dbSync(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>dbSync</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: dbSync</description>
+</snippet>

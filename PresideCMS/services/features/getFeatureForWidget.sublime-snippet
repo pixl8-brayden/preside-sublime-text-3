@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getFeatureForWidget(
+	  widget = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFeatureForWidget</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>features: getFeatureForWidget</description>
+</snippet>

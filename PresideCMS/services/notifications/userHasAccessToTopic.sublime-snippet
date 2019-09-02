@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+userHasAccessToTopic(
+	  userId = ${1:string}
+	, topic = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>userHasAccessToTopic</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: userHasAccessToTopic</description>
+</snippet>

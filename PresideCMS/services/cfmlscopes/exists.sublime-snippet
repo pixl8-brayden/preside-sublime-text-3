@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+exists(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>exists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: exists</description>
+</snippet>

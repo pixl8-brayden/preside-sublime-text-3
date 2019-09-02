@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getAvailablePalettes(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAvailablePalettes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formcontrols: getAvailablePalettes</description>
+</snippet>

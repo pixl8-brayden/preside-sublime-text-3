@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+verifyGoogleToken(
+	, base32Secret = ${2:string}
+	, userValue = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>verifyGoogleToken</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>authentication: verifyGoogleToken</description>
+</snippet>

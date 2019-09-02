@@ -10,6 +10,7 @@
 					  { "caption": "Initial Form Base"                    , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Snippets/Preside-Form-Initial.sublime-snippet" } }
 					, { "caption": "Initial Preside Object Base"          , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Snippets/Preside-Object-Initial.sublime-snippet" } }
 					, { "caption": "Initial Page Type Object Base"        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Snippets/Preside-Page-Types-Initial.sublime-snippet" } }
+					, { "caption": "Initial Handler Base"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Snippets/Preside-Handler-Initial.sublime-snippet" } }
 					, { "caption": "Initial Service with Super Class Base", "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Snippets/Preside-Super-Class-Initial.sublime-snippet" } }
 					, { "caption": "Initial View Base"                    , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Snippets/Preside-View-Initial.sublime-snippet" } }
 				]
@@ -38,8 +39,8 @@
 				"children":
 				[
 					  { "caption": "Is system page type"      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/isSystemPageType.sublime-snippet" } }
-					, { "caption": "Allowed parent page types", "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/allowedChildPageTypes.sublime-snippet" } }
-					, { "caption": "Allowed child page types" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/allowedParentPageTypes.sublime-snippet" } }
+					, { "caption": "Allowed child page types" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/allowedChildPageTypes.sublime-snippet" } }
+					, { "caption": "Allowed parent page types", "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/allowedParentPageTypes.sublime-snippet" } }
 					, { "caption": "Show in site tree"        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/showInSiteTree.sublime-snippet" } }
 					, { "caption": "Site tree grid fields"    , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Data Manager/sitetreeGridFields.sublime-snippet" } }
 				]
@@ -51,40 +52,43 @@
 				"caption": "Form control",
 				"children":
 				[
-					{ "caption": "assetFolderPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/assetFolderPicker.sublime-snippet" } },
-					{ "caption": "assetPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/assetPicker.sublime-snippet" } },
-					{ "caption": "storageLocation" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/storageLocation.sublime-snippet" } },
-					{ "caption": "autoSlug" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/autoSlug.sublime-snippet" } },
-					{ "caption": "captcha" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/captcha.sublime-snippet" } },
-					{ "caption": "checkbox" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/checkbox.sublime-snippet" } },
-					{ "caption": "checkboxList" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/checkboxList.sublime-snippet" } },
-					{ "caption": "dataManagerObjectPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/dataManagerObjectPicker.sublime-snippet" } },
-					{ "caption": "datePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/datePicker.sublime-snippet" } },
-					{ "caption": "dateTimePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/dateTimePicker.sublime-snippet" } },
-					{ "caption": "derivativePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/derivativePicker.sublime-snippet" } },
-					{ "caption": "emailInput" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/emailInput.sublime-snippet" } },
-					{ "caption": "fileTypePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/fileTypePicker.sublime-snippet" } },
-					{ "caption": "hidden" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/hidden.sublime-snippet" } },
-					{ "caption": "imageDimensions" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/imageDimensions.sublime-snippet" } },
-					{ "caption": "linkPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/linkPicker.sublime-snippet" } },
-					{ "caption": "manyToManySelect" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/manyToManySelect.sublime-snippet" } },
-					{ "caption": "manyToOneSelect" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/manyToOneSelect.sublime-snippet" } },
-					{ "caption": "objectPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/objectPicker.sublime-snippet" } },
-					{ "caption": "password" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/password.sublime-snippet" } },
-					{ "caption": "radio" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/radio.sublime-snippet" } },
-					{ "caption": "readonly" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/readonly.sublime-snippet" } },
-					{ "caption": "richEditor" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/richEditor.sublime-snippet" } },
-					{ "caption": "select" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/select.sublime-snippet" } },
-					{ "caption": "simpleColourPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/simpleColourPicker.sublime-snippet" } },
-					{ "caption": "siteTemplatePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/siteTemplatePicker.sublime-snippet" } },
-					{ "caption": "siteTreePagePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/siteTreePagePicker.sublime-snippet" } },
-					{ "caption": "spinner" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/spinner.sublime-snippet" } },
-					{ "caption": "textarea" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/textarea.sublime-snippet" } },
-					{ "caption": "textInput" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/textInput.sublime-snippet" } },
-					{ "caption": "timePicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/timePicker.sublime-snippet" } },
+					{ "caption": "assetFolderPicker"        , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/assetFolderPicker.sublime-snippet" } },
+					{ "caption": "assetPicker"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/assetPicker.sublime-snippet" } },
+					{ "caption": "storageLocation"          , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/storageLocation.sublime-snippet" } },
+					{ "caption": "autoSlug"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/autoSlug.sublime-snippet" } },
+					{ "caption": "captcha"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/captcha.sublime-snippet" } },
+					{ "caption": "checkbox"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/checkbox.sublime-snippet" } },
+					{ "caption": "checkboxList"             , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/checkboxList.sublime-snippet" } },
+					{ "caption": "dataManagerObjectPicker"  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/dataManagerObjectPicker.sublime-snippet" } },
+					{ "caption": "datePicker"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/datePicker.sublime-snippet" } },
+					{ "caption": "dateTimePicker"           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/dateTimePicker.sublime-snippet" } },
+					{ "caption": "derivativePicker"         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/derivativePicker.sublime-snippet" } },
+					{ "caption": "emailInput"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/emailInput.sublime-snippet" } },
+					{ "caption": "fileTypePicker"           , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/fileTypePicker.sublime-snippet" } },
+					{ "caption": "hidden"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/hidden.sublime-snippet" } },
+					{ "caption": "imageDimensions"          , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/imageDimensions.sublime-snippet" } },
+					{ "caption": "linkPicker"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/linkPicker.sublime-snippet" } },
+					{ "caption": "manyToManySelect"         , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/manyToManySelect.sublime-snippet" } },
+					{ "caption": "manyToOneSelect"          , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/manyToOneSelect.sublime-snippet" } },
+					{ "caption": "objectPicker"             , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/objectPicker.sublime-snippet" } },
+					{ "caption": "password"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/password.sublime-snippet" } },
+					{ "caption": "radio"                    , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/radio.sublime-snippet" } },
+					{ "caption": "readonly"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/readonly.sublime-snippet" } },
+					{ "caption": "richEditor"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/richEditor.sublime-snippet" } },
+					{ "caption": "select"                   , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/select.sublime-snippet" } },
+					{ "caption": "simpleColourPicker"       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/simpleColourPicker.sublime-snippet" } },
+					{ "caption": "siteTemplatePicker"       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/siteTemplatePicker.sublime-snippet" } },
+					{ "caption": "siteTreePagePicker"       , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/siteTreePagePicker.sublime-snippet" } },
+					{ "caption": "spinner"                  , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/spinner.sublime-snippet" } },
+					{ "caption": "textarea"                 , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/textarea.sublime-snippet" } },
+					{ "caption": "textInput"                , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/textInput.sublime-snippet" } },
+					{ "caption": "timePicker"               , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/timePicker.sublime-snippet" } },
 					{ "caption": "websitePermissionsPicker" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/websitePermissionsPicker.sublime-snippet" } },
-					{ "caption": "yesNoSwitch" , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/yesNoSwitch.sublime-snippet" } },
+					{ "caption": "yesNoSwitch"              , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Form/yesNoSwitch.sublime-snippet" } },
 				]
+			},
+			{
+				"caption": "-"
 			},
 			{
 				"caption": "-"
@@ -308,7 +312,7 @@
 					, { "caption": "onNotFound"                            , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onNotFound.sublime-snippet" } }
 					, { "caption": "onReturnAsset304"                      , "command": "insert_snippet", "args": { "name": "Packages/preside-sublime-text-3/Interceptor/onReturnAsset304.sublime-snippet" } }
 				]
-			}
+			},
 		]
 	}
 ]

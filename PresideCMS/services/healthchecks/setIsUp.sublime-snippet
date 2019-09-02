@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+setIsUp(
+	  serviceId = ${1:string}
+	, isUp = ${2:boolean}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setIsUp</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>healthchecks: setIsUp</description>
+</snippet>

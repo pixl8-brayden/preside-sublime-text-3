@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getPageType(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getPageType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>pageTypes: getPageType</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getPalette(
+	  name = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getPalette</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formcontrols: getPalette</description>
+</snippet>

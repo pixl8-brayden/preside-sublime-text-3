@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTenantId(
+	  tenant = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTenantId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>tenancy: getTenantId</description>
+</snippet>

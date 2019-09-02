@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+canRequestBypassMaintenanceMode(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>canRequestBypassMaintenanceMode</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>maintenanceMode: canRequestBypassMaintenanceMode</description>
+</snippet>

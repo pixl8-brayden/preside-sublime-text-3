@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getAllTaskDetails(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAllTaskDetails</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getAllTaskDetails</description>
+</snippet>

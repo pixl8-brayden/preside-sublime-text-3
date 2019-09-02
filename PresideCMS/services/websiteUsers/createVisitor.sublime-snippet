@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+createVisitor(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createVisitor</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: createVisitor</description>
+</snippet>

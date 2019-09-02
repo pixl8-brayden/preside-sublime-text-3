@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getCurrentDatabaseVersion(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getCurrentDatabaseVersion</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: getCurrentDatabaseVersion</description>
+</snippet>

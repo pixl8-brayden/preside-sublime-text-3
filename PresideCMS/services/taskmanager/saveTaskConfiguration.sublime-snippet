@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+saveTaskConfiguration(
+	  taskKey = ${1:string}
+	, config = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>saveTaskConfiguration</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: saveTaskConfiguration</description>
+</snippet>

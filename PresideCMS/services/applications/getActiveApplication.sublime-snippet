@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getActiveApplication(
+	  event = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getActiveApplication</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>applications: getActiveApplication</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getStorage(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getStorage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: getStorage</description>
+</snippet>

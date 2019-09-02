@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+getVar(){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getVar</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: getVar</description>
+</snippet>
