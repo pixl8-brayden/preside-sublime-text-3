@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getTenancyCacheKey(
-	, objectName = ${3:string}
+	  objectName = ${1:string}
 ){
 	${99:// TODO code}
 }

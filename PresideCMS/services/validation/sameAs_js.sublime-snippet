@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+sameAs_js()
+]]></content>
+	<tabTrigger>sameAs_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: sameAs_js</description>
+</snippet>

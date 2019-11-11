@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-deleteAllErrors(){
-	${99:// TODO code}
-}
+deleteAllErrors()
 ]]></content>
 	<tabTrigger>deleteAllErrors</tabTrigger>
 	<scope>embedding.cfml</scope>

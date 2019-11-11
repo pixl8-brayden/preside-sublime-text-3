@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listFormLayouts()
+]]></content>
+	<tabTrigger>listFormLayouts</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: listFormLayouts</description>
+</snippet>

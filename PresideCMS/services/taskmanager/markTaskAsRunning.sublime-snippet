@@ -1,8 +1,7 @@
 <snippet>
 	<content><![CDATA[
 markTaskAsRunning(
-	  taskKey = ${1:string}
-	, threadId = ${2:string}
+	  taskId = ${1:string}
 ){
 	${99:// TODO code}
 }

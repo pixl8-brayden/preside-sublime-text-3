@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+deleteItem(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>deleteItem</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: deleteItem</description>
+</snippet>

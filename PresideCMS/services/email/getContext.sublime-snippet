@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getContext()
+]]></content>
+	<tabTrigger>getContext</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getContext</description>
+</snippet>

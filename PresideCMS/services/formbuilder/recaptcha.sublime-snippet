@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+recaptcha()
+]]></content>
+	<tabTrigger>recaptcha</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: recaptcha</description>
+</snippet>

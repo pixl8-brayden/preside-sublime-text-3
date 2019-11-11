@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+scaffoldEmailTemplateViewletHandler(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldEmailTemplateViewletHandler</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldEmailTemplateViewletHandler</description>
+</snippet>

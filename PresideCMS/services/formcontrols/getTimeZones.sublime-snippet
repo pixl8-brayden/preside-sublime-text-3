@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getTimeZones()
+]]></content>
+	<tabTrigger>getTimeZones</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formcontrols: getTimeZones</description>
+</snippet>

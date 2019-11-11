@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+publishDraft(
+	  pageId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>publishDraft</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: publishDraft</description>
+</snippet>

@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listStrengths(){
-	${99:// TODO code}
-}
+listStrengths()
 ]]></content>
 	<tabTrigger>listStrengths</tabTrigger>
 	<scope>embedding.cfml</scope>

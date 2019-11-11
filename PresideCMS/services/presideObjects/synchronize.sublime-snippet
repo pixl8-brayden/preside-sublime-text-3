@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+synchronize(
+	  dsns = ${1:array}
+	, objects = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>synchronize</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: synchronize</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+create(
+	  userId = ${1:string}
+	, targetUrl = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>create</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: create</description>
+</snippet>

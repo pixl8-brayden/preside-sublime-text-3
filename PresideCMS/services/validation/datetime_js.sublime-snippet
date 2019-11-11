@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+datetime_js()
+]]></content>
+	<tabTrigger>datetime_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: datetime_js</description>
+</snippet>

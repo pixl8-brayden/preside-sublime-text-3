@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+getRulesForField(
+	  objectName = ${1:string}
+	, fieldName = ${2:string}
+	, fieldAttributes = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRulesForField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: getRulesForField</description>
+</snippet>

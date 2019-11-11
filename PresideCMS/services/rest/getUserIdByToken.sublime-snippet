@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getUserIdByToken(
+	  token = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getUserIdByToken</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: getUserIdByToken</description>
+</snippet>

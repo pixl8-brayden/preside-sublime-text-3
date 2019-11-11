@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getStorageProviderForFolder(
+	  folderId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getStorageProviderForFolder</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getStorageProviderForFolder</description>
+</snippet>

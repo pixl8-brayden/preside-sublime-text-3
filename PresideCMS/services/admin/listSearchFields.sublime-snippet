@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listSearchFields(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listSearchFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: listSearchFields</description>
+</snippet>

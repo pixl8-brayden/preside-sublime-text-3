@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+match_js()
+]]></content>
+	<tabTrigger>match_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: match_js</description>
+</snippet>

@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listErrors(){
-	${99:// TODO code}
-}
+listErrors()
 ]]></content>
 	<tabTrigger>listErrors</tabTrigger>
 	<scope>embedding.cfml</scope>

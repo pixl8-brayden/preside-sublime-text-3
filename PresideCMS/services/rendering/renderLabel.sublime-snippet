@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+renderLabel(
+	  labelRenderer = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderLabel</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: renderLabel</description>
+</snippet>

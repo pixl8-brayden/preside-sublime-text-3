@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getI18nJsForAdmin(){
-	${99:// TODO code}
-}
+getI18nJsForAdmin()
 ]]></content>
 	<tabTrigger>getI18nJsForAdmin</tabTrigger>
 	<scope>embedding.cfml</scope>

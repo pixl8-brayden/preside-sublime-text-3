@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getWidgets(
-){
-	${99:// TODO code}
-}
+getWidgets(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>getWidgets</tabTrigger>
 	<scope>embedding.cfml</scope>

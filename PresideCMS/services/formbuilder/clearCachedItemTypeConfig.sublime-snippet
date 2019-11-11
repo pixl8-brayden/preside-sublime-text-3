@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-clearCachedItemTypeConfig(){
-	${99:// TODO code}
-}
+clearCachedItemTypeConfig()
 ]]></content>
 	<tabTrigger>clearCachedItemTypeConfig</tabTrigger>
 	<scope>embedding.cfml</scope>

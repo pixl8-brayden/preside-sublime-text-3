@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+cleanupDbVersionTableEntries(
+	  versionEntries = ${1:struct}
+	, objects = ${2:struct}
+	, dsn = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>cleanupDbVersionTableEntries</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: cleanupDbVersionTableEntries</description>
+</snippet>

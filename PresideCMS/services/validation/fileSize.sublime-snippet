@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+fileSize(
+	  fieldName = ${1:string}
+	, maxSize = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>fileSize</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: fileSize</description>
+</snippet>

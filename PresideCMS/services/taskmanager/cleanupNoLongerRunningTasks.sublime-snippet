@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-cleanupNoLongerRunningTasks(){
-	${99:// TODO code}
-}
+cleanupNoLongerRunningTasks()
 ]]></content>
 	<tabTrigger>cleanupNoLongerRunningTasks</tabTrigger>
 	<scope>embedding.cfml</scope>

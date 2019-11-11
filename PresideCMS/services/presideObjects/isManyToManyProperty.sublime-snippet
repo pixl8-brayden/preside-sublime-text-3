@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+isManyToManyProperty(
+	  objectName = ${1:string}
+	, propertyName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isManyToManyProperty</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: isManyToManyProperty</description>
+</snippet>

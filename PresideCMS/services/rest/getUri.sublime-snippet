@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getUri()
+]]></content>
+	<tabTrigger>getUri</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: getUri</description>
+</snippet>

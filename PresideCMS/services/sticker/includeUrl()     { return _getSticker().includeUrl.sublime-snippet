@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-includeUrl()     { return _getSticker().includeUrl(
-){
-	${99:// TODO code}
-}
+includeUrl()     { return _getSticker().includeUrl(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>includeUrl()     { return _getSticker().includeUrl</tabTrigger>
 	<scope>embedding.cfml</scope>

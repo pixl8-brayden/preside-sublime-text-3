@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getSearchQuery(){
-	${99:// TODO code}
-}
+getSearchQuery()
 ]]></content>
 	<tabTrigger>getSearchQuery</tabTrigger>
 	<scope>embedding.cfml</scope>

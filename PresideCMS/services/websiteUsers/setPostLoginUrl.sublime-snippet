@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setPostLoginUrl(
+	  postLoginUrl = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setPostLoginUrl</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: setPostLoginUrl</description>
+</snippet>

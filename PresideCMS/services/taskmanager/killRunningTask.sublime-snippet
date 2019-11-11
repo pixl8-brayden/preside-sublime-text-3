@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 killRunningTask(
-	, taskKey = ${2:string}
+	  taskKey = ${1:string}
 ){
 	${99:// TODO code}
 }

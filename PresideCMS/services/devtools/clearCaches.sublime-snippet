@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-clearCaches(){
-	${99:// TODO code}
-}
+clearCaches()
 ]]></content>
 	<tabTrigger>clearCaches</tabTrigger>
 	<scope>embedding.cfml</scope>

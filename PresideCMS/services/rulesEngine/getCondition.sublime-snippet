@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getCondition(
+	  conditionId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getCondition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getCondition</description>
+</snippet>

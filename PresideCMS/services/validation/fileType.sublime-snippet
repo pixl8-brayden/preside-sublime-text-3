@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+fileType(
+	  fieldName = ${1:string}
+	, allowedTypes = ${3:string}
+	, allowedExtensions = ${4:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>fileType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: fileType</description>
+</snippet>

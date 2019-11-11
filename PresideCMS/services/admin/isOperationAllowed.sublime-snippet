@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+isOperationAllowed(
+	  objectName = ${1:string}
+	, operation = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isOperationAllowed</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: isOperationAllowed</description>
+</snippet>

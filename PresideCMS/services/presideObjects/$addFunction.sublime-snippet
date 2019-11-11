@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+$addFunction(
+	  name = ${1:string}
+	, func = ${2:function}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>$addFunction</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: $addFunction</description>
+</snippet>

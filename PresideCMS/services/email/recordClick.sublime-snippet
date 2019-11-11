@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+recordClick(
+	  id = ${1:string}
+	, link = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>recordClick</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: recordClick</description>
+</snippet>

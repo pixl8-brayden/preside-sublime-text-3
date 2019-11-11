@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+addVersioningClausesToTranslationJoins(
+	  selectDataArgs = ${1:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>addVersioningClausesToTranslationJoins</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: addVersioningClausesToTranslationJoins</description>
+</snippet>

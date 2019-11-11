@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+earlierThanField(
+	  value = ${1:string}
+	, data = ${2:struct}
+	, field = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>earlierThanField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: earlierThanField</description>
+</snippet>

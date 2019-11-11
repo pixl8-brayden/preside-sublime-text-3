@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 Base32decodeString(
-	, string = ${2:any}
+	  string = ${1:any}
 ){
 	${99:// TODO code}
 }

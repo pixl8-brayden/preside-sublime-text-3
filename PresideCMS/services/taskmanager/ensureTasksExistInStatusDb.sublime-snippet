@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ensureTasksExistInStatusDb(){
-	${99:// TODO code}
-}
+ensureTasksExistInStatusDb()
 ]]></content>
 	<tabTrigger>ensureTasksExistInStatusDb</tabTrigger>
 	<scope>embedding.cfml</scope>

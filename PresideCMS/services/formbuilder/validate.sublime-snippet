@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+validate(
+	  response = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>validate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: validate</description>
+</snippet>

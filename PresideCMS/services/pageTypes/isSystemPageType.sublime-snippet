@@ -1,10 +1,6 @@
 <snippet>
 	<content><![CDATA[
-isSystemPageType(
-	  pageTypeId = ${1:string}
-){
-	${99:// TODO code}
-}
+isSystemPageType()
 ]]></content>
 	<tabTrigger>isSystemPageType</tabTrigger>
 	<scope>embedding.cfml</scope>

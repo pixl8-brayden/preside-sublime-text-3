@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+deleteObject(
+	  path = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>deleteObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>fileStorage: deleteObject</description>
+</snippet>

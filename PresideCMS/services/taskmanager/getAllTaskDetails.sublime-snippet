@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getAllTaskDetails(){
-	${99:// TODO code}
-}
+getAllTaskDetails()
 ]]></content>
 	<tabTrigger>getAllTaskDetails</tabTrigger>
 	<scope>embedding.cfml</scope>

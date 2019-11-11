@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listDueRepeatedScheduleTemplates()
+]]></content>
+	<tabTrigger>listDueRepeatedScheduleTemplates</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: listDueRepeatedScheduleTemplates</description>
+</snippet>

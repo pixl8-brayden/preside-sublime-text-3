@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listTasksStoredInStatusDb(){
-	${99:// TODO code}
-}
+listTasksStoredInStatusDb()
 ]]></content>
 	<tabTrigger>listTasksStoredInStatusDb</tabTrigger>
 	<scope>embedding.cfml</scope>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 renderWidget(
-	, widgetId = ${4:string}
+	  widgetId = ${1:string}
 ){
 	${99:// TODO code}
 }

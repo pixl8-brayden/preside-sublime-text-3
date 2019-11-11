@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 generateKey(
-	, password = ${2:string}
+	  password = ${1:string}
 ){
 	${99:// TODO code}
 }

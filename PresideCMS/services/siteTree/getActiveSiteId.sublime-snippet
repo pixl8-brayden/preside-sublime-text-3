@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getActiveSiteId(){
-	${99:// TODO code}
-}
+getActiveSiteId()
 ]]></content>
 	<tabTrigger>getActiveSiteId</tabTrigger>
 	<scope>embedding.cfml</scope>

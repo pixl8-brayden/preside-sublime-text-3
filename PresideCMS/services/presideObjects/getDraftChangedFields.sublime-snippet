@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getDraftChangedFields(
+	  objectName = ${1:string}
+	, recordId = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDraftChangedFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getDraftChangedFields</description>
+</snippet>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 emailAntiSpam(
-	, emailAddress = ${2:string}
+	  emailAddress = ${1:string}
 ){
 	${99:// TODO code}
 }

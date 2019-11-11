@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getLocation(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getLocation</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>fileStorage: getLocation</description>
+</snippet>

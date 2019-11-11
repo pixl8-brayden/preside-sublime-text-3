@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listSiteTreePageTypes(){
-	${99:// TODO code}
-}
+listSiteTreePageTypes()
 ]]></content>
 	<tabTrigger>listSiteTreePageTypes</tabTrigger>
 	<scope>embedding.cfml</scope>

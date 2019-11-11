@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-deleteOldNotifications(
-){
-	${99:// TODO code}
-}
+deleteOldNotifications(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>deleteOldNotifications</tabTrigger>
 	<scope>embedding.cfml</scope>

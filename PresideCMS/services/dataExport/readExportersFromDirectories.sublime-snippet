@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-readExportersFromDirectories(){
-	${99:// TODO code}
-}
+readExportersFromDirectories()
 ]]></content>
 	<tabTrigger>readExportersFromDirectories</tabTrigger>
 	<scope>embedding.cfml</scope>

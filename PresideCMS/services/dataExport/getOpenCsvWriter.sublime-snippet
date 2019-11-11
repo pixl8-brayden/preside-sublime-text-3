@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getOpenCsvWriter()
+]]></content>
+	<tabTrigger>getOpenCsvWriter</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>dataExport: getOpenCsvWriter</description>
+</snippet>

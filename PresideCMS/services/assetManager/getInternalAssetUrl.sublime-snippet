@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getInternalAssetUrl(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getInternalAssetUrl</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getInternalAssetUrl</description>
+</snippet>

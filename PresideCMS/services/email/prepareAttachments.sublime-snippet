@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 prepareAttachments(
-	, template = ${2:string}
+	  template = ${1:string}
 ){
 	${99:// TODO code}
 }

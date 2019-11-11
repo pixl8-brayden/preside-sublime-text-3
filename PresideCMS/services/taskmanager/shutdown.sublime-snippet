@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-shutdown(){
-	${99:// TODO code}
-}
+shutdown(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>shutdown</tabTrigger>
 	<scope>embedding.cfml</scope>

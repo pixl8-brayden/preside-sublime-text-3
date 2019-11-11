@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getRunnableTasks(){
-	${99:// TODO code}
-}
+getRunnableTasks()
 ]]></content>
 	<tabTrigger>getRunnableTasks</tabTrigger>
 	<scope>embedding.cfml</scope>

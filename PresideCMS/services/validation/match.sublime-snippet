@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+match(
+	  fieldName = ${1:string}
+	, regex = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>match</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: match</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getExpressionFieldsFromFunctionDefinition(
+	  functionMeta = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getExpressionFieldsFromFunctionDefinition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getExpressionFieldsFromFunctionDefinition</description>
+</snippet>

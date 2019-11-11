@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-canRequestBypassMaintenanceMode(){
-	${99:// TODO code}
-}
+canRequestBypassMaintenanceMode()
 ]]></content>
 	<tabTrigger>canRequestBypassMaintenanceMode</tabTrigger>
 	<scope>embedding.cfml</scope>

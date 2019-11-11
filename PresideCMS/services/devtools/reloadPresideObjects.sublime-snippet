@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-reloadPresideObjects(){
-	${99:// TODO code}
-}
+reloadPresideObjects()
 ]]></content>
 	<tabTrigger>reloadPresideObjects</tabTrigger>
 	<scope>embedding.cfml</scope>

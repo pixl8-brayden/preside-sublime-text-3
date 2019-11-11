@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getCurrentDatabaseVersion(){
-	${99:// TODO code}
-}
+getCurrentDatabaseVersion()
 ]]></content>
 	<tabTrigger>getCurrentDatabaseVersion</tabTrigger>
 	<scope>embedding.cfml</scope>

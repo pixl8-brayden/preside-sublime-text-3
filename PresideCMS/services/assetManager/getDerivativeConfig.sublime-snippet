@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDerivativeConfig(
+	  assetId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDerivativeConfig</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getDerivativeConfig</description>
+</snippet>

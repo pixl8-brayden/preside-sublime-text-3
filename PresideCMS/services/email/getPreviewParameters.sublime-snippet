@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getPreviewParameters(
-	  template = ${1:string}
+	  recipientType = ${1:string}
 ){
 	${99:// TODO code}
 }

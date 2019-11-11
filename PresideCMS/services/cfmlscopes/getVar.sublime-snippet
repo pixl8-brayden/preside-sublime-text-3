@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-getVar(){
+getVar(
+	  name = ${1:string}
+){
 	${99:// TODO code}
 }
 ]]></content>

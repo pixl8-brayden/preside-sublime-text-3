@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 calculateJoins(
-	, objectName = ${2:string}
-	, joinTargets = ${3:array}
+	  objectName = ${1:string}
+	, joinTargets = ${2:array}
 ){
 	${99:// TODO code}
 }

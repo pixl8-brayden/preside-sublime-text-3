@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getCurrentVersionFromBoxFile()
+]]></content>
+	<tabTrigger>getCurrentVersionFromBoxFile</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: getCurrentVersionFromBoxFile</description>
+</snippet>

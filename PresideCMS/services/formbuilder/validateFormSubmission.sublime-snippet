@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+validateFormSubmission(
+	  formItems = ${1:array}
+	, submissionData = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>validateFormSubmission</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: validateFormSubmission</description>
+</snippet>

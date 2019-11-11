@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listPossibleViewlets(
-){
-	${99:// TODO code}
-}
+listPossibleViewlets(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>listPossibleViewlets</tabTrigger>
 	<scope>embedding.cfml</scope>

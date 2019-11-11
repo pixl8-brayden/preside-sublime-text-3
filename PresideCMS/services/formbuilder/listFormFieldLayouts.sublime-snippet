@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listFormFieldLayouts(
+	  itemType = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listFormFieldLayouts</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: listFormFieldLayouts</description>
+</snippet>

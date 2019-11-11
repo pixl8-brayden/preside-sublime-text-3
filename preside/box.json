@@ -8,6 +8,6 @@
         "presidecms":"cms/"
     },
     "dependencies":{
-        "presidecms":"^10.11.0-SNAPSHOT5897"
+        "presidecms":"^10.11"
     }
 }

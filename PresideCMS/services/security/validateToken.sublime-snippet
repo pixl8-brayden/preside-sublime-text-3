@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+validateToken(
+	  token = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>validateToken</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>security: validateToken</description>
+</snippet>

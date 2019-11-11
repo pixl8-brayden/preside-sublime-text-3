@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 generateQrCode(
-	, input = ${3:string}
+	  input = ${1:string}
 ){
 	${99:// TODO code}
 }

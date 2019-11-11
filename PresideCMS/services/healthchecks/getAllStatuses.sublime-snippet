@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getAllStatuses()
+]]></content>
+	<tabTrigger>getAllStatuses</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>healthchecks: getAllStatuses</description>
+</snippet>

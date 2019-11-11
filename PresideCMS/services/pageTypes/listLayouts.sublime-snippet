@@ -1,10 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listLayouts(
-	  pageTypeId = ${1:string}
-){
-	${99:// TODO code}
-}
+listLayouts()
 ]]></content>
 	<tabTrigger>listLayouts</tabTrigger>
 	<scope>embedding.cfml</scope>

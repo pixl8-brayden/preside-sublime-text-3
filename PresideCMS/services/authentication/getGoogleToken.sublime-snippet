@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getGoogleToken(
-	, base32Secret = ${2:string}
+	  base32Secret = ${1:string}
 ){
 	${99:// TODO code}
 }

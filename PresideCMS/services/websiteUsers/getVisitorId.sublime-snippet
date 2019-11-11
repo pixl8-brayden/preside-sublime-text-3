@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getVisitorId(){
-	${99:// TODO code}
-}
+getVisitorId()
 ]]></content>
 	<tabTrigger>getVisitorId</tabTrigger>
 	<scope>embedding.cfml</scope>

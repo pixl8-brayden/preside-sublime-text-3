@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-isMaintenanceModeActive(){
-	${99:// TODO code}
-}
+isMaintenanceModeActive()
 ]]></content>
 	<tabTrigger>isMaintenanceModeActive</tabTrigger>
 	<scope>embedding.cfml</scope>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getTask(
-	  taskKey = ${1:string}
+	  taskId = ${1:string}
 ){
 	${99:// TODO code}
 }

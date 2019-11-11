@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+validated()
+]]></content>
+	<tabTrigger>validated</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: validated</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+setupVersioningForVersionedObjects(
+	  objects = ${1:struct}
+	, primaryDsn = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setupVersioningForVersionedObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: setupVersioningForVersionedObjects</description>
+</snippet>

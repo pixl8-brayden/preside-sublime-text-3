@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-run(){
-	${99:// TODO code}
-}
+run()
 ]]></content>
 	<tabTrigger>run</tabTrigger>
 	<scope>embedding.cfml</scope>

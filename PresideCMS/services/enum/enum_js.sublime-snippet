@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-enum_js(){
-	${99:// TODO code}
-}
+enum_js()
 ]]></content>
 	<tabTrigger>enum_js</tabTrigger>
 	<scope>embedding.cfml</scope>

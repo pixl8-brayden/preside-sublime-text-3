@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ensureDefaultSiteExists(){
-	${99:// TODO code}
-}
+ensureDefaultSiteExists()
 ]]></content>
 	<tabTrigger>ensureDefaultSiteExists</tabTrigger>
 	<scope>embedding.cfml</scope>

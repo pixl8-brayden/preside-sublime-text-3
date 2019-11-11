@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isObjectAvailableInDataManager(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isObjectAvailableInDataManager</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: isObjectAvailableInDataManager</description>
+</snippet>

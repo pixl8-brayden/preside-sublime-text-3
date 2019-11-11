@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getTaskRunnerUrl(
+	  taskId = ${1:string}
+	, siteContext = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTaskRunnerUrl</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getTaskRunnerUrl</description>
+</snippet>

@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getActiveSiteTemplate(
-){
-	${99:// TODO code}
-}
+getActiveSiteTemplate(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>getActiveSiteTemplate</tabTrigger>
 	<scope>embedding.cfml</scope>

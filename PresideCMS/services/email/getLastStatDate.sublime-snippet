@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getLastStatDate(
+	  templateId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getLastStatDate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getLastStatDate</description>
+</snippet>

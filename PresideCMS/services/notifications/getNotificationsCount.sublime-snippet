@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getNotificationsCount(
-	, userId = ${2:string}
+	  userId = ${1:string}
 ){
 	${99:// TODO code}
 }

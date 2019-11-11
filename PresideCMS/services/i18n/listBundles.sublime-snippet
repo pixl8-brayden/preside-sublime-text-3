@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listBundles()
+]]></content>
+	<tabTrigger>listBundles</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: listBundles</description>
+</snippet>

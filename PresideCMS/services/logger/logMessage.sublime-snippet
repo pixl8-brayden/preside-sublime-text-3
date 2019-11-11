@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+logMessage(
+	  logEvent = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>logMessage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>logger: logMessage</description>
+</snippet>

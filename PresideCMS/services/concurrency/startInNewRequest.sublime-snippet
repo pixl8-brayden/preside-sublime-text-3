@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-startInNewRequest(){
-	${99:// TODO code}
-}
+startInNewRequest()
 ]]></content>
 	<tabTrigger>startInNewRequest</tabTrigger>
 	<scope>embedding.cfml</scope>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getProviderConfigFormName(
+	  provider = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getProviderConfigFormName</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getProviderConfigFormName</description>
+</snippet>

@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-setAttributes(){
-	${99:// TODO code}
-}
+setAttributes()
 ]]></content>
 	<tabTrigger>setAttributes</tabTrigger>
 	<scope>embedding.cfml</scope>

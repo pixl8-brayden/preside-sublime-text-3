@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+editAsset(
+	  id = ${1:string}
+	, data = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>editAsset</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: editAsset</description>
+</snippet>

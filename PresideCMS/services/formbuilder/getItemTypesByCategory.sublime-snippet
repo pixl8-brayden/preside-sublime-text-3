@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getItemTypesByCategory(){
-	${99:// TODO code}
-}
+getItemTypesByCategory()
 ]]></content>
 	<tabTrigger>getItemTypesByCategory</tabTrigger>
 	<scope>embedding.cfml</scope>

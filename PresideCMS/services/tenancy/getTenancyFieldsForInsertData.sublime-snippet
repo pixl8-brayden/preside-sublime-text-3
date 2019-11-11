@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getTenancyFieldsForInsertData(
-	, objectName = ${2:string}
+	  objectName = ${1:string}
 ){
 	${99:// TODO code}
 }

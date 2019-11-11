@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-renderIncludes( boolean delayed=$isFeatureEnabled(
-){
-	${99:// TODO code}
-}
+renderIncludes( boolean delayed=$isFeatureEnabled(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>renderIncludes( boolean delayed=$isFeatureEnabled</tabTrigger>
 	<scope>embedding.cfml</scope>

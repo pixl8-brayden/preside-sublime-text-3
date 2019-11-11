@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getFwLocale(){
-	${99:// TODO code}
-}
+getFwLocale()
 ]]></content>
 	<tabTrigger>getFwLocale</tabTrigger>
 	<scope>embedding.cfml</scope>

@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-setRequestTenantIds(){
-	${99:// TODO code}
-}
+setRequestTenantIds()
 ]]></content>
 	<tabTrigger>setRequestTenantIds</tabTrigger>
 	<scope>embedding.cfml</scope>

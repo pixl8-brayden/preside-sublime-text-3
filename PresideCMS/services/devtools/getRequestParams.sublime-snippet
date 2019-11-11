@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getRequestParams()
+]]></content>
+	<tabTrigger>getRequestParams</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: getRequestParams</description>
+</snippet>

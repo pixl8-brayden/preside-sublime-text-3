@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-setVar(){
-	${99:// TODO code}
-}
+setVar()
 ]]></content>
 	<tabTrigger>setVar</tabTrigger>
 	<scope>embedding.cfml</scope>

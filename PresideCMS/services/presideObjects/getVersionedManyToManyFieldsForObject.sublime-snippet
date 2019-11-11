@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getVersionedManyToManyFieldsForObject(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getVersionedManyToManyFieldsForObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getVersionedManyToManyFieldsForObject</description>
+</snippet>

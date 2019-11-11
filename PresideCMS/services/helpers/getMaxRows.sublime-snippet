@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getMaxRows(){
-	${99:// TODO code}
-}
+getMaxRows()
 ]]></content>
 	<tabTrigger>getMaxRows</tabTrigger>
 	<scope>embedding.cfml</scope>

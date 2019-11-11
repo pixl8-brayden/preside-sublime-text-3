@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 renderAsset(
-	, assetId = ${3:string}
+	  assetId = ${1:string}
 ){
 	${99:// TODO code}
 }

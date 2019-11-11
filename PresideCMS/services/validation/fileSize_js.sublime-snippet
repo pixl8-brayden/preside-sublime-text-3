@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+fileSize_js()
+]]></content>
+	<tabTrigger>fileSize_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: fileSize_js</description>
+</snippet>

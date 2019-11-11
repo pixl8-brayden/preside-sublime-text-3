@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-dbSync(){
-	${99:// TODO code}
-}
+dbSync()
 ]]></content>
 	<tabTrigger>dbSync</tabTrigger>
 	<scope>embedding.cfml</scope>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 getProvider(
-	, id = ${3:string}
+	  id = ${1:string}
 ){
 	${99:// TODO code}
 }

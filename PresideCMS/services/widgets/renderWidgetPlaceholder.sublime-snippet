@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 renderWidgetPlaceholder(
-	, widgetId = ${2:string}
+	  widgetId = ${1:string}
 ){
 	${99:// TODO code}
 }

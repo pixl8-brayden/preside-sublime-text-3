@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listObjects(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>listObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: listObjects</description>
+</snippet>

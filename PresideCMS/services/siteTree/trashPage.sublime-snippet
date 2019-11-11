@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+trashPage(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>trashPage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: trashPage</description>
+</snippet>

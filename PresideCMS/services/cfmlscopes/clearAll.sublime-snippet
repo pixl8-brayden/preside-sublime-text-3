@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-clearAll(){
-	${99:// TODO code}
-}
+clearAll()
 ]]></content>
 	<tabTrigger>clearAll</tabTrigger>
 	<scope>embedding.cfml</scope>

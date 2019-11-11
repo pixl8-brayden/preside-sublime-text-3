@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-exists(){
+exists(
+	  name = ${1:string}
+){
 	${99:// TODO code}
 }
 ]]></content>

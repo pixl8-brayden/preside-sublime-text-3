@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getFormField(
+	  formName = ${1:string}
+	, fieldName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFormField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: getFormField</description>
+</snippet>

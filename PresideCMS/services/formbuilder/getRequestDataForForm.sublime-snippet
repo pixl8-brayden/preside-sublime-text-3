@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getRequestDataForForm(
+	  formId = ${1:string}
+	, requestData = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRequestDataForForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getRequestDataForForm</description>
+</snippet>

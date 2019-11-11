@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getAvailablePalettes(){
-	${99:// TODO code}
-}
+getAvailablePalettes()
 ]]></content>
 	<tabTrigger>getAvailablePalettes</tabTrigger>
 	<scope>embedding.cfml</scope>

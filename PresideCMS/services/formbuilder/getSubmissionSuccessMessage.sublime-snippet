@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getSubmissionSuccessMessage(
+	  formId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getSubmissionSuccessMessage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getSubmissionSuccessMessage</description>
+</snippet>

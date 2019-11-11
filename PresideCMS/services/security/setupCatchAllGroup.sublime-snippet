@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+setupCatchAllGroup()
+]]></content>
+	<tabTrigger>setupCatchAllGroup</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>security: setupCatchAllGroup</description>
+</snippet>

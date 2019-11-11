@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+SVGToPngBinary(
+	  asset = ${1:binary}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>SVGToPngBinary</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: SVGToPngBinary</description>
+</snippet>

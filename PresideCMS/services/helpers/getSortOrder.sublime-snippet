@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getSortOrder(){
-	${99:// TODO code}
-}
+getSortOrder()
 ]]></content>
 	<tabTrigger>getSortOrder</tabTrigger>
 	<scope>embedding.cfml</scope>

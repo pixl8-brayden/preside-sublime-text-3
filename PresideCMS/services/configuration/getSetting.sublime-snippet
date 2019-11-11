@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 getSetting(
-	, category = ${2:string}
-	, setting = ${3:string}
+	  category = ${1:string}
+	, setting = ${2:string}
 ){
 	${99:// TODO code}
 }

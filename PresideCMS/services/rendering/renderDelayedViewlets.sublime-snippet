@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+renderDelayedViewlets(
+	  content = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderDelayedViewlets</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: renderDelayedViewlets</description>
+</snippet>

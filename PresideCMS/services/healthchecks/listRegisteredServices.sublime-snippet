@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listRegisteredServices(){
-	${99:// TODO code}
-}
+listRegisteredServices()
 ]]></content>
 	<tabTrigger>listRegisteredServices</tabTrigger>
 	<scope>embedding.cfml</scope>

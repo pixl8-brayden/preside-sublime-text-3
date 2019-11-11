@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listTemplates(){
-	${99:// TODO code}
-}
+listTemplates()
 ]]></content>
 	<tabTrigger>listTemplates</tabTrigger>
 	<scope>embedding.cfml</scope>

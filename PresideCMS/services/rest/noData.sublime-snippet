@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+noData()
+]]></content>
+	<tabTrigger>noData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: noData</description>
+</snippet>

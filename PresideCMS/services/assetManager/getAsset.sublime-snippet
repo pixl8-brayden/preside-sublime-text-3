@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getAsset(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAsset</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getAsset</description>
+</snippet>

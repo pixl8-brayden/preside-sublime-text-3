@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-removeStorage(){
-	${99:// TODO code}
-}
+removeStorage()
 ]]></content>
 	<tabTrigger>removeStorage</tabTrigger>
 	<scope>embedding.cfml</scope>

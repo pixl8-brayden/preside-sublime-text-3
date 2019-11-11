@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-reload(
-){
-	${99:// TODO code}
-}
+reload(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>reload</tabTrigger>
 	<scope>embedding.cfml</scope>

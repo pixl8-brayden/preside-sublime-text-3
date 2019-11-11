@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getLayoutConfigFormName(
+	  layout = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getLayoutConfigFormName</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getLayoutConfigFormName</description>
+</snippet>

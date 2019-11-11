@@ -1,6 +1,9 @@
 <snippet>
 	<content><![CDATA[
-compareVersions(){
+compareVersions(
+	  versionA = ${1:string}
+	, versionB = ${2:string}
+){
 	${99:// TODO code}
 }
 ]]></content>

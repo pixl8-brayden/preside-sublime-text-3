@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 rgbToHex(
-	, rgbColour = ${2:string}
+	  rgbColour = ${1:string}
 ){
 	${99:// TODO code}
 }

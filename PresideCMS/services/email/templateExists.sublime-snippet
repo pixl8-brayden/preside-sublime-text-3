@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 templateExists(
-	  template = ${1:string}
+	  id = ${1:string}
 ){
 	${99:// TODO code}
 }

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getViewArgs(
+	  view = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getViewArgs</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getViewArgs</description>
+</snippet>

@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-deleteVar(){
+deleteVar(
+	  name = ${1:string}
+){
 	${99:// TODO code}
 }
 ]]></content>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+listPermissionKeys(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listPermissionKeys</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: listPermissionKeys</description>
+</snippet>

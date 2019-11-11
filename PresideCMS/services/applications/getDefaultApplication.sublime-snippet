@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getDefaultApplication(){
-	${99:// TODO code}
-}
+getDefaultApplication()
 ]]></content>
 	<tabTrigger>getDefaultApplication</tabTrigger>
 	<scope>embedding.cfml</scope>

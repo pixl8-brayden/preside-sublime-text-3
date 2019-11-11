@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+$mixinFunctions( target, objMeta = getMetaData(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>$mixinFunctions( target, objMeta = getMetaData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: $mixinFunctions( target, objMeta = getMetaData</description>
+</snippet>

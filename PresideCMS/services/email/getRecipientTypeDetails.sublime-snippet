@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getRecipientTypeDetails(
+	  recipientType = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRecipientTypeDetails</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getRecipientTypeDetails</description>
+</snippet>

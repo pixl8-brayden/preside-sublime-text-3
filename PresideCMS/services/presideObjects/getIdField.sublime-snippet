@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getIdField(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getIdField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getIdField</description>
+</snippet>

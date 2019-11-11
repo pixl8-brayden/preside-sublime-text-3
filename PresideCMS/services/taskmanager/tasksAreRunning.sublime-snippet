@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
-tasksAreRunning(
-){
-	${99:// TODO code}
-}
+tasksAreRunning(){ ${99:// TODO code} }
 ]]></content>
 	<tabTrigger>tasksAreRunning</tabTrigger>
 	<scope>embedding.cfml</scope>

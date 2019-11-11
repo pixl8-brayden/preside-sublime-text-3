@@ -33,16 +33,21 @@ def generateSnippetFromFile( filepath, category, destinationDir ):
 				if len( variables ) == 1 and variables[0] == '':
 					insertContent.remove( match.group(1).strip() + '(' )
 					insertContent.remove( '){\n\t${99:// TODO code}\n}' )
-					insertContent.insert( 2, match.group(1).strip() + '(){\n\t${99:// TODO code}\n}' )
+					insertContent.insert( 2, match.group(1).strip() + '()' )
 				else:
-					for variable in reversed( variables ):
-						if variable.find('required') != -1:
-							variable = variable.replace('required', '').strip()
-							data     = variable.split()
-							if count != 1:
-								insertContent.insert( 3, '\t, ' + data[1] + ' = ${' + str(count) + ':' + data[0] + '}' )
-							else:
-								insertContent.insert( 3, '\t  ' + data[1] + ' = ${' + str(count) + ':' + data[0] + '}' )
+					if len( variables ) == 1 and variables[0].find('required') == -1:
+						insertContent.remove( match.group(1).strip() + '(' )
+						insertContent.remove( '){\n\t${99:// TODO code}\n}' )
+						insertContent.insert( 2, match.group(1).strip() + '(){ ${99:// TODO code} }' )
+					else:
+						for variable in reversed( variables ):
+							if variable.find('required') != -1:
+								variable = variable.replace('required', '').strip()
+								data     = variable.split()
+								if count != 1:
+									insertContent.insert( 3, '\t, ' + data[1] + ' = ${' + str(count) + ':' + data[0] + '}' )
+								else:
+									insertContent.insert( 3, '\t  ' + data[1] + ' = ${' + str(count) + ':' + data[0] + '}' )
 							count -= 1
 
 				destination = join( destinationDir, category )
@@ -68,8 +73,8 @@ for folders in os.listdir( path ):
 			file = join( path, join( folders, files ) )
 			if isdir( file ) == False:
 				generateSnippetFromFile( file, folders, '../PresideCMS/services' )
-				break
 
-test = '/Users/brayden.tan/Library/Application Support/Sublime Text 3/Packages/preside-sublime-text-3/preside/cms/system/services/notifications/NotificationService.cfc'
+# test = '/Users/brayden.tan/Library/Application Support/Sublime Text 3/Packages/preside-sublime-text-3/preside/cms/system/services/notifications/NotificationService.cfc'
 # test2 = '/Users/brayden.tan/Library/Application Support/Sublime Text 3/Packages/preside-sublime-text-3/PresideCMS/services'
 # generateSnippetFromFile( test, 'Notification Service', test2 )
+

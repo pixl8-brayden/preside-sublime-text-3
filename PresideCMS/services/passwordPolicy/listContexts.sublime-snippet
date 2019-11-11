@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-listContexts(){
-	${99:// TODO code}
-}
+listContexts()
 ]]></content>
 	<tabTrigger>listContexts</tabTrigger>
 	<scope>embedding.cfml</scope>

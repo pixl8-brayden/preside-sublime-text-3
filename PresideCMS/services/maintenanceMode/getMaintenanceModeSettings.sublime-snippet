@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getMaintenanceModeSettings(){
-	${99:// TODO code}
-}
+getMaintenanceModeSettings()
 ]]></content>
 	<tabTrigger>getMaintenanceModeSettings</tabTrigger>
 	<scope>embedding.cfml</scope>

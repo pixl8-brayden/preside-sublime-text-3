@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+getChangedFields(
+	  objectName = ${1:string}
+	, recordId = ${2:string}
+	, newData = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getChangedFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getChangedFields</description>
+</snippet>

@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-migrate(){
-	${99:// TODO code}
-}
+migrate()
 ]]></content>
 	<tabTrigger>migrate</tabTrigger>
 	<scope>embedding.cfml</scope>
