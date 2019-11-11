@@ -71,5 +71,5 @@ for folders in os.listdir( path ):
 				break
 
 test = '/Users/brayden.tan/Library/Application Support/Sublime Text 3/Packages/preside-sublime-text-3/preside/cms/system/services/notifications/NotificationService.cfc'
-test2 = '/Users/brayden.tan/Library/Application Support/Sublime Text 3/Packages/preside-sublime-text-3/PresideCMS/services'
+# test2 = '/Users/brayden.tan/Library/Application Support/Sublime Text 3/Packages/preside-sublime-text-3/PresideCMS/services'
 # generateSnippetFromFile( test, 'Notification Service', test2 )
