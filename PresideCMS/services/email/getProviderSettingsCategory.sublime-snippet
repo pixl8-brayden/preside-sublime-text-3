@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getProviderSettingsCategory(
+	  provider = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getProviderSettingsCategory</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getProviderSettingsCategory</description>
+</snippet>

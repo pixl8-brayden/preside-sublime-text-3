@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Base32decodeString(
+	  string = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>Base32decodeString</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>authentication: Base32decodeString</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+userHasPageAccess(
+	  pageId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>userHasPageAccess</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: userHasPageAccess</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listUserBenefits(
+	  userId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listUserBenefits</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: listUserBenefits</description>
+</snippet>

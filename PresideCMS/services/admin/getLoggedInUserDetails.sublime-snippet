@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getLoggedInUserDetails()
+]]></content>
+	<tabTrigger>getLoggedInUserDetails</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getLoggedInUserDetails</description>
+</snippet>

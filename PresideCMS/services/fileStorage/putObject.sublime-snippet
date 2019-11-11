@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+putObject(
+	  object = ${1:any}
+	, path = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>putObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>fileStorage: putObject</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+money(
+	  fieldName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>money</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: money</description>
+</snippet>

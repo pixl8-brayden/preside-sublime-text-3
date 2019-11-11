@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+contextExists(
+	  context = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>contextExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: contextExists</description>
+</snippet>

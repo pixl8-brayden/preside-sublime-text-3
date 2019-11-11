@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+scaffoldRuleExpression(
+	  id = ${1:string}
+	, label = ${2:string}
+	, text = ${3:string}
+	, context = ${4:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldRuleExpression</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldRuleExpression</description>
+</snippet>

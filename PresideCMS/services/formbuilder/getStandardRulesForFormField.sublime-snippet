@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getStandardRulesForFormField(
+	  name = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getStandardRulesForFormField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getStandardRulesForFormField</description>
+</snippet>

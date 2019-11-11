@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+attemptTwoFactorAuthentication(
+	  token = ${1:string}
+	, ipAddress = ${2:string}
+	, userAgent = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>attemptTwoFactorAuthentication</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: attemptTwoFactorAuthentication</description>
+</snippet>

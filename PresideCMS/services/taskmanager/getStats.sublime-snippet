@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getStats()
+]]></content>
+	<tabTrigger>getStats</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getStats</description>
+</snippet>

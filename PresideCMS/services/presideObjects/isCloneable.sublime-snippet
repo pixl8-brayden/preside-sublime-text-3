@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isCloneable(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isCloneable</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: isCloneable</description>
+</snippet>

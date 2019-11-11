@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+createRestRequest(
+	  uri = ${1:string}
+	, requestContext = ${2:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createRestRequest</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: createRestRequest</description>
+</snippet>

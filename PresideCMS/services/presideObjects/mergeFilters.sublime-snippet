@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+mergeFilters(
+	  filter1 = ${1:any}
+	, filter2 = ${2:any}
+	, dbAdapter = ${3:any}
+	, tableAlias = ${4:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>mergeFilters</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: mergeFilters</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+markAsHardBounced(
+	  id = ${1:string}
+	, reason = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markAsHardBounced</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: markAsHardBounced</description>
+</snippet>

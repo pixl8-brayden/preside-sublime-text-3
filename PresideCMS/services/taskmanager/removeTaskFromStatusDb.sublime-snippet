@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+removeTaskFromStatusDb(
+	  taskKey = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>removeTaskFromStatusDb</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: removeTaskFromStatusDb</description>
+</snippet>

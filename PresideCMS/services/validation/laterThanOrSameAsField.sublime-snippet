@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+laterThanOrSameAsField(
+	  value = ${1:string}
+	, data = ${2:struct}
+	, field = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>laterThanOrSameAsField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: laterThanOrSameAsField</description>
+</snippet>

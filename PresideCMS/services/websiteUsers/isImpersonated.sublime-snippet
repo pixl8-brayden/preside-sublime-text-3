@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isImpersonated()
+]]></content>
+	<tabTrigger>isImpersonated</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: isImpersonated</description>
+</snippet>

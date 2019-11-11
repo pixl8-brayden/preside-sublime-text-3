@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+addValidator(
+	  name = ${1:string}
+	, method = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>addValidator</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: addValidator</description>
+</snippet>

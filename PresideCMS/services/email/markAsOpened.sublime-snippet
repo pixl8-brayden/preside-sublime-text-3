@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+markAsOpened(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markAsOpened</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: markAsOpened</description>
+</snippet>

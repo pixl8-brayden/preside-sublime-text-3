@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+languageCode_js()
+]]></content>
+	<tabTrigger>languageCode_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: languageCode_js</description>
+</snippet>

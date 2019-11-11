@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+readRequest()
+]]></content>
+	<tabTrigger>readRequest</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: readRequest</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTemplateRecipientCount(
+	  templateId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTemplateRecipientCount</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getTemplateRecipientCount</description>
+</snippet>

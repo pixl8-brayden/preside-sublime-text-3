@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+markDownloadAsComplete(
+	  version = ${1:string}
+	, downloadId = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markDownloadAsComplete</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: markDownloadAsComplete</description>
+</snippet>

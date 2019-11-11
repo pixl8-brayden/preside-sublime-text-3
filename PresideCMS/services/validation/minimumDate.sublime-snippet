@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+minimumDate(
+	  value = ${1:string}
+	, minimumDate = ${2:date}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>minimumDate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: minimumDate</description>
+</snippet>

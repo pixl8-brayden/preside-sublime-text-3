@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+purgeTaskHistoryLog(
+	  taskKey = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>purgeTaskHistoryLog</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: purgeTaskHistoryLog</description>
+</snippet>

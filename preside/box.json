@@ -1,0 +1,13 @@
+{
+    "name":"PRESIDECMS",
+    "version":"1.0.0",
+    "author":"Pixl8 Interactive Ltd",
+    "slug":"presidecms",
+    "private":true,
+    "installPaths":{
+        "presidecms":"cms/"
+    },
+    "dependencies":{
+        "presidecms":"^10.11"
+    }
+}

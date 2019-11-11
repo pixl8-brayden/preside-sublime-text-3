@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$announceInterception( \n\t  state = \"${1:state}\"\n\t, interceptData = { ${2:interceptData} }\n)
+]]></content>
+	<tabTrigger>announceInterception</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Super Class: announceInterception</description>
+</snippet>

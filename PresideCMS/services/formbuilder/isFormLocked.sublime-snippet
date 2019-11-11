@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+isFormLocked(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isFormLocked</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: isFormLocked</description>
+</snippet>

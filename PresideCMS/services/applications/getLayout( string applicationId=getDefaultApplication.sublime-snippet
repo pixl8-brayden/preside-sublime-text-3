@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getLayout( string applicationId=getDefaultApplication(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>getLayout( string applicationId=getDefaultApplication</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>applications: getLayout( string applicationId=getDefaultApplication</description>
+</snippet>

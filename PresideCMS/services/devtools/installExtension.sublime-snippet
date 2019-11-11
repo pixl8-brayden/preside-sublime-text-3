@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+installExtension()
+]]></content>
+	<tabTrigger>installExtension</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: installExtension</description>
+</snippet>

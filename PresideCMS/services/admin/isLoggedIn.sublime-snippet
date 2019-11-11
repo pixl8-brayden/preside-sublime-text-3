@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isLoggedIn()
+]]></content>
+	<tabTrigger>isLoggedIn</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: isLoggedIn</description>
+</snippet>

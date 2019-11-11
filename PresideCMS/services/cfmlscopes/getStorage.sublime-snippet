@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getStorage()
+]]></content>
+	<tabTrigger>getStorage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: getStorage</description>
+</snippet>

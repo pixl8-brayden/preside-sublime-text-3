@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listTopicUserGroups(
+	  topic = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listTopicUserGroups</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: listTopicUserGroups</description>
+</snippet>

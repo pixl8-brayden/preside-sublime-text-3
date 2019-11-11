@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getImageInformation(
+	  asset = ${1:binary}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getImageInformation</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getImageInformation</description>
+</snippet>

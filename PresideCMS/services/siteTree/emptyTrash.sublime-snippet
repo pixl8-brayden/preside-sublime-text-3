@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+emptyTrash()
+]]></content>
+	<tabTrigger>emptyTrash</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: emptyTrash</description>
+</snippet>

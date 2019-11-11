@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+rgbToHex(
+	  rgbColour = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>rgbToHex</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formcontrols: rgbToHex</description>
+</snippet>

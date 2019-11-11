@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+addError(
+	  fieldName = ${1:string}
+	, message = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>addError</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: addError</description>
+</snippet>

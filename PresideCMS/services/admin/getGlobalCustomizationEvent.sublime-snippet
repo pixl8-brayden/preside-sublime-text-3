@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getGlobalCustomizationEvent(
+	  action = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getGlobalCustomizationEvent</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getGlobalCustomizationEvent</description>
+</snippet>

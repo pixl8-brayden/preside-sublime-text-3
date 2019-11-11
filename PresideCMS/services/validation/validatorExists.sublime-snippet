@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+validatorExists(
+	  name = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>validatorExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: validatorExists</description>
+</snippet>

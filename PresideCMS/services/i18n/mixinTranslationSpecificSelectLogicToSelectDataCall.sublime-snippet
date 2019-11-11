@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+mixinTranslationSpecificSelectLogicToSelectDataCall(
+	  objectName = ${1:string}
+	, selectFields = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>mixinTranslationSpecificSelectLogicToSelectDataCall</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: mixinTranslationSpecificSelectLogicToSelectDataCall</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+slugify()
+]]></content>
+	<tabTrigger>slugify</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: slugify</description>
+</snippet>

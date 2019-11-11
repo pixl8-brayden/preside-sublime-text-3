@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getFwLocale()
+]]></content>
+	<tabTrigger>getFwLocale</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: getFwLocale</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+scaffoldExtension(
+	  id = ${1:string}
+	, title = ${2:string}
+	, description = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldExtension</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldExtension</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getActionConfig(
+	  action = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getActionConfig</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getActionConfig</description>
+</snippet>

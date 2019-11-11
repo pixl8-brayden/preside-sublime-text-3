@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+resolve(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>resolve</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: resolve</description>
+</snippet>

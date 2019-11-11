@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getActiveHistoryIdForTask(
+	  taskKey = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getActiveHistoryIdForTask</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getActiveHistoryIdForTask</description>
+</snippet>

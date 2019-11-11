@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+syncSiteRedirectDomains(
+	  siteId = ${1:string}
+	, domains = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>syncSiteRedirectDomains</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: syncSiteRedirectDomains</description>
+</snippet>

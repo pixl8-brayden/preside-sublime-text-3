@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+preProcessConfiguredFields(
+	  expressionId = ${1:string}
+	, configuredFields = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>preProcessConfiguredFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: preProcessConfiguredFields</description>
+</snippet>

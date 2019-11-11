@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getViewOnlineContentId(
+	  content = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getViewOnlineContentId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getViewOnlineContentId</description>
+</snippet>

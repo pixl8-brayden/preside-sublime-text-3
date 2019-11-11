@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getSetting(
+	  category = ${1:string}
+	, setting = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getSetting</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>configuration: getSetting</description>
+</snippet>

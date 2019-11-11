@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getOrderByForLabels(
+	  labelRenderer = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getOrderByForLabels</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: getOrderByForLabels</description>
+</snippet>

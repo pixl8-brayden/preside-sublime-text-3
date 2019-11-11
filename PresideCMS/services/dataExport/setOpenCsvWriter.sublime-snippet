@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setOpenCsvWriter(
+	  writer = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setOpenCsvWriter</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>dataExport: setOpenCsvWriter</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getRecipientAdditionalLogProperties(
+	  recipientType = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRecipientAdditionalLogProperties</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getRecipientAdditionalLogProperties</description>
+</snippet>

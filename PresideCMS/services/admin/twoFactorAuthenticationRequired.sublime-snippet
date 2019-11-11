@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+twoFactorAuthenticationRequired(
+	  ipAddress = ${1:string}
+	, userAgent = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>twoFactorAuthenticationRequired</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: twoFactorAuthenticationRequired</description>
+</snippet>

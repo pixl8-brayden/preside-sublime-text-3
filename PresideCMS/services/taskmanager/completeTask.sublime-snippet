@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+completeTask(
+	  taskId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>completeTask</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: completeTask</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+clearPostLoginUrl()
+]]></content>
+	<tabTrigger>clearPostLoginUrl</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: clearPostLoginUrl</description>
+</snippet>

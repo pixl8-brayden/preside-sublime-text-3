@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+login(
+	  loginId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>login</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: login</description>
+</snippet>

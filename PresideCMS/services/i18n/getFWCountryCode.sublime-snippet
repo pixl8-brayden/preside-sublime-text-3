@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getFWCountryCode()
+]]></content>
+	<tabTrigger>getFWCountryCode</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: getFWCountryCode</description>
+</snippet>

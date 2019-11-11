@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+listForeignObjectsBlockingDelete(
+	  objectName = ${1:string}
+	, recordId = ${2:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listForeignObjectsBlockingDelete</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: listForeignObjectsBlockingDelete</description>
+</snippet>

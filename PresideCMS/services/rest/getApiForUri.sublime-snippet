@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getApiForUri(
+	  restPath = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getApiForUri</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: getApiForUri</description>
+</snippet>

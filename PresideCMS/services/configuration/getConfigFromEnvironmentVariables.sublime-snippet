@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getConfigFromEnvironmentVariables()
+]]></content>
+	<tabTrigger>getConfigFromEnvironmentVariables</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>configuration: getConfigFromEnvironmentVariables</description>
+</snippet>

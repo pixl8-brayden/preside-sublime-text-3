@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$getPresideObject( "${1:objectName}" )
+]]></content>
+	<tabTrigger>getPresideObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Super Class: getPresideObject</description>
+</snippet>

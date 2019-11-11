@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listActions()
+]]></content>
+	<tabTrigger>listActions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: listActions</description>
+</snippet>

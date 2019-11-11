@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getSearchQuery()
+]]></content>
+	<tabTrigger>getSearchQuery</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>helpers: getSearchQuery</description>
+</snippet>

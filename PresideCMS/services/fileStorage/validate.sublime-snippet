@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+validate(
+	  configuration = ${1:struct}
+	, validationResult = ${2:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>validate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>fileStorage: validate</description>
+</snippet>

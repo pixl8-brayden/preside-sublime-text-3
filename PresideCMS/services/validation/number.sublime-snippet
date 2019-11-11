@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+number(
+	  value = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>number</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: number</description>
+</snippet>

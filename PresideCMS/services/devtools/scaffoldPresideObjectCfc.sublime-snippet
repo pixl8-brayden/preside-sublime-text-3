@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+scaffoldPresideObjectCfc(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldPresideObjectCfc</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldPresideObjectCfc</description>
+</snippet>

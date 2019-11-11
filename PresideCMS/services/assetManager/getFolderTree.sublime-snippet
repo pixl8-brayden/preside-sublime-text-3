@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+getFolderTree(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFolderTree</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getFolderTree</description>
+</snippet>

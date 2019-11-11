@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getOneTimeToken(
+	  base32Secret = ${1:string}
+	, counter = ${2:numeric}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getOneTimeToken</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>authentication: getOneTimeToken</description>
+</snippet>

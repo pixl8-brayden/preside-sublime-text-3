@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+preProcessForm( required string formName, required struct formData, any validationResult=_getValidationEngine().newValidationResult(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>preProcessForm( required string formName, required struct formData, any validationResult=_getValidationEngine().newValidationResult</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: preProcessForm( required string formName, required struct formData, any validationResult=_getValidationEngine().newValidationResult</description>
+</snippet>

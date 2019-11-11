@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+build(
+	  buildArgs = ${1:struct}
+	, event = ${2:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>build</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>routeHandlers: build</description>
+</snippet>

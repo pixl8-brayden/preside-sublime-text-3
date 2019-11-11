@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+failTask(
+	  taskId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>failTask</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: failTask</description>
+</snippet>

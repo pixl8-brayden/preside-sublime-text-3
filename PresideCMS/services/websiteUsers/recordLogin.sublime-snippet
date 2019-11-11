@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+recordLogin()
+]]></content>
+	<tabTrigger>recordLogin</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: recordLogin</description>
+</snippet>

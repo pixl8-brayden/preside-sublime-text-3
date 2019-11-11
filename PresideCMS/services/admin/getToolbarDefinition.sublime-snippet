@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getToolbarDefinition(
+	  toolbarDefinition = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getToolbarDefinition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getToolbarDefinition</description>
+</snippet>

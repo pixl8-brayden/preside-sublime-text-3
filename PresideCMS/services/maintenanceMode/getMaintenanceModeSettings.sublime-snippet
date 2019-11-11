@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getMaintenanceModeSettings()
+]]></content>
+	<tabTrigger>getMaintenanceModeSettings</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>maintenanceMode: getMaintenanceModeSettings</description>
+</snippet>

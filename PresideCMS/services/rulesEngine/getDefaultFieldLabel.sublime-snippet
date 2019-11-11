@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getDefaultFieldLabel(
+	  expressionId = ${1:string}
+	, fieldName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDefaultFieldLabel</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getDefaultFieldLabel</description>
+</snippet>

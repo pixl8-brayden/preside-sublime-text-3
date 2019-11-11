@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+logout()
+]]></content>
+	<tabTrigger>logout</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: logout</description>
+</snippet>

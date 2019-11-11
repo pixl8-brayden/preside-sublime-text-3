@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listDownloadedVersions()
+]]></content>
+	<tabTrigger>listDownloadedVersions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: listDownloadedVersions</description>
+</snippet>

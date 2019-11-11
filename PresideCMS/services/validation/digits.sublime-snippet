@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+digits(
+	  value = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>digits</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: digits</description>
+</snippet>

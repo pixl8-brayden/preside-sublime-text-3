@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isViewletDelayedByDefault(
+	  viewlet = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isViewletDelayedByDefault</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: isViewletDelayedByDefault</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getFieldDefinition(
+	  functionArgumentMeta = ${1:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFieldDefinition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getFieldDefinition</description>
+</snippet>

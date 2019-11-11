@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+extractTokensFromUri(
+	  restRequest = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>extractTokensFromUri</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: extractTokensFromUri</description>
+</snippet>

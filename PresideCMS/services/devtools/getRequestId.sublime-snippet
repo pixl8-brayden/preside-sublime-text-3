@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getRequestId()
+]]></content>
+	<tabTrigger>getRequestId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: getRequestId</description>
+</snippet>

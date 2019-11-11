@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+presideObjectUniqueIndex(
+	  fieldName = ${1:string}
+	, objectName = ${3:string}
+	, fields = ${4:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>presideObjectUniqueIndex</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: presideObjectUniqueIndex</description>
+</snippet>

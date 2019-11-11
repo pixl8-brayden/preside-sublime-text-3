@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$createNotification( \n\t  topic = \"${1:topic}\"\n\t, type = \"${2:type}\"\n\t, data = {\n\t\t${3:data}\n\t}\n)
+]]></content>
+	<tabTrigger>createNotification</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Super Class: createNotification</description>
+</snippet>

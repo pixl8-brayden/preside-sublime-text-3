@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+toggleShowNonLiveContent()
+]]></content>
+	<tabTrigger>toggleShowNonLiveContent</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: toggleShowNonLiveContent</description>
+</snippet>

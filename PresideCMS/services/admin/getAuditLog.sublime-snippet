@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getAuditLog(
+	  auditLogId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAuditLog</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getAuditLog</description>
+</snippet>

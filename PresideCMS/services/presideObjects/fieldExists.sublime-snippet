@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+fieldExists(
+	  objectName = ${1:string}
+	, fieldName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>fieldExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: fieldExists</description>
+</snippet>

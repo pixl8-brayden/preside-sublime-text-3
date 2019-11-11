@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getAssetVersions(
+	  assetId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAssetVersions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getAssetVersions</description>
+</snippet>

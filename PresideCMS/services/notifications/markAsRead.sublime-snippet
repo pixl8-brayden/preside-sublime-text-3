@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+markAsRead(
+	  notificationIds = ${1:array}
+	, userId = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markAsRead</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: markAsRead</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+modifyTab(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>modifyTab</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: modifyTab</description>
+</snippet>

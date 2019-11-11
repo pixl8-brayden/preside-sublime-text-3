@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+redirectOnMatch(
+	  path = ${1:string}
+	, fullUrl = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>redirectOnMatch</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>redirects: redirectOnMatch</description>
+</snippet>

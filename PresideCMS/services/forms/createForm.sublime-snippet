@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+createForm(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: createForm</description>
+</snippet>

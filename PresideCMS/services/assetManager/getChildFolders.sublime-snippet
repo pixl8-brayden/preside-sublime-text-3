@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getChildFolders(
+	  parent = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getChildFolders</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getChildFolders</description>
+</snippet>

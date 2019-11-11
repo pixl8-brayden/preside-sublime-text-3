@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getNextRunDate( required string taskKey, date lastRun=Now(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>getNextRunDate( required string taskKey, date lastRun=Now</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getNextRunDate( required string taskKey, date lastRun=Now</description>
+</snippet>

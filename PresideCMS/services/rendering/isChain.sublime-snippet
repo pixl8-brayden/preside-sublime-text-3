@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isChain()
+]]></content>
+	<tabTrigger>isChain</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: isChain</description>
+</snippet>

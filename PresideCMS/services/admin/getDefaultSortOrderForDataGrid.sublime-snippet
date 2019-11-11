@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDefaultSortOrderForDataGrid(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDefaultSortOrderForDataGrid</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getDefaultSortOrderForDataGrid</description>
+</snippet>

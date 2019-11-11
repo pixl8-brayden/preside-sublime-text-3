@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+scaffoldPageType(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldPageType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldPageType</description>
+</snippet>

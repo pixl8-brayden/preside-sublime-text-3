@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listObjectsFilterableByCondition(
+	  expressionArray = ${1:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listObjectsFilterableByCondition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: listObjectsFilterableByCondition</description>
+</snippet>

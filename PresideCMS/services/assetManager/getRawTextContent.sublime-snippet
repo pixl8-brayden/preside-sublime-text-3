@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getRawTextContent(
+	  assetId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRawTextContent</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getRawTextContent</description>
+</snippet>

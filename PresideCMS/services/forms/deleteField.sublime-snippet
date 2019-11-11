@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+deleteField(
+	  name = ${1:string}
+	, fieldset = ${2:string}
+	, tab = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>deleteField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: deleteField</description>
+</snippet>
