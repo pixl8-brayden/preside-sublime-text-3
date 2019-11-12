@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getObjectRelationships(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getObjectRelationships</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getObjectRelationships</description>
+</snippet>

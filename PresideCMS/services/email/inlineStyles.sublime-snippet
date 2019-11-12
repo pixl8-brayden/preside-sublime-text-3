@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+inlineStyles(
+	  html = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>inlineStyles</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: inlineStyles</description>
+</snippet>

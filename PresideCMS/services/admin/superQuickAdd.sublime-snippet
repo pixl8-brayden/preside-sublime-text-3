@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+superQuickAdd(
+	  objectName = ${1:string}
+	, value = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>superQuickAdd</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: superQuickAdd</description>
+</snippet>

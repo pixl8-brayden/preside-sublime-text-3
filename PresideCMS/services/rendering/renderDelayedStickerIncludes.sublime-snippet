@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+renderDelayedStickerIncludes(
+	  content = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderDelayedStickerIncludes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: renderDelayedStickerIncludes</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+ensureSystemPagesExistForSite(
+	  siteId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>ensureSystemPagesExistForSite</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: ensureSystemPagesExistForSite</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+scaffoldPageTypeView(
+	  viewName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldPageTypeView</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldPageTypeView</description>
+</snippet>

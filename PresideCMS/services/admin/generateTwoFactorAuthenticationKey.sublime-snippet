@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+generateTwoFactorAuthenticationKey()
+]]></content>
+	<tabTrigger>generateTwoFactorAuthenticationKey</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: generateTwoFactorAuthenticationKey</description>
+</snippet>

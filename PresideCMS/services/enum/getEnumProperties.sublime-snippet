@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getEnumProperties(
+	  enum = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getEnumProperties</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>enum: getEnumProperties</description>
+</snippet>

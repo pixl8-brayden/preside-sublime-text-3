@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+markDownloadAsErrored(
+	  version = ${1:string}
+	, downloadId = ${2:string}
+	, error = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markDownloadAsErrored</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: markDownloadAsErrored</description>
+</snippet>

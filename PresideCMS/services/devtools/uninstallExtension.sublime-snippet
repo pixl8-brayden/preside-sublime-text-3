@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+uninstallExtension()
+]]></content>
+	<tabTrigger>uninstallExtension</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: uninstallExtension</description>
+</snippet>

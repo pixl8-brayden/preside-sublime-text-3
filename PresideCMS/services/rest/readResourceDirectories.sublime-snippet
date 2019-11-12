@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+readResourceDirectories(
+	  directories = ${1:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>readResourceDirectories</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: readResourceDirectories</description>
+</snippet>

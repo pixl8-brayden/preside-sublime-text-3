@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+readExporterFromCfcMetadata(
+	  metaData = ${1:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>readExporterFromCfcMetadata</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>dataExport: readExporterFromCfcMetadata</description>
+</snippet>

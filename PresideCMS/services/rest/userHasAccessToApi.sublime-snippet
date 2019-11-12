@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+userHasAccessToApi(
+	  userId = ${1:string}
+	, api = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>userHasAccessToApi</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: userHasAccessToApi</description>
+</snippet>

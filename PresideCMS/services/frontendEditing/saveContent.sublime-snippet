@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+saveContent(
+	  object = ${1:string}
+	, property = ${2:string}
+	, recordId = ${3:string}
+	, content = ${4:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>saveContent</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>frontendEditing: saveContent</description>
+</snippet>

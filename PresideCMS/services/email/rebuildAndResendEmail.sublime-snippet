@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+rebuildAndResendEmail(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>rebuildAndResendEmail</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: rebuildAndResendEmail</description>
+</snippet>

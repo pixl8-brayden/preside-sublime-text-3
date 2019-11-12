@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getFormBuilderSubmissionContextData()
+]]></content>
+	<tabTrigger>getFormBuilderSubmissionContextData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getFormBuilderSubmissionContextData</description>
+</snippet>

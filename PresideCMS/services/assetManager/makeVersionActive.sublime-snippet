@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+makeVersionActive(
+	  assetId = ${1:string}
+	, versionId = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>makeVersionActive</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: makeVersionActive</description>
+</snippet>

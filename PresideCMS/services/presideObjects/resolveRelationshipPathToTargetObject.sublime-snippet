@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+resolveRelationshipPathToTargetObject(
+	  sourceObject = ${1:string}
+	, relationshipPath = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>resolveRelationshipPathToTargetObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: resolveRelationshipPathToTargetObject</description>
+</snippet>

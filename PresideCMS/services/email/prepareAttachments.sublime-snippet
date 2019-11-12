@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+prepareAttachments(
+	  template = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>prepareAttachments</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: prepareAttachments</description>
+</snippet>

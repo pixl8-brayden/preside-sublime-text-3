@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+email_js()
+]]></content>
+	<tabTrigger>email_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: email_js</description>
+</snippet>

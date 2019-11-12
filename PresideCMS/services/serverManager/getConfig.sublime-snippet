@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getConfig(
+	  serverId = ${1:string}
+	, applicationId = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getConfig</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>serverManager: getConfig</description>
+</snippet>

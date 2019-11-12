@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+removeStorage()
+]]></content>
+	<tabTrigger>removeStorage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: removeStorage</description>
+</snippet>

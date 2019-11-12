@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+minlength(
+	  fieldName = ${1:string}
+	, length = ${3:numeric}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>minlength</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: minlength</description>
+</snippet>

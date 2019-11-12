@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+securityAlertCallback=function(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>securityAlertCallback=function</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: securityAlertCallback=function</description>
+</snippet>

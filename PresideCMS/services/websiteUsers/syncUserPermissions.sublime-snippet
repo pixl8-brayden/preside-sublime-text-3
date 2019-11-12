@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+syncUserPermissions(
+	  userId = ${1:string}
+	, permissions = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>syncUserPermissions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: syncUserPermissions</description>
+</snippet>

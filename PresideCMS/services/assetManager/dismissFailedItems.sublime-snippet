@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+dismissFailedItems(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>dismissFailedItems</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: dismissFailedItems</description>
+</snippet>

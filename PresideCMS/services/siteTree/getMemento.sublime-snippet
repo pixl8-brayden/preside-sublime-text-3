@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getMemento()
+]]></content>
+	<tabTrigger>getMemento</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getMemento</description>
+</snippet>

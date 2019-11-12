@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+datetime(
+	  value = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>datetime</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: datetime</description>
+</snippet>

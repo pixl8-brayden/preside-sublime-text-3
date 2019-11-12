@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+minimumDate_js()
+]]></content>
+	<tabTrigger>minimumDate_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: minimumDate_js</description>
+</snippet>

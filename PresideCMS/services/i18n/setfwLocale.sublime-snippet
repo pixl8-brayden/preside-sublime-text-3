@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setfwLocale(
+	  locale = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setfwLocale</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: setfwLocale</description>
+</snippet>

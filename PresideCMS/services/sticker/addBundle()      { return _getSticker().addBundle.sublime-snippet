@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+addBundle()      { return _getSticker().addBundle(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>addBundle()      { return _getSticker().addBundle</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>sticker: addBundle()      { return _getSticker().addBundle</description>
+</snippet>

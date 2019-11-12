@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+sendWithProvider(
+	  provider = ${1:string}
+	, sendArgs = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>sendWithProvider</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: sendWithProvider</description>
+</snippet>

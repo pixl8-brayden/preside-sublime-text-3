@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+startInNewRequest()
+]]></content>
+	<tabTrigger>startInNewRequest</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>concurrency: startInNewRequest</description>
+</snippet>

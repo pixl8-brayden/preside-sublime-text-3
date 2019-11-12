@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+sendWelcomeEmail(
+	  userId = ${1:string}
+	, createdBy = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>sendWelcomeEmail</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: sendWelcomeEmail</description>
+</snippet>

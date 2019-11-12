@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+detectCurrentVersion()
+]]></content>
+	<tabTrigger>detectCurrentVersion</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: detectCurrentVersion</description>
+</snippet>

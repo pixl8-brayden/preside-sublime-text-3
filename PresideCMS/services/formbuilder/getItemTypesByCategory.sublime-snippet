@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getItemTypesByCategory()
+]]></content>
+	<tabTrigger>getItemTypesByCategory</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getItemTypesByCategory</description>
+</snippet>

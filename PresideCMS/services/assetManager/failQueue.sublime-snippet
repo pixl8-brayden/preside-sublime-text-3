@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+failQueue(
+	  asset = ${1:struct}
+	, error = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>failQueue</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: failQueue</description>
+</snippet>

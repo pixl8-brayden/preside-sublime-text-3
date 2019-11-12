@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+syncBenefitPermissions(
+	  benefitId = ${1:string}
+	, permissions = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>syncBenefitPermissions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: syncBenefitPermissions</description>
+</snippet>

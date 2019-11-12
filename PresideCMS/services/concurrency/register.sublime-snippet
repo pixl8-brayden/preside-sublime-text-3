@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+register()
+]]></content>
+	<tabTrigger>register</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>concurrency: register</description>
+</snippet>

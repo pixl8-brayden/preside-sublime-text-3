@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listErrorFields()
+]]></content>
+	<tabTrigger>listErrorFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: listErrorFields</description>
+</snippet>

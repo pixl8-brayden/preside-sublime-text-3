@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+setStartTime( numeric startTime=GetTickCount(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>setStartTime( numeric startTime=GetTickCount</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>concurrency: setStartTime( numeric startTime=GetTickCount</description>
+</snippet>

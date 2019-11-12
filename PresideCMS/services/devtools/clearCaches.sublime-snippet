@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+clearCaches()
+]]></content>
+	<tabTrigger>clearCaches</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: clearCaches</description>
+</snippet>

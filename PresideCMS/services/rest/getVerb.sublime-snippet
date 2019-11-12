@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getVerb(
+	  requestContext = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getVerb</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: getVerb</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getResource()
+]]></content>
+	<tabTrigger>getResource</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: getResource</description>
+</snippet>

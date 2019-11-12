@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+newValidationResult()
+]]></content>
+	<tabTrigger>newValidationResult</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: newValidationResult</description>
+</snippet>

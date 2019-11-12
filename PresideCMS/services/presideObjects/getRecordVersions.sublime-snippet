@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getRecordVersions(
+	  objectName = ${1:string}
+	, id = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRecordVersions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getRecordVersions</description>
+</snippet>

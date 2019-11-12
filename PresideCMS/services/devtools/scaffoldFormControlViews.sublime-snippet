@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+scaffoldFormControlViews(
+	  formControl = ${1:string}
+	, contexts = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldFormControlViews</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldFormControlViews</description>
+</snippet>

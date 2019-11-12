@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+expandTypeList(
+	  types = ${1:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>expandTypeList</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: expandTypeList</description>
+</snippet>

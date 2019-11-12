@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+presideObjectUniqueIndex_js()
+]]></content>
+	<tabTrigger>presideObjectUniqueIndex_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: presideObjectUniqueIndex_js</description>
+</snippet>

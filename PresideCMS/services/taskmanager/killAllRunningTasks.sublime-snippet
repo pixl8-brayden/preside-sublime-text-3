@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+killAllRunningTasks(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>killAllRunningTasks</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: killAllRunningTasks</description>
+</snippet>

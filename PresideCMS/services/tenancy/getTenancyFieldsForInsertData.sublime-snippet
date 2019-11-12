@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTenancyFieldsForInsertData(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTenancyFieldsForInsertData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>tenancy: getTenancyFieldsForInsertData</description>
+</snippet>

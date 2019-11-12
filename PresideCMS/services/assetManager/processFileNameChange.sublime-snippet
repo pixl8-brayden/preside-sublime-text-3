@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+processFileNameChange(
+	  id = ${1:string}
+	, newName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>processFileNameChange</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: processFileNameChange</description>
+</snippet>

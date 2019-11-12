@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isCorsRequestAllowed(
+	  api = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isCorsRequestAllowed</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: isCorsRequestAllowed</description>
+</snippet>

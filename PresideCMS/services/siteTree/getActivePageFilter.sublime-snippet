@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getActivePageFilter(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>getActivePageFilter</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getActivePageFilter</description>
+</snippet>

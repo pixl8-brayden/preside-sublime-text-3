@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+load()           { return _getSticker().load(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>load()           { return _getSticker().load</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>sticker: load()           { return _getSticker().load</description>
+</snippet>

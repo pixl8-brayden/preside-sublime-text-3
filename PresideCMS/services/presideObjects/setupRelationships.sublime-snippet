@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setupRelationships(
+	  objects = ${1:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setupRelationships</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: setupRelationships</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$createTask( \n\t  event = \"${1:event}\"\n\t, args ={${2:args}}\n\t, runNow = ${3:true}\n)
+]]></content>
+	<tabTrigger>createTask</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Preside Super Class: createTask</description>
+</snippet>

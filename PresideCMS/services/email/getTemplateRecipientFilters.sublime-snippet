@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTemplateRecipientFilters(
+	  templateId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTemplateRecipientFilters</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getTemplateRecipientFilters</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getFilterObjectsForExpression(
+	  expressionId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFilterObjectsForExpression</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getFilterObjectsForExpression</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isFormActive(
+	  formId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isFormActive</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: isFormActive</description>
+</snippet>

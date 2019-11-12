@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getActiveSiteId()
+]]></content>
+	<tabTrigger>getActiveSiteId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getActiveSiteId</description>
+</snippet>

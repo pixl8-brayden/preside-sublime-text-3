@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getPolicy(
+	  context = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getPolicy</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>passwordPolicy: getPolicy</description>
+</snippet>

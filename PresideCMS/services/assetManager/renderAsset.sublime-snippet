@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+renderAsset(
+	  assetId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderAsset</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: renderAsset</description>
+</snippet>

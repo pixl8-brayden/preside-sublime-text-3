@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+showMaintenancePageIfActive()
+]]></content>
+	<tabTrigger>showMaintenancePageIfActive</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>maintenanceMode: showMaintenancePageIfActive</description>
+</snippet>

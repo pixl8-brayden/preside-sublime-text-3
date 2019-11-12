@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getSubmissionCount(
+	  formId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getSubmissionCount</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getSubmissionCount</description>
+</snippet>

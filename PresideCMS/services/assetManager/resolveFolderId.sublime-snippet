@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+resolveFolderId(
+	  folderId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>resolveFolderId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: resolveFolderId</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+sendGlobalNotificationEmail(
+	  recipient = ${1:string}
+	, topic = ${2:string}
+	, data = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>sendGlobalNotificationEmail</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: sendGlobalNotificationEmail</description>
+</snippet>

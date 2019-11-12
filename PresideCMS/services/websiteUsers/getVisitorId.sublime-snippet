@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getVisitorId()
+]]></content>
+	<tabTrigger>getVisitorId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: getVisitorId</description>
+</snippet>

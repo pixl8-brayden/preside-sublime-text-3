@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+finalizeMergedObject(
+	  object = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>finalizeMergedObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: finalizeMergedObject</description>
+</snippet>

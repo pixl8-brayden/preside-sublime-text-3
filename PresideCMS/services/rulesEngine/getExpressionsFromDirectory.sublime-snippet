@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getExpressionsFromDirectory(
+	  directory = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getExpressionsFromDirectory</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getExpressionsFromDirectory</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+earlierThanOrSameAsField_js()
+]]></content>
+	<tabTrigger>earlierThanOrSameAsField_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: earlierThanOrSameAsField_js</description>
+</snippet>

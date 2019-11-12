@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getMetaData(
+	  fileContent = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getMetaData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getMetaData</description>
+</snippet>

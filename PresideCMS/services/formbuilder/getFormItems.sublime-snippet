@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getFormItems(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFormItems</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getFormItems</description>
+</snippet>

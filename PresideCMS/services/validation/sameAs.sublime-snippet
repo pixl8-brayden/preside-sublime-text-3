@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+sameAs(
+	  fieldName = ${1:string}
+	, data = ${3:struct}
+	, field = ${4:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>sameAs</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: sameAs</description>
+</snippet>

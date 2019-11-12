@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+cleanupNoLongerRunningTasks()
+]]></content>
+	<tabTrigger>cleanupNoLongerRunningTasks</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: cleanupNoLongerRunningTasks</description>
+</snippet>

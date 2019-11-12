@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getPageIdBySystemPageType(
+	  pageType = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getPageIdBySystemPageType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getPageIdBySystemPageType</description>
+</snippet>

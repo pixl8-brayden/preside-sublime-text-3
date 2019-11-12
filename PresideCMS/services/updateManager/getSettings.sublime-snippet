@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getSettings()
+]]></content>
+	<tabTrigger>getSettings</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: getSettings</description>
+</snippet>

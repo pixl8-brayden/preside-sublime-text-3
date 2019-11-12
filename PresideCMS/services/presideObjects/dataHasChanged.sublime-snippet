@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+dataHasChanged()
+]]></content>
+	<tabTrigger>dataHasChanged</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: dataHasChanged</description>
+</snippet>

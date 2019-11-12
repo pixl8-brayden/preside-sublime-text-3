@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+rulesetExists(
+	  rulesetName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>rulesetExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: rulesetExists</description>
+</snippet>

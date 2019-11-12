@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+gracefulShutdown(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>gracefulShutdown</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: gracefulShutdown</description>
+</snippet>

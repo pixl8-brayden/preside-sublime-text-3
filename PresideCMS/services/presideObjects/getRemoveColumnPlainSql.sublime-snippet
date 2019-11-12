@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getRemoveColumnPlainSql(
+	  tableName = ${1:string}
+	, columnName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRemoveColumnPlainSql</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getRemoveColumnPlainSql</description>
+</snippet>

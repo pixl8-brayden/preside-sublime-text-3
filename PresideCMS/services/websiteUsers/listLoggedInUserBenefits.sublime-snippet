@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listLoggedInUserBenefits()
+]]></content>
+	<tabTrigger>listLoggedInUserBenefits</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: listLoggedInUserBenefits</description>
+</snippet>

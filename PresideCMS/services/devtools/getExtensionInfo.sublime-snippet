@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getExtensionInfo()
+]]></content>
+	<tabTrigger>getExtensionInfo</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: getExtensionInfo</description>
+</snippet>

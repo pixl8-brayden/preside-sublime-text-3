@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getDefaultLanguageSet()
+]]></content>
+	<tabTrigger>getDefaultLanguageSet</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: getDefaultLanguageSet</description>
+</snippet>

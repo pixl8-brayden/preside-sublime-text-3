@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+tasksAreRunning(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>tasksAreRunning</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: tasksAreRunning</description>
+</snippet>

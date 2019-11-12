@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+recordVisit()
+]]></content>
+	<tabTrigger>recordVisit</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: recordVisit</description>
+</snippet>

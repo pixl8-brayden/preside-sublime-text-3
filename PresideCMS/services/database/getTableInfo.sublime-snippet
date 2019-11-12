@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getTableInfo(
+	  tableName = ${1:string}
+	, dsn = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTableInfo</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>database: getTableInfo</description>
+</snippet>

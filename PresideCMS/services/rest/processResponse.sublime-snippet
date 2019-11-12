@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+processResponse(
+	  restRequest = ${1:any}
+	, restResponse = ${2:any}
+	, requestContext = ${3:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>processResponse</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: processResponse</description>
+</snippet>

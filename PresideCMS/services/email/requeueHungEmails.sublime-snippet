@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+requeueHungEmails()
+]]></content>
+	<tabTrigger>requeueHungEmails</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: requeueHungEmails</description>
+</snippet>

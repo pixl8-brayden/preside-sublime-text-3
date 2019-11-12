@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+syncContextPermissions(
+	  context = ${1:string}
+	, contextKey = ${2:string}
+	, permissionKey = ${3:string}
+	, grantedToGroups = ${4:array}
+	, deniedToGroups = ${5:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>syncContextPermissions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>security: syncContextPermissions</description>
+</snippet>

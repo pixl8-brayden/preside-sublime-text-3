@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listObjects(
+	  path = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>fileStorage: listObjects</description>
+</snippet>

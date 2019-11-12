@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+dbSync()
+]]></content>
+	<tabTrigger>dbSync</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: dbSync</description>
+</snippet>

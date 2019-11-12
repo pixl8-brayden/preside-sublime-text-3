@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+listExpressions(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listExpressions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: listExpressions</description>
+</snippet>

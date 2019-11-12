@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+saveItem(
+	  id = ${1:string}
+	, configuration = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>saveItem</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: saveItem</description>
+</snippet>

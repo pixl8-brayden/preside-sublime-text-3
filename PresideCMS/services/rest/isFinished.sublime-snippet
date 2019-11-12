@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isFinished()
+]]></content>
+	<tabTrigger>isFinished</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: isFinished</description>
+</snippet>

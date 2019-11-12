@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+setStatus(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setStatus</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: setStatus</description>
+</snippet>

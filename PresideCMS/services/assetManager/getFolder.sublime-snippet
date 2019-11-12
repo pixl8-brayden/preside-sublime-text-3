@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getFolder(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getFolder</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getFolder</description>
+</snippet>

@@ -3,13 +3,15 @@
 	, "comment"    : "Preside General"
 	, "completions":
 	[
-		  { "trigger": "if"           , "contents": "if ( ${1:statement} ) {\n\t${2:body}\n}" }
-		, { "trigger": "filter"       , "contents": "filter = { $1 }" }
-		, { "trigger": "filterParams" , "contents": "filterParams = { $1 }" }
-		, { "trigger": "maxRows"      , "contents": "maxRows = $1" }
-		, { "trigger": "orderBy"      , "contents": "orderBy = \"$1\"" }
-		, { "trigger": "switch"       , "contents": "switch( ${1:argument} ) {\n\tcase \"${2:case1}\":\n\t\t${3:// TODO your code}\n\t\tbreak;\n\tdefault:\n\t\t${4:default case}:\n\t\t${5:// TODO default}\n\t\tbreak; }" }
-		, { "trigger": "for"          , "contents": "for ( ${1:key} in ${2:array} ) {\n\t${3:// TODO your code}\n}" }
-		, { "trigger": "buildlink"    , "contents": "event.buildLink( page = \"${1:pagetype}\" )" }
+		  { "trigger": "if"             , "contents": "if ( ${1:statement} ) {\n\t${2:body}\n}" }
+		, { "trigger": "filter"         , "contents": "filter = { $1 }" }
+		, { "trigger": "filterParams"   , "contents": "filterParams = { $1 }" }
+		, { "trigger": "maxRows"        , "contents": "maxRows = $1" }
+		, { "trigger": "orderBy"        , "contents": "orderBy = \"$1\"" }
+		, { "trigger": "switch"         , "contents": "switch( ${1:argument} ) {\n\tcase \"${2:case1}\":\n\t\t${3:// TODO your code}\n\t\tbreak;\n\tdefault:\n\t\t${4:default case}:\n\t\t${5:// TODO default}\n\t\tbreak; }" }
+		, { "trigger": "for"            , "contents": "for ( ${1:key} in ${2:array} ) {\n\t${3:// TODO your code}\n}" }
+		, { "trigger": "buildlink"      , "contents": "event.buildLink( page = \"${1:pagetype}\" )" }
+		, { "trigger": "renderContent"  , "contents": "renderContent( \"richeditor\", ${1:args} )" }
+		, { "trigger": "renderContent()", "contents": "renderContent( \"richeditor\", ${1:args} )" }
 	]
 }

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getLabelByKey(
+	  enum = ${1:string}
+	, key = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getLabelByKey</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>enum: getLabelByKey</description>
+</snippet>

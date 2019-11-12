@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTwoFactorAuthenticationQrCodeImage(
+	  key = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTwoFactorAuthenticationQrCodeImage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getTwoFactorAuthenticationQrCodeImage</description>
+</snippet>

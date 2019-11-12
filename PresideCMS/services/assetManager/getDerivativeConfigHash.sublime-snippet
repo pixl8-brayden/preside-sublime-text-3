@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDerivativeConfigHash(
+	  config = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDerivativeConfigHash</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getDerivativeConfigHash</description>
+</snippet>

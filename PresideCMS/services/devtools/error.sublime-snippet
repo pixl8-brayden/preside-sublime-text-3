@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+error(
+	  code = ${1:numeric}
+	, message = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>error</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: error</description>
+</snippet>

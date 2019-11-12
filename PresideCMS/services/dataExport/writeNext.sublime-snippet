@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+writeNext(
+	  line = ${1:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>writeNext</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>dataExport: writeNext</description>
+</snippet>

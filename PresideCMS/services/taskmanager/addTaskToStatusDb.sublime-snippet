@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+addTaskToStatusDb(
+	  taskKey = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>addTaskToStatusDb</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: addTaskToStatusDb</description>
+</snippet>

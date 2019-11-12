@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listCloneableFields(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listCloneableFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: listCloneableFields</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+disableDomainOverwriteForBuildLink()
+]]></content>
+	<tabTrigger>disableDomainOverwriteForBuildLink</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: disableDomainOverwriteForBuildLink</description>
+</snippet>

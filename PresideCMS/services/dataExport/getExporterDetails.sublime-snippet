@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getExporterDetails(
+	  exporterid = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getExporterDetails</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>dataExport: getExporterDetails</description>
+</snippet>

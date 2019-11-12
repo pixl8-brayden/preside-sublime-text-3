@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getObjectProperties(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getObjectProperties</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getObjectProperties</description>
+</snippet>

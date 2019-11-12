@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setResultUrl(
+	  resultUrl = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setResultUrl</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: setResultUrl</description>
+</snippet>

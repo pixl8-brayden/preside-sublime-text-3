@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getItemTypeViewlet(
+	  itemType = ${1:string}
+	, context = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getItemTypeViewlet</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getItemTypeViewlet</description>
+</snippet>

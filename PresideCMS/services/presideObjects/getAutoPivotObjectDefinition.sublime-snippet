@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+getAutoPivotObjectDefinition(
+	  sourceObject = ${1:struct}
+	, targetObject = ${2:struct}
+	, pivotObjectName = ${3:string}
+	, sourcePropertyName = ${4:string}
+	, targetPropertyName = ${5:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAutoPivotObjectDefinition</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getAutoPivotObjectDefinition</description>
+</snippet>

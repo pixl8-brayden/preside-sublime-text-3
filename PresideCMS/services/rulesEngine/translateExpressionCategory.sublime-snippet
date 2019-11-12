@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+translateExpressionCategory(
+	  category = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>translateExpressionCategory</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: translateExpressionCategory</description>
+</snippet>

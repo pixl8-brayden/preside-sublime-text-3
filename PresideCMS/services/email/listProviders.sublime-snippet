@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listProviders(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>listProviders</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: listProviders</description>
+</snippet>

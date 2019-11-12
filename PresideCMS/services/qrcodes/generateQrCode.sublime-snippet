@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+generateQrCode(
+	  input = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>generateQrCode</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>qrcodes: generateQrCode</description>
+</snippet>
