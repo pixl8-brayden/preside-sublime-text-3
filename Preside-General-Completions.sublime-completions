@@ -13,6 +13,6 @@
 		, { "trigger": "buildlink"      , "contents": "event.buildLink( page = \"${1:pagetype}\" )" }
 		, { "trigger": "renderContent"  , "contents": "renderContent( \"richeditor\", ${1:args} )" }
 		, { "trigger": "renderContent()", "contents": "renderContent( \"richeditor\", ${1:args} )" }
-		, { "trigger": "try"            , "contents": "try {\n\t${1}\n}\ncatch (any e) {${2}}" }
+		, { "trigger": "try"            , "contents": "try {\n\t${1}\n} catch (any e) {${2}}" }
 	]
 }
