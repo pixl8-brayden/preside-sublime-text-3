@@ -10,9 +10,9 @@ component {
 		return this;
 	}
 
-	private ${1:any} function ${2:functionName}( ${3:variables} ) {
+	public ${1:any} function ${2:functionName}( ${3:variables} ) {
 		${4:// TODO Your functions here}
-		return;
+		${5:return;}
 	}
 }
 ]]></content>

@@ -16,6 +16,7 @@
 		, { "trigger": "event"                      , "contents": "event, rc, prc, args={}" }
 		// Inject services
 		, { "trigger": "injectPresideObjectService" , "contents": "property name=\"presideObjectService\" inject=\"PresideObjectService\";" }
+		, { "trigger": "inject"                     , "contents": "property name=\"${1}\" inject=\"${2}\";" }
 		// Preside object
 		, { "trigger": "dataManagerGroup"           , "contents": "@dataManagerGroup ${1:group}" }
 		, { "trigger": "dataManagerGridFields"      , "contents": "@dataManagerGridFields ${1:fields}" }
