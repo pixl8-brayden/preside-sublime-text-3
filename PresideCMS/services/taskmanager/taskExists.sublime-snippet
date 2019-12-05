@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+taskExists(
+	  taskKey = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>taskExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: taskExists</description>
+</snippet>

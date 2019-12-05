@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getCacheStats()
+]]></content>
+	<tabTrigger>getCacheStats</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getCacheStats</description>
+</snippet>

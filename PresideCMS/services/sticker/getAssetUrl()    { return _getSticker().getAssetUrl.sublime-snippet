@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getAssetUrl()    { return _getSticker().getAssetUrl(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>getAssetUrl()    { return _getSticker().getAssetUrl</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>sticker: getAssetUrl()    { return _getSticker().getAssetUrl</description>
+</snippet>

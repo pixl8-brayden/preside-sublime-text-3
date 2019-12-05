@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+shutdown(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>shutdown</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>concurrency: shutdown</description>
+</snippet>

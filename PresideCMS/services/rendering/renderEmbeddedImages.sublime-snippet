@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+renderEmbeddedImages(
+	  richContent = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderEmbeddedImages</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: renderEmbeddedImages</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isCancelled()
+]]></content>
+	<tabTrigger>isCancelled</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: isCancelled</description>
+</snippet>

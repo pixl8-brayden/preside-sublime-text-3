@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+renderResponsesForSaving(
+	  formId = ${1:string}
+	, formData = ${2:struct}
+	, formItems = ${3:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderResponsesForSaving</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: renderResponsesForSaving</description>
+</snippet>

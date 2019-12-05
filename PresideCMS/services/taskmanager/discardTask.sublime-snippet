@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+discardTask(
+	  taskId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>discardTask</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: discardTask</description>
+</snippet>

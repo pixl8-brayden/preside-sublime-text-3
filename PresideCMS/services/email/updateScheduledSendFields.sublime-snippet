@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+updateScheduledSendFields(
+	  templateId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>updateScheduledSendFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: updateScheduledSendFields</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+enableTwoFactorAuthenticationForUser()
+]]></content>
+	<tabTrigger>enableTwoFactorAuthenticationForUser</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: enableTwoFactorAuthenticationForUser</description>
+</snippet>

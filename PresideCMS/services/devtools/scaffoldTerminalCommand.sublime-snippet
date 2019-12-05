@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+scaffoldTerminalCommand(
+	  name = ${1:string}
+	, helpText = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldTerminalCommand</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldTerminalCommand</description>
+</snippet>

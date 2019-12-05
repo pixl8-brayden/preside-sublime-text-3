@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+installVersion(
+	  version = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>installVersion</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: installVersion</description>
+</snippet>

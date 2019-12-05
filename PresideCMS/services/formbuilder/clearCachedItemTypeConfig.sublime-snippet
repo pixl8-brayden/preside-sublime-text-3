@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+clearCachedItemTypeConfig()
+]]></content>
+	<tabTrigger>clearCachedItemTypeConfig</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: clearCachedItemTypeConfig</description>
+</snippet>

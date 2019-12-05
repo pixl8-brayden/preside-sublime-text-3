@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setResult(
+	  result = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setResult</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: setResult</description>
+</snippet>

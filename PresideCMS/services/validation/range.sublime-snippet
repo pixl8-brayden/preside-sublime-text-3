@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+range(
+	  fieldName = ${1:string}
+	, min = ${3:numeric}
+	, max = ${4:numeric}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>range</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: range</description>
+</snippet>

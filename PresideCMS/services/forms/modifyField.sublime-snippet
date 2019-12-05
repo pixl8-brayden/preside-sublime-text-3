@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+modifyField(
+	  name = ${1:string}
+	, fieldset = ${2:string}
+	, tab = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>modifyField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: modifyField</description>
+</snippet>

@@ -19,5 +19,7 @@
 		// Preside object
 		, { "trigger": "dataManagerGroup"           , "contents": "@dataManagerGroup ${1:group}" }
 		, { "trigger": "dataManagerGridFields"      , "contents": "@dataManagerGridFields ${1:fields}" }
+		, { "trigger": "dbtype"                     , "contents": "dbtype=\"${1:varchar}\"" }
+		, { "trigger": "maxlength"                  , "contents": "maxlength=${1:255}" }
 	]
 }

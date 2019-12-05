@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getLanguage(
+	  languageId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getLanguage</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: getLanguage</description>
+</snippet>

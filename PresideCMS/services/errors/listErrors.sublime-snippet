@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listErrors()
+]]></content>
+	<tabTrigger>listErrors</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>errors: listErrors</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getCascadingFolderSettings(
+	  id = ${1:string}
+	, settings = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getCascadingFolderSettings</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getCascadingFolderSettings</description>
+</snippet>

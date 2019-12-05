@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+enableDomainOverwriteForBuildLink(
+	  template = ${1:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>enableDomainOverwriteForBuildLink</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: enableDomainOverwriteForBuildLink</description>
+</snippet>

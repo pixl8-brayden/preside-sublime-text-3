@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+sendSubsciberNotificationEmail(
+	  recipient = ${1:string}
+	, topic = ${2:string}
+	, notificationid = ${3:string}
+	, data = ${4:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>sendSubsciberNotificationEmail</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: sendSubsciberNotificationEmail</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDerivativeConfigSignature(
+	  derivative = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDerivativeConfigSignature</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getDerivativeConfigSignature</description>
+</snippet>

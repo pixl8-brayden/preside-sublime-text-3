@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getRootFolderId()
+]]></content>
+	<tabTrigger>getRootFolderId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getRootFolderId</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+areDraftsEnabledForObject(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>areDraftsEnabledForObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: areDraftsEnabledForObject</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getGlobalCustomizationHandler()
+]]></content>
+	<tabTrigger>getGlobalCustomizationHandler</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getGlobalCustomizationHandler</description>
+</snippet>

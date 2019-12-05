@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+typeIsAllowedBeneathParentType(
+	  child = ${1:string}
+	, parent = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>typeIsAllowedBeneathParentType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>pageTypes: typeIsAllowedBeneathParentType</description>
+</snippet>

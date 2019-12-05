@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isAssetAccessRestricted(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isAssetAccessRestricted</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: isAssetAccessRestricted</description>
+</snippet>

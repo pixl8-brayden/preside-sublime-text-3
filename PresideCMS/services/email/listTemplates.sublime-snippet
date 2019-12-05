@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listTemplates()
+]]></content>
+	<tabTrigger>listTemplates</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: listTemplates</description>
+</snippet>

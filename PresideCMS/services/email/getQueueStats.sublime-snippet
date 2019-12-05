@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getQueueStats()
+]]></content>
+	<tabTrigger>getQueueStats</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getQueueStats</description>
+</snippet>

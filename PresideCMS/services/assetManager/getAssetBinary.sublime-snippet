@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getAssetBinary(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAssetBinary</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getAssetBinary</description>
+</snippet>

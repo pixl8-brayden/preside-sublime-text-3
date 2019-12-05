@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+isSortable(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>isSortable</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: isSortable</description>
+</snippet>

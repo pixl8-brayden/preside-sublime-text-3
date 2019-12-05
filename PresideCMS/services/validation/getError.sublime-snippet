@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getError(
+	  fieldName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getError</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: getError</description>
+</snippet>

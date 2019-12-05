@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getValidationErrorMessageForPotentiallyBadCrontabExpression(
+	  crontabExpression = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getValidationErrorMessageForPotentiallyBadCrontabExpression</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getValidationErrorMessageForPotentiallyBadCrontabExpression</description>
+</snippet>

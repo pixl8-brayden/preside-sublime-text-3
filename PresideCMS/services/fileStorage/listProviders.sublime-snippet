@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listProviders()
+]]></content>
+	<tabTrigger>listProviders</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>fileStorage: listProviders</description>
+</snippet>

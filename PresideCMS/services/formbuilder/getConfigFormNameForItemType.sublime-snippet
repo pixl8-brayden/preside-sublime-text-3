@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getConfigFormNameForItemType(
+	  itemType = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getConfigFormNameForItemType</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getConfigFormNameForItemType</description>
+</snippet>

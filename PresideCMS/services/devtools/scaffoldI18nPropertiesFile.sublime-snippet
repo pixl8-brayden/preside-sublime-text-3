@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+scaffoldI18nPropertiesFile(
+	  bundleName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldI18nPropertiesFile</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldI18nPropertiesFile</description>
+</snippet>

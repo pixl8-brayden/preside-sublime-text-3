@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getRulesetForFormItems(
+	  items = ${1:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRulesetForFormItems</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getRulesetForFormItems</description>
+</snippet>

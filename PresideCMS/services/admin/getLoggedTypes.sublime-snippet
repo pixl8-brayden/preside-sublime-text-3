@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getLoggedTypes()
+]]></content>
+	<tabTrigger>getLoggedTypes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getLoggedTypes</description>
+</snippet>

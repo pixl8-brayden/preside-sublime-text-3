@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+createProvider(
+	  sourceCfc = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createProvider</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: createProvider</description>
+</snippet>

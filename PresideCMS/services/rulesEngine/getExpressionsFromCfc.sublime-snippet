@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getExpressionsFromCfc(
+	  componentPath = ${1:string}
+	, rootPath = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getExpressionsFromCfc</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: getExpressionsFromCfc</description>
+</snippet>

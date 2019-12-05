@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listBatchEditableFields(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>listBatchEditableFields</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: listBatchEditableFields</description>
+</snippet>

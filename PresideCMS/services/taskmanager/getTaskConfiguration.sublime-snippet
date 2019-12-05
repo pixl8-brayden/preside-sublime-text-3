@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTaskConfiguration(
+	  taskKey = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTaskConfiguration</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getTaskConfiguration</description>
+</snippet>

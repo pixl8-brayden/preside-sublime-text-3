@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+versionIsDownloaded(
+	  version = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>versionIsDownloaded</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>updateManager: versionIsDownloaded</description>
+</snippet>

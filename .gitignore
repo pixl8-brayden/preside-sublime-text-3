@@ -2,3 +2,6 @@
 *.twgit*
 *.DS_Store
 *test*
+preside/*
+!preside/box.json
+!preside/build.py

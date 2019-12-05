@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+calculateJoins(
+	  objectName = ${1:string}
+	, joinTargets = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>calculateJoins</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: calculateJoins</description>
+</snippet>

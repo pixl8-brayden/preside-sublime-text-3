@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+setHeader(
+	  name = ${1:string}
+	, value = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setHeader</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: setHeader</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+markTaskAsRunning(
+	  taskId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markTaskAsRunning</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: markTaskAsRunning</description>
+</snippet>

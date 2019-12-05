@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isPageTypeAvailableToSiteTemplate( required string pageTypeId, string siteTemplate=_getSiteService().getActiveSiteTemplate(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>isPageTypeAvailableToSiteTemplate( required string pageTypeId, string siteTemplate=_getSiteService().getActiveSiteTemplate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>pageTypes: isPageTypeAvailableToSiteTemplate( required string pageTypeId, string siteTemplate=_getSiteService().getActiveSiteTemplate</description>
+</snippet>

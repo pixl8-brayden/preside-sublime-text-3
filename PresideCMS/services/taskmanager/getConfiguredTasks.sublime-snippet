@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getConfiguredTasks()
+]]></content>
+	<tabTrigger>getConfiguredTasks</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: getConfiguredTasks</description>
+</snippet>

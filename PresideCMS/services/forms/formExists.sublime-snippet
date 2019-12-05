@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+formExists(
+	  formName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>formExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: formExists</description>
+</snippet>

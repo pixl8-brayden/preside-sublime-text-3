@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+getAssetType( string filename="", string name=ListLast(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAssetType( string filename="", string name=ListLast</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getAssetType( string filename="", string name=ListLast</description>
+</snippet>

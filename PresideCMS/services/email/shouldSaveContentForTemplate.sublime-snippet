@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+shouldSaveContentForTemplate(
+	  template = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>shouldSaveContentForTemplate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: shouldSaveContentForTemplate</description>
+</snippet>

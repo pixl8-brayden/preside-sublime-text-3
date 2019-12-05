@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getNextVersionNumber()
+]]></content>
+	<tabTrigger>getNextVersionNumber</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getNextVersionNumber</description>
+</snippet>

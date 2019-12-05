@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+markAsFailed(
+	  id = ${1:string}
+	, reason = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markAsFailed</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: markAsFailed</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listValidators()
+]]></content>
+	<tabTrigger>listValidators</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: listValidators</description>
+</snippet>

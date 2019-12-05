@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+readObject(
+	  object = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>readObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: readObject</description>
+</snippet>

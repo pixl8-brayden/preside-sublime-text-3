@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+isMaintenanceModeActive()
+]]></content>
+	<tabTrigger>isMaintenanceModeActive</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>maintenanceMode: isMaintenanceModeActive</description>
+</snippet>

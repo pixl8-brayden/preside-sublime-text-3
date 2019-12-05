@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+setAttributes()
+]]></content>
+	<tabTrigger>setAttributes</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: setAttributes</description>
+</snippet>

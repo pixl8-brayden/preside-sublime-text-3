@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+addFieldset(
+	  id = ${1:string}
+	, tab = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>addFieldset</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: addFieldset</description>
+</snippet>

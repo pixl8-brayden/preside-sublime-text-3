@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+markAsUnsubscribed(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markAsUnsubscribed</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: markAsUnsubscribed</description>
+</snippet>

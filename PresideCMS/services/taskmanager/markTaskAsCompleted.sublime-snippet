@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+markTaskAsCompleted(
+	  taskKey = ${1:string}
+	, success = ${2:boolean}
+	, timeTaken = ${3:numeric}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markTaskAsCompleted</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: markTaskAsCompleted</description>
+</snippet>

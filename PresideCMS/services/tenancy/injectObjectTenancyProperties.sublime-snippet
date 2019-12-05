@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+injectObjectTenancyProperties(
+	  objectMeta = ${1:struct}
+	, objectName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>injectObjectTenancyProperties</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>tenancy: injectObjectTenancyProperties</description>
+</snippet>

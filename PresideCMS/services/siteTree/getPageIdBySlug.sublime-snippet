@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getPageIdBySlug(
+	  slug = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getPageIdBySlug</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getPageIdBySlug</description>
+</snippet>

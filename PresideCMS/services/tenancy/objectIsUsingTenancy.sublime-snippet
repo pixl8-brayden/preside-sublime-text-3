@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+objectIsUsingTenancy(
+	  objectName = ${1:string}
+	, tenant = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>objectIsUsingTenancy</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>tenancy: objectIsUsingTenancy</description>
+</snippet>

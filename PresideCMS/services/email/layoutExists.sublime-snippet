@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+layoutExists(
+	  layout = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>layoutExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: layoutExists</description>
+</snippet>

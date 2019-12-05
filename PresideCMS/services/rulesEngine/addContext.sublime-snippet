@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+addContext(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>addContext</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rulesEngine: addContext</description>
+</snippet>

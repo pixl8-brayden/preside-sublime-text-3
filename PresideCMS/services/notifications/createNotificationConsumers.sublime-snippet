@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+createNotificationConsumers(
+	  notificationId = ${1:string}
+	, topic = ${2:string}
+	, data = ${3:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createNotificationConsumers</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: createNotificationConsumers</description>
+</snippet>

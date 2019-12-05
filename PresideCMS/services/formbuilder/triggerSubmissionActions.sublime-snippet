@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+triggerSubmissionActions(
+	  formId = ${1:string}
+	, submissionData = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>triggerSubmissionActions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: triggerSubmissionActions</description>
+</snippet>

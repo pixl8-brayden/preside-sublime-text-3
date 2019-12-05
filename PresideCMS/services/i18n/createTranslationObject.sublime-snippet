@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+createTranslationObject(
+	  objectName = ${1:string}
+	, sourceObject = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>createTranslationObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: createTranslationObject</description>
+</snippet>

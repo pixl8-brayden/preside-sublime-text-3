@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+serviceExists(
+	  serviceId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>serviceExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>healthchecks: serviceExists</description>
+</snippet>

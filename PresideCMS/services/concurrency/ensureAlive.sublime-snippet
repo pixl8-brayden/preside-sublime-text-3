@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ensureAlive()
+]]></content>
+	<tabTrigger>ensureAlive</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>concurrency: ensureAlive</description>
+</snippet>

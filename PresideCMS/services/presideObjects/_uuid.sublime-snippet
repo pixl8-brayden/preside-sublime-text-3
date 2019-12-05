@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+_uuid()
+]]></content>
+	<tabTrigger>_uuid</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: _uuid</description>
+</snippet>

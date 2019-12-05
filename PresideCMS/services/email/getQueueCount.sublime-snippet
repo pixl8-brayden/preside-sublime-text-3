@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getQueueCount(){ ${99:// TODO code} }
+]]></content>
+	<tabTrigger>getQueueCount</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>email: getQueueCount</description>
+</snippet>

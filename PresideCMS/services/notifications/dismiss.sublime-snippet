@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+dismiss(
+	  notificationIds = ${1:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>dismiss</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>notifications: dismiss</description>
+</snippet>

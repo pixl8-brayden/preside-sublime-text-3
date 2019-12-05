@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+selectTranslation(
+	  objectName = ${1:string}
+	, id = ${2:string}
+	, languageId = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>selectTranslation</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: selectTranslation</description>
+</snippet>

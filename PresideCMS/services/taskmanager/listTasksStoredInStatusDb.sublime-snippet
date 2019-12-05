@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listTasksStoredInStatusDb()
+]]></content>
+	<tabTrigger>listTasksStoredInStatusDb</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: listTasksStoredInStatusDb</description>
+</snippet>

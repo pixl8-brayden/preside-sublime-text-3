@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+lockForm(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>lockForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: lockForm</description>
+</snippet>

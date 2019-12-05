@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+markTaskAsStarted(
+	  threadId = ${1:string}
+	, threadRef = ${2:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>markTaskAsStarted</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>taskmanager: markTaskAsStarted</description>
+</snippet>

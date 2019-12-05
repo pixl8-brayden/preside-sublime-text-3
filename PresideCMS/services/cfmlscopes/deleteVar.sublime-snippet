@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+deleteVar(
+	  name = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>deleteVar</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>cfmlscopes: deleteVar</description>
+</snippet>

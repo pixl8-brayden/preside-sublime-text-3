@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ensureDefaultSiteExists()
+]]></content>
+	<tabTrigger>ensureDefaultSiteExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: ensureDefaultSiteExists</description>
+</snippet>

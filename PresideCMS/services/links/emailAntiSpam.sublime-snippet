@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+emailAntiSpam(
+	  emailAddress = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>emailAntiSpam</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>links: emailAntiSpam</description>
+</snippet>

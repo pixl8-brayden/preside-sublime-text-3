@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getPrefetchCachebusterForAjaxSelect(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getPrefetchCachebusterForAjaxSelect</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getPrefetchCachebusterForAjaxSelect</description>
+</snippet>

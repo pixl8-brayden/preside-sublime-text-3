@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+getContextualPermissions(
+	  context = ${1:string}
+	, contextKey = ${2:string}
+	, permissionKey = ${3:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getContextualPermissions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>websiteUsers: getContextualPermissions</description>
+</snippet>

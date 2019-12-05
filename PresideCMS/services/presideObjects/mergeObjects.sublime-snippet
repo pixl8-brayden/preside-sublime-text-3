@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+mergeObjects(
+	  object1 = ${1:struct}
+	, object2 = ${2:struct}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>mergeObjects</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: mergeObjects</description>
+</snippet>

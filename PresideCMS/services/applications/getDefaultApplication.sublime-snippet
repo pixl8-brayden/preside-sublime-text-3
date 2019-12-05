@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getDefaultApplication()
+]]></content>
+	<tabTrigger>getDefaultApplication</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>applications: getDefaultApplication</description>
+</snippet>

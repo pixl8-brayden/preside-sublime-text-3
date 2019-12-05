@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+scaffoldNotificationViewletHandler(
+	  handlerName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldNotificationViewletHandler</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldNotificationViewletHandler</description>
+</snippet>

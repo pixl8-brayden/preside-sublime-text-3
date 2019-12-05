@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+maximumDate_js()
+]]></content>
+	<tabTrigger>maximumDate_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: maximumDate_js</description>
+</snippet>

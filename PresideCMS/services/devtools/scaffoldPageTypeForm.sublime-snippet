@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+scaffoldPageTypeForm(
+	  pagetype = ${1:string}
+	, formName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>scaffoldPageTypeForm</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: scaffoldPageTypeForm</description>
+</snippet>

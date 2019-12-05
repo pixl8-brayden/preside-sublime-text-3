@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listRenderers()
+]]></content>
+	<tabTrigger>listRenderers</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: listRenderers</description>
+</snippet>

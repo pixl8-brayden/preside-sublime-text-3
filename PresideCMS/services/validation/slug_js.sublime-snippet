@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+slug_js()
+]]></content>
+	<tabTrigger>slug_js</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>validation: slug_js</description>
+</snippet>

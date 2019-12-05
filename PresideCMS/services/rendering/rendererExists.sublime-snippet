@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+rendererExists(
+	  name = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>rendererExists</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: rendererExists</description>
+</snippet>

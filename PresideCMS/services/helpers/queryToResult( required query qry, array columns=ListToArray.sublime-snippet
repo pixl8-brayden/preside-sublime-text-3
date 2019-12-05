@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+queryToResult( required query qry, array columns=ListToArray(
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>queryToResult( required query qry, array columns=ListToArray</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>helpers: queryToResult( required query qry, array columns=ListToArray</description>
+</snippet>

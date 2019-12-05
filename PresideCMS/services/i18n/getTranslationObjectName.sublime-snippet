@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getTranslationObjectName(
+	  sourceObjectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getTranslationObjectName</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>i18n: getTranslationObjectName</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+saveSortedRecords(
+	  objectName = ${1:string}
+	, sortedIds = ${2:array}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>saveSortedRecords</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: saveSortedRecords</description>
+</snippet>

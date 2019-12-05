@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getSite(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getSite</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>siteTree: getSite</description>
+</snippet>

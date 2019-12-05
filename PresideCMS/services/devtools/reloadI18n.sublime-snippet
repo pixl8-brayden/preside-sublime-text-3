@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+reloadI18n()
+]]></content>
+	<tabTrigger>reloadI18n</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: reloadI18n</description>
+</snippet>

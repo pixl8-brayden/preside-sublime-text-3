@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDefaultRecordOperation(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDefaultRecordOperation</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getDefaultRecordOperation</description>
+</snippet>

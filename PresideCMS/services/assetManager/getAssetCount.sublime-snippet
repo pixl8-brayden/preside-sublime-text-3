@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getAssetCount(
+	  folderId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getAssetCount</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: getAssetCount</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getDbAdapterForObject(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getDbAdapterForObject</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: getDbAdapterForObject</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+renderFormControlForObjectField(
+	  objectName = ${1:string}
+	, fieldName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderFormControlForObjectField</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>forms: renderFormControlForObjectField</description>
+</snippet>

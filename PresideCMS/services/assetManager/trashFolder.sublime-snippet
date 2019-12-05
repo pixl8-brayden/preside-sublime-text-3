@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+trashFolder(
+	  id = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>trashFolder</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: trashFolder</description>
+</snippet>

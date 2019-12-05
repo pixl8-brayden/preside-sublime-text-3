@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+versioningRequiredOnInsert(
+	  objectName = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>versioningRequiredOnInsert</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>presideObjects: versioningRequiredOnInsert</description>
+</snippet>

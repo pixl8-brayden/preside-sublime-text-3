@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+deregister()
+]]></content>
+	<tabTrigger>deregister</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>concurrency: deregister</description>
+</snippet>

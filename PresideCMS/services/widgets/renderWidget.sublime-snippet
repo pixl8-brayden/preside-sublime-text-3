@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+renderWidget(
+	  widgetId = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>renderWidget</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>widgets: renderWidget</description>
+</snippet>

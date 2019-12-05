@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listApis()
+]]></content>
+	<tabTrigger>listApis</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: listApis</description>
+</snippet>

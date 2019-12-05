@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+assetIsTooLargeForDerivatives(
+	  width = ${1:string}
+	, height = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>assetIsTooLargeForDerivatives</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>assetManager: assetIsTooLargeForDerivatives</description>
+</snippet>

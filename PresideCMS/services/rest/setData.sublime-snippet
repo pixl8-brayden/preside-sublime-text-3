@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setData(
+	  data = ${1:any}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>setData</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rest: setData</description>
+</snippet>

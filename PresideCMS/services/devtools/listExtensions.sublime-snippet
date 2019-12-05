@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+listExtensions()
+]]></content>
+	<tabTrigger>listExtensions</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>devtools: listExtensions</description>
+</snippet>

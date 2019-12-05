@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+getItemByInputName(
+	  formId = ${1:string}
+	, inputName = ${2:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getItemByInputName</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>formbuilder: getItemByInputName</description>
+</snippet>

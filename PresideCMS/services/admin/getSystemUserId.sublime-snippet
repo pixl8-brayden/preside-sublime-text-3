@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getSystemUserId()
+]]></content>
+	<tabTrigger>getSystemUserId</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>admin: getSystemUserId</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getRendererCacheDate(
+	  labelRenderer = ${1:string}
+){
+	${99:// TODO code}
+}
+]]></content>
+	<tabTrigger>getRendererCacheDate</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>rendering: getRendererCacheDate</description>
+</snippet>
