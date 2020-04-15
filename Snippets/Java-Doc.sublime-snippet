@@ -2,7 +2,6 @@
 	<content><![CDATA[
 /**
  * @${1:doc}
- *
  */
 ]]></content>
 	<tabTrigger>javadoc</tabTrigger>
