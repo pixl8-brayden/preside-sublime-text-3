@@ -14,5 +14,8 @@
 		, { "trigger": "renderContent"     , "contents": "renderContent( \"richeditor\", ${1:args} )" }
 		, { "trigger": "renderContent()"   , "contents": "renderContent( \"richeditor\", ${1:args} )" }
 		, { "trigger": "argumentCollection", "contents": "argumentCollection=arguments" }
+		, { "trigger": "isTrue"            , "contents": "isTrue( ${1:value} )" }
+		, { "trigger": "isFalse"           , "contents": "isFalse( ${1:value} )" }
+		, { "trigger": "isEmptyString"     , "contents": "isEmptyString( ${1:value} )" }
 	]
 }
