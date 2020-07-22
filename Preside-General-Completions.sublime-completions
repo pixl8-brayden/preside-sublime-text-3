@@ -15,5 +15,8 @@
 		, { "trigger": "renderContent()"   , "contents": "renderContent( \"richeditor\", ${1:args} )" }
 		, { "trigger": "try"               , "contents": "try {\n\t${1}\n} catch (any e) {${2}}" }
 		, { "trigger": "argumentCollection", "contents": "argumentCollection=arguments" }
+		, { "trigger": "isTrue"            , "contents": "isTrue( ${1:value} )" }
+		, { "trigger": "isFalse"           , "contents": "isFalse( ${1:value} )" }
+		, { "trigger": "isEmptyString"     , "contents": "isEmptyString( ${1:value} )" }
 	]
 }
