@@ -51,6 +51,6 @@
 		, { "trigger": "systemOutput"                 , "contents": "systemOutput( \"${1:message}\" )" }
 		, { "trigger": "translateObjectName"          , "contents": "translateObjectName( objectName = \"${1:objectName}\", plural = ${2:false} )" }
 		, { "trigger": "translatePropertyName"        , "contents": "translatePropertyName( objectName = \"${1:objectName}\", propertyName = \"${2:propertyName}\" )" }
-		, { "trigger": "translateResource"            , "contents": "translateResource( uri = \"${1:uri}\" )" }
+		, { "trigger": "translateResource"            , "contents": "translateResource( uri=\"${1:uri}\", defaultValue=\"${2:defaultValue}\" )" }
 	]
 }
