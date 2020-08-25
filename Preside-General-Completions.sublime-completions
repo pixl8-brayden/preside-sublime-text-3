@@ -18,5 +18,6 @@
 		, { "trigger": "isTrue"            , "contents": "isTrue( ${1:value} )" }
 		, { "trigger": "isFalse"           , "contents": "isFalse( ${1:value} )" }
 		, { "trigger": "isEmptyString"     , "contents": "isEmptyString( ${1:value} )" }
+		, { "trigger": "getPageProperty"   , "contents": "event.getPageProperty( \"${1:value}\" )" }
 	]
 }
