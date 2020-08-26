@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+writeDump( var=${1:value}, format="html", output="#expandPath( "./" )#/logs/debug_#gettickcount()#.html" );
+]]></content>
+	<tabTrigger>dumptofile</tabTrigger>
+	<scope>embedding.cfml</scope>
+	<description>Dump value to file</description>
+</snippet>
