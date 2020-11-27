@@ -2,7 +2,7 @@
 	<content><![CDATA[
 writeDump( var=${1:value}, output="console", abort=true );
 ]]></content>
-	<tabTrigger>consoledump</tabTrigger>
+	<tabTrigger>dumptoconsole</tabTrigger>
 	<scope>embedding.cfml</scope>
 	<description>Dump value to console</description>
 </snippet>
