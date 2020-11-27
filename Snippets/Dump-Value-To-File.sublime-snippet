@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-writeDump( var=${1:value}, format="html", output="#expandPath( "./" )#/logs/debug_#gettickcount()#.html" );
+writeDump( var=${1:value}, format="html", output="#expandPath( "./" )#/logs/debug_#gettickcount()#.html", abort=true );
 ]]></content>
 	<tabTrigger>dumptofile</tabTrigger>
 	<scope>embedding.cfml</scope>
