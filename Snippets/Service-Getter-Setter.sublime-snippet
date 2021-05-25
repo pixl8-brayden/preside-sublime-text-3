@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-private any function _get${1:Object}() {
+private any function _get${3:caps}${1:Object}() {
 	return _${2:argument};
 }
-private void function _set${1:Object}( required any ${2:argument} ) {
+private void function _set${3:caps}${1:Object}( required any ${2:argument} ) {
 	_${2:argument} = arguments.${2:argument};
 }
 ]]></content>
